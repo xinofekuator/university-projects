@@ -1,0 +1,37 @@
+PRÁCTICA 1: UNIX SHELL			Autores: Ignacio Amaya y Eduardo Cortés
+=====================================================================================
+
+-FECHAS DE ENTREGA:
+	
+	*Primera entrega: Jueves 17 de octubre de 2013 a las 23.15
+	Código de minientrega.sh completo.Tests y documentación sin realizar.
+
+-SOBRE EL DESARROLLO:
+       
+	*Descripción general de los trabajos realizados:
+
+	*Términos y conceptos nuevos:
+
+	*Problemas encontrados y resolución de los mismos:
+
+	*Conocimientos relevantes adquiridos:
+
+	*Bibliografía y referencias utilizadas:
+
+	- stackoverflow.com/
+	- cuaderno_unix de la asignatura
+	- páginas del manual de bash
+
+	*Tiempo dedicado:
+
+	- Tres horas para leer del cuaderno de unix de la asignatura 
+	(con sus correspondientes pruebas en el shell)
+	- Media hora para realizar una lectura en profundidad de la práctica
+	y comprender lo que nos pedían.
+	- Media hora para descargar y analizar el material de apoyo y así 
+	terminar de entender el funcionamiento del script a realizar.
+	-Cuatro horas realizando el script con sus correspondientes 
+	pruebas en el shell para verificar el uso correcto de los mandatos.
+	-Una hora en la realización de la documentación. 
+
+COMETARIOS PERSONALES:

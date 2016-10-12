@@ -1,0 +1,675 @@
+Id,Label,namespace,SparqlID,PageRank
+1,Lucky,http://dbpedia.org/resource,http://dbpedia.org/resource/Lucky_the_Pizza_Dog,5.058558908724849E-4
+2,David Aja,http://dbpedia.org/resource,http://dbpedia.org/resource/David_Aja,9.358576197864521E-4
+3,"Paul ""Jesus"" Monroe",http://dbpedia.org/resource,http://dbpedia.org/resource/Paul_Monroe_(The_Walking_Dead),5.058558908724849E-4
+4,"Adlard, Charlie",http://dbpedia.org/resource,http://dbpedia.org/resource/Charlie_Adlard,0.010825897384807697
+5,Walt Longmire,http://dbpedia.org/resource,http://dbpedia.org/resource/Walt_Longmire,5.058558908724849E-4
+6,Craig Johnson,http://dbpedia.org/resource,http://dbpedia.org/resource/Craig_Johnson_(author),9.358576197864521E-4
+7,Eldrac,http://dbpedia.org/resource,http://dbpedia.org/resource/Eldrac,5.058558908724849E-4
+8,Dale Eaglesham,http://dbpedia.org/resource,http://dbpedia.org/resource/Dale_Eaglesham,0.0015091932583384084
+9,Eduardo Flamingo,http://dbpedia.org/resource,http://dbpedia.org/resource/Flamingo_(comics),5.058558908724849E-4
+10,"Morrison, Grant",http://dbpedia.org/resource,http://dbpedia.org/resource/Grant_Morrison,0.009034223514332836
+11,Myklos Vryolak,http://dbpedia.org/resource,http://dbpedia.org/resource/Minotaur_(comics),5.058558908724849E-4
+12,Esad Ribić,http://dbpedia.org/resource,http://dbpedia.org/resource/Esad_Ribić,9.358576197864521E-4
+13,Aichi,http://dbpedia.org/resource,http://dbpedia.org/resource/Aichi_Prefecture,0.0010147158096167489
+14,Japanese people,http://dbpedia.org/resource,http://dbpedia.org/resource/Japanese_people,0.017198668770522518
+15,Chiba,http://dbpedia.org/resource,http://dbpedia.org/resource/Chiba_Prefecture,7.710318035458989E-4
+16,Nihon-koku,http://dbpedia.org/resource,http://dbpedia.org/resource/Japan,0.009986512314028103
+17,Hamanaka,http://dbpedia.org/resource,"http://dbpedia.org/resource/Hamanaka,_Hokkaido",0.0016346717780951557
+18,Hokkaido,http://dbpedia.org/resource,http://dbpedia.org/resource/Hokkaido,7.710318035458989E-4
+19,Hyōgo,http://dbpedia.org/resource,http://dbpedia.org/resource/Hyōgo_Prefecture,0.0015486632524692279
+20,"Grant,Bourke,Mornington",http://dbpedia.org/resource,http://dbpedia.org/resource/Melbourne,9.036197598826059E-4
+21,Australia,http://dbpedia.org/resource,http://dbpedia.org/resource/Australia,0.011095012204305199
+22,Mie,http://dbpedia.org/resource,http://dbpedia.org/resource/Mie_Prefecture,7.961193276541141E-4
+23,Miyagi,http://dbpedia.org/resource,http://dbpedia.org/resource/Miyagi_Prefecture,6.993648487269044E-4
+24,Odisha,http://dbpedia.org/resource,http://dbpedia.org/resource/Odisha,7.710318035458989E-4
+25,India,http://dbpedia.org/resource,http://dbpedia.org/resource/India,0.0024796311173250762
+26,Rourkela (ରାଉରକେଲା),http://dbpedia.org/resource,http://dbpedia.org/resource/Rourkela,7.710318035458989E-4
+27,Adachi City,http://dbpedia.org/resource,"http://dbpedia.org/resource/Adachi,_Tokyo",9.036197598826059E-4
+28,Adventure fiction,http://dbpedia.org/resource,http://dbpedia.org/resource/Adventure_fiction,6.195027105896623E-4
+29,Argentines,http://dbpedia.org/resource,http://dbpedia.org/resource/Argentines,0.001301383628892727
+30,-Ray Palmer,http://dbpedia.org/resource,http://dbpedia.org/resource/Atom_(comics),5.058558908724849E-4
+31,Bernard Quatermass,http://dbpedia.org/resource,http://dbpedia.org/resource/Bernard_Quatermass,5.058558908724849E-4
+32,Nigel Kneale,http://dbpedia.org/resource,http://dbpedia.org/resource/Nigel_Kneale,9.358576197864521E-4
+33,"Wright, Brad",http://dbpedia.org/resource,http://dbpedia.org/resource/Brad_Wright,0.0011508584842434355
+34,Canadiens,http://dbpedia.org/resource,http://dbpedia.org/resource/Canadians,0.006362415730247723
+35,Canada,http://dbpedia.org/resource,http://dbpedia.org/resource/Canada,0.006124806903661952
+36,City of Toronto,http://dbpedia.org/resource,http://dbpedia.org/resource/Toronto,0.0015235757283610127
+37,Owen Mercer,http://dbpedia.org/resource,http://dbpedia.org/resource/Captain_Boomerang,5.058558908724849E-4
+38,"Morales, Rags",http://dbpedia.org/resource,http://dbpedia.org/resource/Rags_Morales,9.35857619786452E-4
+39,"Meltzer, Brad",http://dbpedia.org/resource,http://dbpedia.org/resource/Brad_Meltzer,7.208567553294684E-4
+40,*,http://dbpedia.org/resource,http://dbpedia.org/resource/Cyber_(comics),5.058558908724849E-4
+41,"Kieth, Sam",http://dbpedia.org/resource,http://dbpedia.org/resource/Sam_Kieth,9.358576197864521E-4
+42,Damian Wayne,http://dbpedia.org/resource,http://dbpedia.org/resource/Damian_Wayne,5.058558908724849E-4
+43,"Edogawa, Ranpo",http://dbpedia.org/resource,http://dbpedia.org/resource/Edogawa_Ranpo,0.0013658593487004193
+44,推理小説,http://dbpedia.org/resource,http://dbpedia.org/resource/Detective_fiction,9.552248752581625E-4
+45,City of Lynwood,http://dbpedia.org/resource,"http://dbpedia.org/resource/Lynwood,_California",9.036197598826059E-4
+46,the United States,http://dbpedia.org/resource,http://dbpedia.org/resource/United_States,0.1440329447918596
+47,"Dee, Jack",http://dbpedia.org/resource,http://dbpedia.org/resource/Jack_Dee,9.358576197864521E-4
+48,Britons,http://dbpedia.org/resource,http://dbpedia.org/resource/British_people,0.024239494348637532
+49,Observational comedy,http://dbpedia.org/resource,http://dbpedia.org/resource/Observational_comedy,9.161635219367137E-4
+50,Deadpan,http://dbpedia.org/resource,http://dbpedia.org/resource/Deadpan,6.38443847209192E-4
+51,Bromley,http://dbpedia.org/resource,http://dbpedia.org/resource/Bromley,6.38443847209192E-4
+52,United Kingdom,http://dbpedia.org/resource,http://dbpedia.org/resource/United_Kingdom,0.00800419905879935
+53,Kent,http://dbpedia.org/resource,http://dbpedia.org/resource/Kent,6.38443847209192E-4
+54,Statesman,http://dbpedia.org/resource,http://dbpedia.org/resource/List_of_City_of_Heroes_characters,5.058558908724849E-4
+55,Jack Emmert,http://dbpedia.org/resource,http://dbpedia.org/resource/Jack_Emmert,9.358576197864521E-4
+56,Little My,http://dbpedia.org/resource,http://dbpedia.org/resource/Little_My,5.058558908724849E-4
+57,"Jansson, Tove",http://dbpedia.org/resource,http://dbpedia.org/resource/Tove_Jansson,0.0013658593487004193
+58,- Kirk DePaul,http://dbpedia.org/resource,http://dbpedia.org/resource/Manhunter_(comics),5.058558908724849E-4
+59,"Grant, Steven",http://dbpedia.org/resource,http://dbpedia.org/resource/Steven_Grant,0.0011508584842434358
+60,Mina Harker,http://dbpedia.org/resource,http://dbpedia.org/resource/Mina_Harker,5.058558908724849E-4
+61,"Stoker, Bram",http://dbpedia.org/resource,http://dbpedia.org/resource/Bram_Stoker,0.0048058731800121575
+62,Princess Bonnibel Bubblegum,http://dbpedia.org/resource,http://dbpedia.org/resource/Princess_Bubblegum,5.058558908724849E-4
+63,Pendleton Ward,http://dbpedia.org/resource,http://dbpedia.org/resource/Pendleton_Ward,0.0026558645354423207
+64,Saito,http://dbpedia.org/resource,http://dbpedia.org/resource/Saito_(Ghost_in_the_Shell),5.058558908724849E-4
+65,"Shirow, Masamune",http://dbpedia.org/resource,http://dbpedia.org/resource/Masamune_Shirow,0.0030858662643562878
+66,Cortometraggio,http://dbpedia.org/resource,http://dbpedia.org/resource/Short_film,9.788823322072517E-4
+67,Timothy Jackson Drake-Wayne,http://dbpedia.org/resource,http://dbpedia.org/resource/Tim_Drake,5.058558908724849E-4
+68,Pat Broderick,http://dbpedia.org/resource,http://dbpedia.org/resource/Pat_Broderick,0.0028708653998993044
+69,Yuki Nagato,http://dbpedia.org/resource,http://dbpedia.org/resource/Yuki_Nagato,5.058558908724849E-4
+70,"Tanigawa, Nagaru",http://dbpedia.org/resource,http://dbpedia.org/resource/Nagaru_Tanigawa,0.0013658593487004193
+71,Georgina Sparks,http://dbpedia.org/resource,http://dbpedia.org/resource/Georgina_Sparks,5.058558908724849E-4
+72,Stephanie Savage,http://dbpedia.org/resource,http://dbpedia.org/resource/Stephanie_Savage,0.002655864535442321
+73,"Von Ziegesar, Cecily",http://dbpedia.org/resource,http://dbpedia.org/resource/Cecily_von_Ziegesar,0.0022258628065283535
+74,Jonathan Harker,http://dbpedia.org/resource,http://dbpedia.org/resource/Jonathan_Harker,5.058558908724849E-4
+75,"Katherine ""Kate"" Manser",http://dbpedia.org/resource,http://dbpedia.org/resource/Cinnamon_(comics),5.058558908724849E-4
+76,"Ayers, Dick",http://dbpedia.org/resource,http://dbpedia.org/resource/Dick_Ayers,0.0017958610776143864
+77,Count Dracula,http://dbpedia.org/resource,http://dbpedia.org/resource/Count_Dracula,5.058558908724849E-4
+78,أدب الجريمة,http://dbpedia.org/resource,http://dbpedia.org/resource/Crime_fiction,0.001100356593648977
+79,西部片,http://dbpedia.org/resource,http://dbpedia.org/resource/Western_(genre),6.649614384765332E-4
+80,"Huntington, West Virginia",http://dbpedia.org/resource,"http://dbpedia.org/resource/Huntington,_West_Virginia",6.649614384765332E-4
+81,Daisuke Jigen,http://dbpedia.org/resource,http://dbpedia.org/resource/Daisuke_Jigen,5.058558908724849E-4
+82,Monkey Punch,http://dbpedia.org/resource,http://dbpedia.org/resource/Monkey_Punch,0.0026558645354423207
+83,Emma Pillsbury,http://dbpedia.org/resource,http://dbpedia.org/resource/Emma_Pillsbury,5.058558908724849E-4
+84,Ian Brennan,http://dbpedia.org/resource,http://dbpedia.org/resource/Ian_Brennan_(writer),0.01039589565589373
+85,Edward Cobert,http://dbpedia.org/resource,http://dbpedia.org/resource/Gargantua_(comics),5.058558908724849E-4
+86,"Kupperberg, Alan",http://dbpedia.org/resource,http://dbpedia.org/resource/Alan_Kupperberg,9.358576197864521E-4
+87,"Hirano, Kouta",http://dbpedia.org/resource,http://dbpedia.org/resource/Kouta_Hirano,9.358576197864521E-4
+88,Mr. Morden,http://dbpedia.org/resource,http://dbpedia.org/resource/Mr._Nobody_(comics),5.058558908724849E-4
+89,Mukesh Khanna,http://dbpedia.org/resource,http://dbpedia.org/resource/Mukesh_Khanna,9.358576197864521E-4
+90,Indian people,http://dbpedia.org/resource,http://dbpedia.org/resource/Indian_people,0.0030114540495199643
+91,Sasha Williams,http://dbpedia.org/resource,http://dbpedia.org/resource/Sasha_Williams_(The_Walking_Dead),5.058558908724849E-4
+92,"Mazzara, Glen",http://dbpedia.org/resource,http://dbpedia.org/resource/Glen_Mazzara,0.0013658593487004193
+93,Victor Samuel Mackey,http://dbpedia.org/resource,http://dbpedia.org/resource/Vic_Mackey,5.058558908724849E-4
+94,Shawn Ryan,http://dbpedia.org/resource,http://dbpedia.org/resource/Shawn_Ryan,0.005665876637840093
+95,Mysa Nal,http://dbpedia.org/resource,http://dbpedia.org/resource/White_Witch_(comics),5.058558908724849E-4
+96,E. Nelson Bridwell,http://dbpedia.org/resource,http://dbpedia.org/resource/E._Nelson_Bridwell,0.004734206225193162
+97,"Hooper, Tobe",http://dbpedia.org/resource,http://dbpedia.org/resource/Tobe_Hooper,9.358576197864521E-4
+98,"Austin, Texas",http://dbpedia.org/resource,"http://dbpedia.org/resource/Austin,_Texas",9.036197598826059E-4
+99,Fantasia científica,http://dbpedia.org/resource,http://dbpedia.org/resource/Science_fantasy,9.573822457615531E-4
+100,Louis Gridley Wu,http://dbpedia.org/resource,http://dbpedia.org/resource/Louis_Wu,5.058558908724849E-4
+101,"Niven, Larry",http://dbpedia.org/resource,http://dbpedia.org/resource/Larry_Niven,0.0013658593487004193
+102,Jakeem Johnny Williams,http://dbpedia.org/resource,http://dbpedia.org/resource/Jakeem_Thunder,5.058558908724849E-4
+103,Dominic Mndawe,http://dbpedia.org/resource,http://dbpedia.org/resource/Freedom_Beast,5.058558908724849E-4
+104,Protean,http://dbpedia.org/resource,http://dbpedia.org/resource/Kid_Quantum,5.058558908724849E-4
+105,Tom and Mary Bierbaum,http://dbpedia.org/resource,http://dbpedia.org/resource/Tom_and_Mary_Bierbaum,0.0022258628065283535
+106,Kyle Rayner,http://dbpedia.org/resource,http://dbpedia.org/resource/Kyle_Rayner,5.058558908724849E-4
+107,Ron Marz,http://dbpedia.org/resource,http://dbpedia.org/resource/Ron_Marz,0.0026558645354423207
+108,Insult comedy,http://dbpedia.org/resource,http://dbpedia.org/resource/Insult_comedy,6.509876092632995E-4
+109,Political thriller,http://dbpedia.org/resource,http://dbpedia.org/resource/Political_thriller,6.590470742392611E-4
+110,Hope Pezzini,http://dbpedia.org/resource,http://dbpedia.org/resource/Hope_Pezzini,5.058558908724849E-4
+111,Devlin O'Ryan,http://dbpedia.org/resource,http://dbpedia.org/resource/Devlin_O'Ryan,5.058558908724849E-4
+112,John Seward,http://dbpedia.org/resource,http://dbpedia.org/resource/John_Seward,5.058558908724849E-4
+113,Miley Ray Stewart,http://dbpedia.org/resource,http://dbpedia.org/resource/Miley_Stewart,5.058558908724849E-4
+114,Barry Obrien,http://dbpedia.org/resource,http://dbpedia.org/resource/Barry_O'Brien,0.0013658593487004193
+115,Frank Farnum,http://dbpedia.org/resource,http://dbpedia.org/resource/Masked_Marauder,5.058558908724849E-4
+116,"Romita, John, Sr.",http://dbpedia.org/resource,http://dbpedia.org/resource/John_Romita_Sr.,0.0037308688577272387
+117,Peter Peachfuzz,http://dbpedia.org/resource,http://dbpedia.org/resource/Peter_Peachfuzz,5.058558908724849E-4
+118,"Ward, Jay",http://dbpedia.org/resource,http://dbpedia.org/resource/Jay_Ward,0.0022258628065283535
+119,Charise Carnes,http://dbpedia.org/resource,http://dbpedia.org/resource/Knightfall_(comics),5.058558908724849E-4
+120,Gail Simone,http://dbpedia.org/resource,http://dbpedia.org/resource/Gail_Simone,0.003659201902908244
+121,"Reverend Doctor Michael Ibn al-hajj Achebe, PhD",http://dbpedia.org/resource,http://dbpedia.org/resource/Achebe_(comics),5.058558908724849E-4
+122,Christopher Priest,http://dbpedia.org/resource,http://dbpedia.org/resource/Christopher_Priest_(comics),0.0015091932583384082
+123,Arnub,http://dbpedia.org/resource,http://dbpedia.org/resource/Arnub_Goswami,5.058558908724849E-4
+124,Biswapati Sarkar,http://dbpedia.org/resource,http://dbpedia.org/resource/Biswapati_Sarkar,9.358576197864521E-4
+125,Hershel Greene,http://dbpedia.org/resource,http://dbpedia.org/resource/Hershel_Greene,5.058558908724849E-4
+126,Rachel Berry,http://dbpedia.org/resource,http://dbpedia.org/resource/Rachel_Berry,5.058558908724849E-4
+127,Jessica Campbell Jones Cage,http://dbpedia.org/resource,http://dbpedia.org/resource/Jessica_Jones,5.058558908724849E-4
+128,"Gaydos, Michael",http://dbpedia.org/resource,http://dbpedia.org/resource/Michael_Gaydos,9.358576197864521E-4
+129,"Joseph ""Robbie"" Robertson",http://dbpedia.org/resource,http://dbpedia.org/resource/Robbie_Robertson_(comics),5.058558908724849E-4
+130,Montego Bay,http://dbpedia.org/resource,http://dbpedia.org/resource/Montego_Bay,9.036197598826059E-4
+131,Jamaican American,http://dbpedia.org/resource,http://dbpedia.org/resource/Jamaican_American,0.0016717454790024146
+132,Micah,http://dbpedia.org/resource,http://dbpedia.org/resource/Kazann,5.058558908724849E-4
+133,Garth Ennis,http://dbpedia.org/resource,http://dbpedia.org/resource/Garth_Ennis,0.0013658593487004193
+134,"Crain, Clayton",http://dbpedia.org/resource,http://dbpedia.org/resource/Clayton_Crain,7.208567553294684E-4
+135,James Bigglesworth,http://dbpedia.org/resource,http://dbpedia.org/resource/Biggles,5.058558908724849E-4
+136,W. E. Johns,http://dbpedia.org/resource,http://dbpedia.org/resource/W._E._Johns,9.358576197864521E-4
+137,Science-fiction,http://dbpedia.org/resource,http://dbpedia.org/resource/Science_fiction,0.0017031610544175455
+138,Novela bélica,http://dbpedia.org/resource,http://dbpedia.org/resource/War_novel,6.195027105896623E-4
+139,Hertford,http://dbpedia.org/resource,http://dbpedia.org/resource/Hertford,6.195027105896623E-4
+140,Hertfordshire,http://dbpedia.org/resource,http://dbpedia.org/resource/Hertfordshire,6.195027105896623E-4
+141,Bengeo,http://dbpedia.org/resource,http://dbpedia.org/resource/Bengeo,6.195027105896623E-4
+142,John Sheppard,http://dbpedia.org/resource,http://dbpedia.org/resource/John_Sheppard_(Stargate),5.058558908724849E-4
+143,Robert C. Cooper,http://dbpedia.org/resource,http://dbpedia.org/resource/Robert_C._Cooper,0.0024408636709853373
+144,Lucas Cruikshank,http://dbpedia.org/resource,http://dbpedia.org/resource/Lucas_Cruikshank,9.358576197864521E-4
+145,"Columbus, Nebraska",http://dbpedia.org/resource,"http://dbpedia.org/resource/Columbus,_Nebraska",9.036197598826059E-4
+146,Greer Grant Nelson,http://dbpedia.org/resource,http://dbpedia.org/resource/Tigra,5.058558908724849E-4
+147,"Perlin, Don",http://dbpedia.org/resource,http://dbpedia.org/resource/Don_Perlin,0.0011508584842434355
+148,Artie Abrams,http://dbpedia.org/resource,http://dbpedia.org/resource/Artie_Abrams,5.058558908724849E-4
+149,"Lopez, David",http://dbpedia.org/resource,http://dbpedia.org/resource/David_López_(artist),9.358576197864521E-4
+150,Spain,http://dbpedia.org/resource,http://dbpedia.org/resource/Spain,0.03531572598852363
+151,Las Palmas de Gran Canaria,http://dbpedia.org/resource,http://dbpedia.org/resource/Las_Palmas,9.036197598826059E-4
+152,Fujiko Mine,http://dbpedia.org/resource,http://dbpedia.org/resource/Fujiko_Mine,5.058558908724849E-4
+153,Brita An'nan,http://dbpedia.org/resource,http://dbpedia.org/resource/Kono_(comics),5.058558908724849E-4
+154,Kurt Hummel,http://dbpedia.org/resource,http://dbpedia.org/resource/Kurt_Hummel,5.058558908724849E-4
+155,Morgan Jones,http://dbpedia.org/resource,http://dbpedia.org/resource/Morgan_Jones_(The_Walking_Dead),5.058558908724849E-4
+156,Americans,http://dbpedia.org/resource,http://dbpedia.org/resource/Americans,0.09878377142589499
+157,Россійская Имперія,http://dbpedia.org/resource,http://dbpedia.org/resource/Russian_Empire,0.0013659002479160904
+158,Suomalaiset,http://dbpedia.org/resource,http://dbpedia.org/resource/Finns,0.0022324131126018085
+159,Союз Советских Социалистических РеспубликSoyuz Sovetskikh Sotsialisticheskikh Respublik,http://dbpedia.org/resource,http://dbpedia.org/resource/Soviet_Union,0.0023915351279040157
+160,Muzzafar Lambert,http://dbpedia.org/resource,http://dbpedia.org/resource/Saracen_(comics),5.058558908724849E-4
+161,Mike Baron,http://dbpedia.org/resource,http://dbpedia.org/resource/Mike_Baron,0.0017958610776143864
+162,Småland,http://dbpedia.org/resource,http://dbpedia.org/resource/Småland,6.649614384765332E-4
+163,Sweden,http://dbpedia.org/resource,http://dbpedia.org/resource/Sweden,0.011917411765240648
+164,The Governor,http://dbpedia.org/resource,http://dbpedia.org/resource/The_Governor_(The_Walking_Dead),5.058558908724849E-4
+165,Daniel Patrick Cassidy,http://dbpedia.org/resource,http://dbpedia.org/resource/Blue_Devil,5.058558908724849E-4
+166,Paris Cullins,http://dbpedia.org/resource,http://dbpedia.org/resource/Paris_Cullins,0.0011508584842434358
+167,Dale Keown,http://dbpedia.org/resource,http://dbpedia.org/resource/Dale_Keown,9.358576197864521E-4
+168,Frank M. Borth,http://dbpedia.org/resource,http://dbpedia.org/resource/Frank_Borth,9.358576197864521E-4
+169,"Cleveland, Ohio",http://dbpedia.org/resource,http://dbpedia.org/resource/Cleveland,9.036197598826059E-4
+170,Juliet Sharp,http://dbpedia.org/resource,http://dbpedia.org/resource/Juliet_Sharp,5.058558908724849E-4
+171,"Golden, Michael",http://dbpedia.org/resource,http://dbpedia.org/resource/Michael_Golden_(comics),7.208567553294684E-4
+172,Shane Walsh,http://dbpedia.org/resource,http://dbpedia.org/resource/Shane_Walsh_(The_Walking_Dead),5.058558908724849E-4
+173,Tyreese,http://dbpedia.org/resource,http://dbpedia.org/resource/Tyreese,5.058558908724849E-4
+174,Elizabeth Weir,http://dbpedia.org/resource,http://dbpedia.org/resource/Elizabeth_Weir_(Stargate),5.058558908724849E-4
+175,"Randolph ""Randy"" Robertson",http://dbpedia.org/resource,http://dbpedia.org/resource/Randy_Robertson,5.058558908724849E-4
+176,Marshall Rogers,http://dbpedia.org/resource,http://dbpedia.org/resource/Marshall_Rogers,9.358576197864521E-4
+177,"Flushing, Queens",http://dbpedia.org/resource,"http://dbpedia.org/resource/Flushing,_Queens",9.036197598826059E-4
+178,Roger Sweet,http://dbpedia.org/resource,http://dbpedia.org/resource/Roger_Sweet,9.358576197864521E-4
+179,David Aceveda,http://dbpedia.org/resource,http://dbpedia.org/resource/David_Aceveda,5.058558908724849E-4
+180,"""Edison""",http://dbpedia.org/resource,http://dbpedia.org/resource/Film_Freak,5.058558908724849E-4
+181,Shane Vendrell,http://dbpedia.org/resource,http://dbpedia.org/resource/Shane_Vendrell,5.058558908724849E-4
+182,Vanessa Fisk,http://dbpedia.org/resource,http://dbpedia.org/resource/Vanessa_Fisk,5.058558908724849E-4
+183,Master,http://dbpedia.org/resource,http://dbpedia.org/resource/Master_(Master_and_Margarita),5.058558908724849E-4
+184,"Bulgakov, Mikhail",http://dbpedia.org/resource,http://dbpedia.org/resource/Mikhail_Bulgakov,0.0022258628065283535
+185,Brittany S. Pierce,http://dbpedia.org/resource,http://dbpedia.org/resource/Brittany_Pierce,5.058558908724849E-4
+186,Mel Rubi,http://dbpedia.org/resource,http://dbpedia.org/resource/Mel_Rubi,9.358576197864521E-4
+187,Vanessa Abrams,http://dbpedia.org/resource,http://dbpedia.org/resource/Vanessa_Abrams,5.058558908724849E-4
+188,People of Northern Ireland,http://dbpedia.org/resource,http://dbpedia.org/resource/People_of_Northern_Ireland,0.0030066970622352647
+189,Carson Drew,http://dbpedia.org/resource,http://dbpedia.org/resource/Carson_Drew,5.058558908724849E-4
+190,"Stratemeyer, Edward",http://dbpedia.org/resource,http://dbpedia.org/resource/Edward_Stratemeyer,0.0026558645354423207
+191,Lilly Caul,http://dbpedia.org/resource,http://dbpedia.org/resource/Lilly_(The_Walking_Dead),5.058558908724849E-4
+192,"Maria ""Mari"" Hermosa",http://dbpedia.org/resource,http://dbpedia.org/resource/Maria_Hermosa,5.058558908724849E-4
+193,"Hernandez, Javier",http://dbpedia.org/resource,http://dbpedia.org/resource/Javier_Hernandez_(comics),0.0013658593487004193
+194,Nathaniel Essex,http://dbpedia.org/resource,http://dbpedia.org/resource/Mister_Sinister,5.058558908724849E-4
+195,"Silvestri, Marc",http://dbpedia.org/resource,http://dbpedia.org/resource/Marc_Silvestri,0.0013658593487004193
+196,Robert Langdon,http://dbpedia.org/resource,http://dbpedia.org/resource/Robert_Langdon,5.058558908724849E-4
+197,Dan Brown,http://dbpedia.org/resource,http://dbpedia.org/resource/Dan_Brown,9.358576197864521E-4
+198,Stuart Hill,http://dbpedia.org/resource,http://dbpedia.org/resource/Stuart_Hill_(author),9.358576197864521E-4
+199,Fantasy,http://dbpedia.org/resource,http://dbpedia.org/resource/Fantasy,9.369485748028487E-4
+200,History,http://dbpedia.org/resource,http://dbpedia.org/resource/History,7.047378253775454E-4
+201,Leicester,http://dbpedia.org/resource,http://dbpedia.org/resource/Leicester,7.047378253775454E-4
+202,Wendy Harris,http://dbpedia.org/resource,http://dbpedia.org/resource/Wendy_and_Marvin,5.058558908724849E-4
+203,Stuart Pot,http://dbpedia.org/resource,http://dbpedia.org/resource/2D_(character),5.058558908724849E-4
+204,Jamie Hewlett,http://dbpedia.org/resource,http://dbpedia.org/resource/Jamie_Hewlett,0.0022258628065283535
+205,Adham Sabri,http://dbpedia.org/resource,http://dbpedia.org/resource/Adham_Sabri,5.058558908724849E-4
+206,"Farouk, Nabil",http://dbpedia.org/resource,http://dbpedia.org/resource/Nabil_Farouk,9.358576197864521E-4
+207,Croats,http://dbpedia.org/resource,http://dbpedia.org/resource/Croats,0.0016717454790024146
+208,Floyd Gottftredson,http://dbpedia.org/resource,http://dbpedia.org/resource/Floyd_Gottfredson,9.358576197864521E-4
+209,"Kaysville, Utah",http://dbpedia.org/resource,"http://dbpedia.org/resource/Kaysville,_Utah",7.710318035458989E-4
+210,State of Utah,http://dbpedia.org/resource,http://dbpedia.org/resource/Utah,0.00116879567255602
+211,Goofy Goof,http://dbpedia.org/resource,http://dbpedia.org/resource/Goofy,5.058558908724849E-4
+212,"Murry, Paul",http://dbpedia.org/resource,http://dbpedia.org/resource/Paul_Murry,9.358576197864521E-4
+213,"Cole, Jack",http://dbpedia.org/resource,http://dbpedia.org/resource/Jack_Cole_(artist),0.0017958610776143864
+214,"New Castle, Pennsylvania",http://dbpedia.org/resource,"http://dbpedia.org/resource/New_Castle,_Pennsylvania",0.0012691457689888806
+215,Jim Carrey,http://dbpedia.org/resource,http://dbpedia.org/resource/Jim_Carrey,9.358576197864521E-4
+216,Américain d'origine canadienne,http://dbpedia.org/resource,http://dbpedia.org/resource/Canadian_American,0.006361465431821996
+217,Newmarket,http://dbpedia.org/resource,"http://dbpedia.org/resource/Newmarket,_Ontario",9.036197598826059E-4
+218,Puerto Ricans,http://dbpedia.org/resource,http://dbpedia.org/resource/Puerto_Ricans,0.0015026834838994937
+219,Althea,http://dbpedia.org/resource,http://dbpedia.org/resource/Blind_Al,5.058558908724849E-4
+220,Joe Kelly,http://dbpedia.org/resource,http://dbpedia.org/resource/Joe_Kelly_(writer),0.0017958610776143864
+221,Hannibal Bates,http://dbpedia.org/resource,http://dbpedia.org/resource/Everyman_(DC_Comics),5.058558908724849E-4
+222,Roderick Rose,http://dbpedia.org/resource,http://dbpedia.org/resource/Hellgrammite_(comics),5.058558908724849E-4
+223,"Adams, Neal",http://dbpedia.org/resource,http://dbpedia.org/resource/Neal_Adams,0.0026558645354423207
+224,Kentaro Miura,http://dbpedia.org/resource,http://dbpedia.org/resource/Kentaro_Miura,9.358576197864521E-4
+225,Chiba City,http://dbpedia.org/resource,"http://dbpedia.org/resource/Chiba,_Chiba",7.710318035458989E-4
+226,Noodle,http://dbpedia.org/resource,http://dbpedia.org/resource/Noodle_(Gorillaz),5.058558908724849E-4
+227,Samuel Smith,http://dbpedia.org/resource,http://dbpedia.org/resource/Rev_(comics),5.058558908724849E-4
+228,Andrea,http://dbpedia.org/resource,http://dbpedia.org/resource/Andrea_(The_Walking_Dead),5.058558908724849E-4
+229,Elena Gilbert,http://dbpedia.org/resource,http://dbpedia.org/resource/Elena_Gilbert,5.058558908724849E-4
+230,"Plec, Julie",http://dbpedia.org/resource,http://dbpedia.org/resource/Julie_Plec,0.0013658593487004193
+231,"Christopher ""Kit"" Freeman",http://dbpedia.org/resource,http://dbpedia.org/resource/Kid_Eternity,5.058558908724849E-4
+232,Lambo,http://dbpedia.org/resource,http://dbpedia.org/resource/Lambo_(Reborn!),5.058558908724849E-4
+233,"Amano, Akira",http://dbpedia.org/resource,http://dbpedia.org/resource/Akira_Amano,0.0017958610776143864
+234,Lauren Zizes,http://dbpedia.org/resource,http://dbpedia.org/resource/Lauren_Zizes,5.058558908724849E-4
+235,Medea,http://dbpedia.org/resource,http://dbpedia.org/resource/Medea_(The_Icemark_Chronicles),5.058558908724849E-4
+236,"Charlotte ""Charlie"" Gage-Radcliffe",http://dbpedia.org/resource,http://dbpedia.org/resource/Misfit_(DC_Comics),5.058558908724849E-4
+237,Victor Alvarez,http://dbpedia.org/resource,http://dbpedia.org/resource/Power_Man_(Victor_Alvarez),5.058558908724849E-4
+238,"Asrar, Mahmud Anjum",http://dbpedia.org/resource,http://dbpedia.org/resource/Mahmud_A._Asrar,0.0011508584842434358
+239,Toto,http://dbpedia.org/resource,http://dbpedia.org/resource/Toto_(Oz),5.058558908724849E-4
+240,William Wallace Denslow,http://dbpedia.org/resource,http://dbpedia.org/resource/William_Wallace_Denslow,9.358576197864521E-4
+241,Archie Bunker,http://dbpedia.org/resource,http://dbpedia.org/resource/Archie_Bunker,5.058558908724849E-4
+242,"Speight, Johnny",http://dbpedia.org/resource,http://dbpedia.org/resource/Johnny_Speight,0.001457240850976988
+243,Alf Garnett,http://dbpedia.org/resource,http://dbpedia.org/resource/Alf_Garnett,7.208567553294684E-4
+244,Holywood,http://dbpedia.org/resource,http://dbpedia.org/resource/Holywood,0.0010863827644357433
+245,庵野秀明,http://dbpedia.org/resource,http://dbpedia.org/resource/Hideaki_Anno,0.0013658593487004193
+246,Ube,http://dbpedia.org/resource,"http://dbpedia.org/resource/Ube,_Yamaguchi",8.928738065813238E-4
+247,Martin Hayter Short,http://dbpedia.org/resource,http://dbpedia.org/resource/Martin_Short,9.358576197864521E-4
+248,Hamilton,http://dbpedia.org/resource,"http://dbpedia.org/resource/Hamilton,_Ontario",7.710318035458989E-4
+249,Richard F. Outcault,http://dbpedia.org/resource,http://dbpedia.org/resource/Richard_F._Outcault,9.358576197864521E-4
+250,"City of Lancaster, Ohio",http://dbpedia.org/resource,"http://dbpedia.org/resource/Lancaster,_Ohio",9.036197598826059E-4
+251,Refaat Ismael,http://dbpedia.org/resource,http://dbpedia.org/resource/Refaat_Ismael,5.058558908724849E-4
+252,Ahmed Khaled Tawfik,http://dbpedia.org/resource,http://dbpedia.org/resource/Ahmed_Khaled_Tawfik,9.358576197864521E-4
+253,"Buckingham, Mark",http://dbpedia.org/resource,http://dbpedia.org/resource/Mark_Buckingham,9.358576197864521E-4
+254,Clevedon,http://dbpedia.org/resource,http://dbpedia.org/resource/Clevedon,9.036197598826059E-4
+255,愛情小說,http://dbpedia.org/resource,http://dbpedia.org/resource/Romance_novel,0.0016597593022033709
+256,"Norwalk, Connecticut",http://dbpedia.org/resource,"http://dbpedia.org/resource/Norwalk,_Connecticut",9.788823322072517E-4
+257,"Bozzetto, Bruno",http://dbpedia.org/resource,http://dbpedia.org/resource/Bruno_Bozzetto,9.358576197864521E-4
+258,Italy,http://dbpedia.org/resource,http://dbpedia.org/resource/Italy,0.0039387263101098345
+259,Milan,http://dbpedia.org/resource,http://dbpedia.org/resource/Milan,9.036197598826059E-4
+260,"Suzanne ""Cissie"" King-Jones",http://dbpedia.org/resource,http://dbpedia.org/resource/Arrowette,5.058558908724849E-4
+261,"Peyer, Tom",http://dbpedia.org/resource,http://dbpedia.org/resource/Tom_Peyer,9.358576197864521E-4
+262,Todd Russells,http://dbpedia.org/resource,http://dbpedia.org/resource/Clayface,5.058558908724849E-4
+263,Dianne Grayton,http://dbpedia.org/resource,http://dbpedia.org/resource/Spider_Widow,5.058558908724849E-4
+264,Damon Matthews,http://dbpedia.org/resource,http://dbpedia.org/resource/Damon_Matthews,5.058558908724849E-4
+265,Marc Andreyko,http://dbpedia.org/resource,http://dbpedia.org/resource/Marc_Andreyko,9.358576197864521E-4
+266,Carol Carter,http://dbpedia.org/resource,http://dbpedia.org/resource/Fighting_Yank,5.058558908724849E-4
+267,"Sprouse, Chris",http://dbpedia.org/resource,http://dbpedia.org/resource/Chris_Sprouse,9.358576197864521E-4
+268,Ernie Colon,http://dbpedia.org/resource,http://dbpedia.org/resource/Ernie_Colón,7.208567553294684E-4
+269,Estado Libre Asociado de Puerto Rico,http://dbpedia.org/resource,http://dbpedia.org/resource/Puerto_Rico,8.122382576060372E-4
+270,John Arcudi,http://dbpedia.org/resource,http://dbpedia.org/resource/John_Arcudi,9.358576197864521E-4
+271,Genoa,http://dbpedia.org/resource,http://dbpedia.org/resource/Genoa,7.710318035458989E-4
+272,Briareos (Hecatonchires Cyborg System),http://dbpedia.org/resource,http://dbpedia.org/resource/Briareos_Hecatonchires,5.058558908724849E-4
+273,"Henry, Clayton",http://dbpedia.org/resource,http://dbpedia.org/resource/Clayton_Henry,9.358576197864521E-4
+274,Harry Sahle,http://dbpedia.org/resource,http://dbpedia.org/resource/Harry_Sahle,9.358576197864521E-4
+275,Tobin Wolf,http://dbpedia.org/resource,http://dbpedia.org/resource/Tobin_Wolf,0.0013658593487004193
+276,City of Pittsburgh,http://dbpedia.org/resource,http://dbpedia.org/resource/Pittsburgh,0.0010863827644357433
+277,Alcalá de Henares,http://dbpedia.org/resource,http://dbpedia.org/resource/Alcalá_de_Henares,0.0018174347826482931
+278,Ankara,http://dbpedia.org/resource,http://dbpedia.org/resource/Ankara,8.319528050636114E-4
+279,Austrians,http://dbpedia.org/resource,http://dbpedia.org/resource/Austrians,0.0011855551638646595
+280,Pakistanis,http://dbpedia.org/resource,http://dbpedia.org/resource/Pakistanis,0.0011855551638646595
+281,City of Brantford,http://dbpedia.org/resource,http://dbpedia.org/resource/Brantford,9.036197598826059E-4
+282,State of California,http://dbpedia.org/resource,http://dbpedia.org/resource/California,7.380666402977882E-4
+283,City of Charlottesville,http://dbpedia.org/resource,"http://dbpedia.org/resource/Charlottesville,_Virginia",9.036197598826059E-4
+284,Cheshire,http://dbpedia.org/resource,http://dbpedia.org/resource/Cheshire,7.710318035458989E-4
+285,Dublin,http://dbpedia.org/resource,http://dbpedia.org/resource/Dublin,0.001186732860868604
+286,Irish people,http://dbpedia.org/resource,http://dbpedia.org/resource/Irish_people,0.004213110908690682
+287,"Erie, Pennsylvania",http://dbpedia.org/resource,"http://dbpedia.org/resource/Erie,_Pennsylvania",7.047378253775454E-4
+288,State of Florida,http://dbpedia.org/resource,http://dbpedia.org/resource/Florida,8.928738065813238E-4
+289,City of Fresno,http://dbpedia.org/resource,"http://dbpedia.org/resource/Fresno,_California",7.710318035458989E-4
+290,Glasgow,http://dbpedia.org/resource,http://dbpedia.org/resource/Glasgow,0.004345656345633361
+291,Scots,http://dbpedia.org/resource,http://dbpedia.org/resource/Scottish_people,0.00803974729454576
+292,State of Illinois,http://dbpedia.org/resource,http://dbpedia.org/resource/Illinois,6.509876092632995E-4
+293,State of Iowa,http://dbpedia.org/resource,http://dbpedia.org/resource/Iowa,0.0010863827644357433
+294,Kiev,http://dbpedia.org/resource,http://dbpedia.org/resource/Kiev,9.788823322072514E-4
+295,Kobe City,http://dbpedia.org/resource,http://dbpedia.org/resource/Kobe,0.0011616453367603889
+296,Kranjska Gora,http://dbpedia.org/resource,http://dbpedia.org/resource/Kranjska_Gora,7.047378253775454E-4
+297,Slovenci,http://dbpedia.org/resource,http://dbpedia.org/resource/Slovenes,0.0023646086257975776
+298,City of Los Angeles,http://dbpedia.org/resource,http://dbpedia.org/resource/Los_Angeles,7.380666402977882E-4
+299,Manchester,http://dbpedia.org/resource,http://dbpedia.org/resource/Manchester,9.036197598826059E-4
+300,State of Missouri,http://dbpedia.org/resource,http://dbpedia.org/resource/Missouri,7.710318035458989E-4
+301,State of New Jersey,http://dbpedia.org/resource,http://dbpedia.org/resource/New_Jersey,0.0010702638344838203
+302,State of New York,http://dbpedia.org/resource,http://dbpedia.org/resource/New_York,0.0011738213572207972
+303,State of Oregon,http://dbpedia.org/resource,http://dbpedia.org/resource/Oregon,0.0020611187887191428
+304,"Palm Beach, Florida",http://dbpedia.org/resource,"http://dbpedia.org/resource/Palm_Beach,_Florida",8.928738065813238E-4
+305,Commonwealth of Pennsylvania,http://dbpedia.org/resource,http://dbpedia.org/resource/Pennsylvania,7.710318035458989E-4
+306,City of Philadelphia,http://dbpedia.org/resource,http://dbpedia.org/resource/Philadelphia,0.0014124796786268699
+307,Queens,http://dbpedia.org/resource,http://dbpedia.org/resource/Queens,0.0011473037659534557
+308,San Francisco,http://dbpedia.org/resource,http://dbpedia.org/resource/San_Francisco,0.0015970404919328327
+309,City of Saskatoon,http://dbpedia.org/resource,http://dbpedia.org/resource/Saskatoon,7.81777756847181E-4
+310,Sendai City,http://dbpedia.org/resource,http://dbpedia.org/resource/Sendai,6.993648487269044E-4
+311,Teplice,http://dbpedia.org/resource,http://dbpedia.org/resource/Teplice,8.875008299306828E-4
+312,Vimmerby,http://dbpedia.org/resource,http://dbpedia.org/resource/Vimmerby,6.649614384765332E-4
+313,State of Wisconsin,http://dbpedia.org/resource,http://dbpedia.org/resource/Wisconsin,8.319528050636114E-4
+314,Zagreb,http://dbpedia.org/resource,http://dbpedia.org/resource/Zagreb,9.036197598826059E-4
+315,Canning Town,http://dbpedia.org/resource,http://dbpedia.org/resource/Canning_Town,8.155394508607021E-4
+316,"Exeter, New Hampshire",http://dbpedia.org/resource,"http://dbpedia.org/resource/Exeter,_New_Hampshire",9.036197598826059E-4
+317,"Ossining, New York",http://dbpedia.org/resource,"http://dbpedia.org/resource/Ossining_(village),_New_York",0.0010147158096167489
+318,Humor negro,http://dbpedia.org/resource,http://dbpedia.org/resource/Black_comedy,7.835755656000066E-4
+319,Fearless Leader,http://dbpedia.org/resource,http://dbpedia.org/resource/Fearless_Leader,5.058558908724849E-4
+320,Unknown,http://dbpedia.org/resource,http://dbpedia.org/resource/Ra's_al_Ghul,5.058558908724849E-4
+321,Rex Mason,http://dbpedia.org/resource,http://dbpedia.org/resource/Metamorpho,5.058558908724849E-4
+322,"Fradon, Ramona",http://dbpedia.org/resource,http://dbpedia.org/resource/Ramona_Fradon,0.0015091932583384084
+323,Isle of Man,http://dbpedia.org/resource,http://dbpedia.org/resource/Isle_of_Man,0.001230212763472837
+324,Horror,http://dbpedia.org/resource,http://dbpedia.org/resource/Horror_fiction,8.240669860805816E-4
+325,スリラー,http://dbpedia.org/resource,http://dbpedia.org/resource/Thriller_(genre),6.649614384765332E-4
+326,Barrow-in-Furness,http://dbpedia.org/resource,http://dbpedia.org/resource/Barrow-in-Furness,6.649614384765332E-4
+327,Michael Stivic,http://dbpedia.org/resource,http://dbpedia.org/resource/Michael_Stivic,5.058558908724849E-4
+328,Murdoc Alphonce Niccals,http://dbpedia.org/resource,http://dbpedia.org/resource/Murdoc_Niccals,5.058558908724849E-4
+329,"Araki, Hirohiko",http://dbpedia.org/resource,http://dbpedia.org/resource/Hirohiko_Araki,0.0013658593487004193
+330,Sobrenatural,http://dbpedia.org/resource,http://dbpedia.org/resource/Supernatural,6.993648487269044E-4
+331,Avventura,http://dbpedia.org/resource,http://dbpedia.org/resource/Adventure,0.0012960229220067873
+332,Action (fiction),http://dbpedia.org/resource,http://dbpedia.org/resource/Action_(fiction),8.44496567117719E-4
+333,Jon Kavanaugh,http://dbpedia.org/resource,http://dbpedia.org/resource/Jon_Kavanaugh,5.058558908724849E-4
+334,Koichi Zenigata,http://dbpedia.org/resource,http://dbpedia.org/resource/Koichi_Zenigata,5.058558908724849E-4
+335,the Kahoona,http://dbpedia.org/resource,http://dbpedia.org/resource/Kahoona,5.058558908724849E-4
+336,Frederick Kohner,http://dbpedia.org/resource,http://dbpedia.org/resource/Frederick_Kohner,0.0017958610776143864
+337,Jeffrey Graves,http://dbpedia.org/resource,http://dbpedia.org/resource/Mister_America_(Jeffrey_Graves),5.058558908724849E-4
+338,Ruriko Tsumura,http://dbpedia.org/resource,http://dbpedia.org/resource/Steel_Wind,5.058558908724849E-4
+339,Bob Budiansky,http://dbpedia.org/resource,http://dbpedia.org/resource/Bob_Budiansky,9.358576197864521E-4
+340,Clontarf,http://dbpedia.org/resource,"http://dbpedia.org/resource/Clontarf,_Dublin",0.001186732860868604
+341,Toulon,http://dbpedia.org/resource,http://dbpedia.org/resource/Toulon,9.036197598826059E-4
+342,France,http://dbpedia.org/resource,http://dbpedia.org/resource/France,0.011095012204305199
+343,Danbury,http://dbpedia.org/resource,"http://dbpedia.org/resource/Danbury,_Essex",9.036197598826059E-4
+344,Greater London,http://dbpedia.org/resource,http://dbpedia.org/resource/Greater_London,8.155394508607021E-4
+345,Horsham,http://dbpedia.org/resource,http://dbpedia.org/resource/Horsham,0.0014519087735420182
+346,Macclesfield,http://dbpedia.org/resource,http://dbpedia.org/resource/Macclesfield,7.710318035458989E-4
+347,Shrewsbury,http://dbpedia.org/resource,http://dbpedia.org/resource/Shrewsbury,0.005107168864604767
+348,City of New York,http://dbpedia.org/resource,http://dbpedia.org/resource/New_York_City,0.002791782615730158
+349,Kings County,http://dbpedia.org/resource,http://dbpedia.org/resource/Brooklyn,0.0015630048232761612
+350,- Joaquin Pennysworth (616),http://dbpedia.org/resource,http://dbpedia.org/resource/Nighthawk_(Marvel_Comics),5.058558908724849E-4
+351,"Casey, Joe",http://dbpedia.org/resource,http://dbpedia.org/resource/Joe_Casey,9.358576197864521E-4
+352,Donald Hunter or Donald Henderson,http://dbpedia.org/resource,http://dbpedia.org/resource/Huntsman_(Heroic_Publishing),5.058558908724849E-4
+353,Bruce Harlick,http://dbpedia.org/resource,http://dbpedia.org/resource/Bruce_Harlick,9.358576197864521E-4
+354,Cephalus,http://dbpedia.org/resource,http://dbpedia.org/resource/Huntsman_(Marvel_Comics),5.058558908724849E-4
+355,Frank Springer,http://dbpedia.org/resource,http://dbpedia.org/resource/Frank_Springer,9.358576197864521E-4
+356,Chris,http://dbpedia.org/resource,http://dbpedia.org/resource/List_of_Everybody_Hates_Chris_characters,5.058558908724849E-4
+357,Chris Rock,http://dbpedia.org/resource,http://dbpedia.org/resource/Chris_Rock,9.358576197864521E-4
+358,Mary Jane Watson,http://dbpedia.org/resource,http://dbpedia.org/resource/Mary_Jane_Watson,5.058558908724849E-4
+359,[[#Old West Starman,http://dbpedia.org/resource,http://dbpedia.org/resource/Starman_(comics),5.058558908724849E-4
+360,Albrecht von Mannheim,http://dbpedia.org/resource,http://dbpedia.org/resource/Wild_Huntsman_(comics),5.058558908724849E-4
+361,"Ace Ventura, Sr.",http://dbpedia.org/resource,http://dbpedia.org/resource/Ace_Ventura,5.058558908724849E-4
+362,Pavitr Prabhakar,http://dbpedia.org/resource,http://dbpedia.org/resource/Alternative_versions_of_Spider-Man,5.058558908724849E-4
+363,Rick Leonardi,http://dbpedia.org/resource,http://dbpedia.org/resource/Rick_Leonardi,0.0015091932583384082
+364,"Todd, Mort",http://dbpedia.org/resource,http://dbpedia.org/resource/Mort_Todd,0.001079191529424441
+365,"Andrews, Kaare",http://dbpedia.org/resource,http://dbpedia.org/resource/Kaare_Andrews,6.49189800510474E-4
+366,Alucard,http://dbpedia.org/resource,http://dbpedia.org/resource/Alucard_(Hellsing),5.058558908724849E-4
+367,Czech Republic,http://dbpedia.org/resource,http://dbpedia.org/resource/Czech_Republic,8.875008299306828E-4
+368,Austria-Hungary,http://dbpedia.org/resource,http://dbpedia.org/resource/Austria-Hungary,0.0010863827644357433
+369,Beth Greene,http://dbpedia.org/resource,http://dbpedia.org/resource/Beth_Greene,5.058558908724849E-4
+370,Bullwinkle J. Moose,http://dbpedia.org/resource,http://dbpedia.org/resource/Bullwinkle_J._Moose,5.058558908724849E-4
+371,William Warner,http://dbpedia.org/resource,http://dbpedia.org/resource/Captain_Dynamo_(comics),5.058558908724849E-4
+372,Jay Faerber,http://dbpedia.org/resource,http://dbpedia.org/resource/Jay_Faerber,0.00201086194207137
+373,Musical,http://dbpedia.org/resource,http://dbpedia.org/resource/Musical_theatre,6.38443847209192E-4
+374,Political satire,http://dbpedia.org/resource,http://dbpedia.org/resource/Political_satire,6.38443847209192E-4
+375,"Andrews, South Carolina",http://dbpedia.org/resource,"http://dbpedia.org/resource/Andrews,_South_Carolina",6.38443847209192E-4
+376,Charles Bartholomew Bass,http://dbpedia.org/resource,http://dbpedia.org/resource/Chuck_Bass,5.058558908724849E-4
+377,Fred Figglehorn,http://dbpedia.org/resource,http://dbpedia.org/resource/Fred_Figglehorn,5.058558908724849E-4
+378,Guts,http://dbpedia.org/resource,http://dbpedia.org/resource/List_of_Berserk_characters,5.058558908724849E-4
+379,Mister Peabody,http://dbpedia.org/resource,http://dbpedia.org/resource/Mister_Peabody,5.058558908724849E-4
+380,Key,http://dbpedia.org/resource,http://dbpedia.org/resource/Ted_Key,9.358576197864521E-4
+381,"St. Joseph, Missouri",http://dbpedia.org/resource,"http://dbpedia.org/resource/St._Joseph,_Missouri",7.710318035458989E-4
+382,- Tom Ludlow Hallaway,http://dbpedia.org/resource,http://dbpedia.org/resource/Spider_(DC_Comics),5.058558908724849E-4
+383,Lawrence Loman,http://dbpedia.org/resource,http://dbpedia.org/resource/Squid_(DC_Comics),5.058558908724849E-4
+384,Sue Sylvester,http://dbpedia.org/resource,http://dbpedia.org/resource/Sue_Sylvester,5.058558908724849E-4
+385,Televisão,http://dbpedia.org/resource,http://dbpedia.org/resource/Television,8.155394508607021E-4
+386,Meredith Rodney McKay,http://dbpedia.org/resource,http://dbpedia.org/resource/Rodney_McKay,5.058558908724849E-4
+387,"Beatty, Scott",http://dbpedia.org/resource,http://dbpedia.org/resource/Scott_Beatty,9.358576197864521E-4
+388,Cindy Moon,http://dbpedia.org/resource,http://dbpedia.org/resource/Silk_(comics),5.058558908724849E-4
+389,"Ramos, Humberto",http://dbpedia.org/resource,http://dbpedia.org/resource/Humberto_Ramos,9.358576197864521E-4
+390,Miguel O'Hara,http://dbpedia.org/resource,http://dbpedia.org/resource/Spider-Man_2099,5.058558908724849E-4
+391,Blair Waldorf,http://dbpedia.org/resource,http://dbpedia.org/resource/Blair_Waldorf,5.058558908724849E-4
+392,Curtis Lemansky,http://dbpedia.org/resource,http://dbpedia.org/resource/Curtis_Lemansky,5.058558908724849E-4
+393,Dulcinea del Toboso,http://dbpedia.org/resource,http://dbpedia.org/resource/Dulcinea_del_Toboso,5.058558908724849E-4
+394,Miguel de Cervantes,http://dbpedia.org/resource,http://dbpedia.org/resource/Miguel_de_Cervantes,0.0030858662643562878
+395,Norah Winters,http://dbpedia.org/resource,http://dbpedia.org/resource/Norah_Winters,5.058558908724849E-4
+396,Rick Grimes,http://dbpedia.org/resource,http://dbpedia.org/resource/Rick_Grimes,5.058558908724849E-4
+397,Russel Hobbs,http://dbpedia.org/resource,http://dbpedia.org/resource/Russel_Hobbs,5.058558908724849E-4
+398,Ed Grimley,http://dbpedia.org/resource,http://dbpedia.org/resource/Ed_Grimley,5.058558908724849E-4
+399,Helen Corning Archer,http://dbpedia.org/resource,http://dbpedia.org/resource/Helen_Archer,5.058558908724849E-4
+400,"Grant, Keron",http://dbpedia.org/resource,http://dbpedia.org/resource/Keron_Grant,9.358576197864521E-4
+401,Sheriff Woody Pride,http://dbpedia.org/resource,http://dbpedia.org/resource/Sheriff_Woody,5.058558908724849E-4
+402,Joe Ranft,http://dbpedia.org/resource,http://dbpedia.org/resource/Joe_Ranft,0.0013658593487004193
+403,"Brisco County, Jr.",http://dbpedia.org/resource,"http://dbpedia.org/resource/Brisco_County,_Jr._(character)",5.058558908724849E-4
+404,Carlton Cuse,http://dbpedia.org/resource,http://dbpedia.org/resource/Carlton_Cuse,9.358576197864521E-4
+405,Doctor Robert Bruce Banner,http://dbpedia.org/resource,http://dbpedia.org/resource/Guilt_Hulk,5.058558908724849E-4
+406,Arthur Timothy Read,http://dbpedia.org/resource,http://dbpedia.org/resource/Arthur_Read,5.058558908724849E-4
+407,"Brown, Marc",http://dbpedia.org/resource,http://dbpedia.org/resource/Marc_Brown_(author),9.358576197864521E-4
+408,Burt Hummel,http://dbpedia.org/resource,http://dbpedia.org/resource/Burt_Hummel,5.058558908724849E-4
+409,Dave Karofsky,http://dbpedia.org/resource,http://dbpedia.org/resource/Dave_Karofsky,5.058558908724849E-4
+410,"Sapulpa, Oklahoma",http://dbpedia.org/resource,"http://dbpedia.org/resource/Sapulpa,_Oklahoma",0.0025180263001019863
+411,Eugene Porter,http://dbpedia.org/resource,http://dbpedia.org/resource/Eugene_Porter,5.058558908724849E-4
+412,Matthew Risman,http://dbpedia.org/resource,http://dbpedia.org/resource/Matthew_Risman,5.058558908724849E-4
+413,Craig Kyle,http://dbpedia.org/resource,http://dbpedia.org/resource/Craig_Kyle,9.358576197864521E-4
+414,Rocinante,http://dbpedia.org/resource,http://dbpedia.org/resource/Rocinante,5.058558908724849E-4
+415,Will Schuester,http://dbpedia.org/resource,http://dbpedia.org/resource/Will_Schuester,5.058558908724849E-4
+416,Victor Von Doom,http://dbpedia.org/resource,http://dbpedia.org/resource/Doom_2099,5.058558908724849E-4
+417,Byron Kennedy,http://dbpedia.org/resource,http://dbpedia.org/resource/Byron_Kennedy,9.358576197864521E-4
+418,Clavileño,http://dbpedia.org/resource,http://dbpedia.org/resource/Clavileño,5.058558908724849E-4
+419,Togusa,http://dbpedia.org/resource,http://dbpedia.org/resource/Togusa,5.058558908724849E-4
+420,Margareta Engström,http://dbpedia.org/resource,http://dbpedia.org/resource/Madicken,5.058558908724849E-4
+421,"Lindgren, Astrid",http://dbpedia.org/resource,http://dbpedia.org/resource/Astrid_Lindgren,9.358576197864521E-4
+422,Egypt,http://dbpedia.org/resource,http://dbpedia.org/resource/Egypt,9.301373511499474E-4
+423,Egyptians /,http://dbpedia.org/resource,http://dbpedia.org/resource/Egyptians,0.0025114719880836764
+424,Ireland,http://dbpedia.org/resource,http://dbpedia.org/resource/Ireland,0.001186732860868604
+425,Mexico,http://dbpedia.org/resource,http://dbpedia.org/resource/Mexico,7.710318035458989E-4
+426,the Netherlands,http://dbpedia.org/resource,http://dbpedia.org/resource/Netherlands,0.011095012204305199
+427,Utrecht,http://dbpedia.org/resource,http://dbpedia.org/resource/Utrecht,9.036197598826059E-4
+428,David Shrigley,http://dbpedia.org/resource,http://dbpedia.org/resource/David_Shrigley,9.358576197864521E-4
+429,Quincey Morris,http://dbpedia.org/resource,http://dbpedia.org/resource/Quincey_Morris,5.058558908724849E-4
+430,- Alan Armstrong,http://dbpedia.org/resource,http://dbpedia.org/resource/Spy_Smasher,5.058558908724849E-4
+431,"Ewing, Al",http://dbpedia.org/resource,http://dbpedia.org/resource/Al_Ewing,9.358576197864521E-4
+432,Bronx County,http://dbpedia.org/resource,http://dbpedia.org/resource/The_Bronx,9.036197598826059E-4
+433,"Flint, Henry",http://dbpedia.org/resource,http://dbpedia.org/resource/Henry_Flint,9.358576197864521E-4
+434,Robert B. Parker,http://dbpedia.org/resource,http://dbpedia.org/resource/Robert_B._Parker,0.0013658593487004193
+435,Western fiction,http://dbpedia.org/resource,http://dbpedia.org/resource/Western_fiction,7.961193276541141E-4
+436,City of Springfield,http://dbpedia.org/resource,"http://dbpedia.org/resource/Springfield,_Massachusetts",7.961193276541141E-4
+437,Comedy-drama,http://dbpedia.org/resource,http://dbpedia.org/resource/Comedy-drama,9.573822457615531E-4
+438,"Syracuse, New York",http://dbpedia.org/resource,"http://dbpedia.org/resource/Syracuse,_New_York",9.036197598826059E-4
+439,"Hodge, Tim",http://dbpedia.org/resource,http://dbpedia.org/resource/Tim_Hodge,9.358576197864521E-4
+440,Boaz,http://dbpedia.org/resource,"http://dbpedia.org/resource/Boaz,_Alabama",7.710318035458989E-4
+441,"Ronald Everett ""Ronnie"" Gardocki",http://dbpedia.org/resource,http://dbpedia.org/resource/Ronnie_Gardocki,5.058558908724849E-4
+442,Evillo,http://dbpedia.org/resource,http://dbpedia.org/resource/Prince_Evillo,5.058558908724849E-4
+443,"Puckett, Kelley",http://dbpedia.org/resource,http://dbpedia.org/resource/Kelley_Puckett,0.0013658593487004193
+444,Aaron,http://dbpedia.org/resource,http://dbpedia.org/resource/Aaron_(The_Walking_Dead),5.058558908724849E-4
+445,Mercedes Jones,http://dbpedia.org/resource,http://dbpedia.org/resource/Mercedes_Jones,5.058558908724849E-4
+446,Unknown,http://dbpedia.org/resource,http://dbpedia.org/resource/Swagman_(comics),5.058558908724849E-4
+447,Kay Challis,http://dbpedia.org/resource,http://dbpedia.org/resource/Crazy_Jane,5.058558908724849E-4
+448,General Wade Eiling,http://dbpedia.org/resource,http://dbpedia.org/resource/General_Wade_Eiling,5.058558908724849E-4
+449,Matthew Scott,http://dbpedia.org/resource,http://dbpedia.org/resource/Matthew_Scott_(Stargate),5.058558908724849E-4
+450,Tanta,http://dbpedia.org/resource,http://dbpedia.org/resource/Tanta,9.301373511499474E-4
+451,The Fiend with Twenty Faces,http://dbpedia.org/resource,http://dbpedia.org/resource/The_Fiend_with_Twenty_Faces,5.058558908724849E-4
+452,Phil Hartman,http://dbpedia.org/resource,http://dbpedia.org/resource/Phil_Hartman,9.358576197864521E-4
+453,Akane Tsunemori,http://dbpedia.org/resource,http://dbpedia.org/resource/Akane_Tsunemori,5.058558908724849E-4
+454,Maxwell Markham,http://dbpedia.org/resource,http://dbpedia.org/resource/Grizzly_(comics),5.058558908724849E-4
+455,Paul Dehn,http://dbpedia.org/resource,http://dbpedia.org/resource/Paul_Dehn,9.358576197864521E-4
+456,Arsène Lupin III,http://dbpedia.org/resource,http://dbpedia.org/resource/Arsène_Lupin_III,5.058558908724849E-4
+457,(Supervillain)  Basil Elks,http://dbpedia.org/resource,http://dbpedia.org/resource/Basilisk_(comics),5.058558908724849E-4
+458,Cassandra Cain,http://dbpedia.org/resource,http://dbpedia.org/resource/Cassandra_Cain,5.058558908724849E-4
+459,Connor Hawke,http://dbpedia.org/resource,http://dbpedia.org/resource/Green_Arrow_(Connor_Hawke),5.058558908724849E-4
+460,Sorachi Hideaki,http://dbpedia.org/resource,http://dbpedia.org/resource/Hideaki_Sorachi,9.358576197864521E-4
+461,Jake the Dog,http://dbpedia.org/resource,http://dbpedia.org/resource/Jake_the_Dog,5.058558908724849E-4
+462,"McCrea, John",http://dbpedia.org/resource,http://dbpedia.org/resource/John_McCrea,7.208567553294684E-4
+463,City of Belfast,http://dbpedia.org/resource,http://dbpedia.org/resource/Belfast,8.122382576060372E-4
+464,Jose Delbo,http://dbpedia.org/resource,http://dbpedia.org/resource/José_Delbo,9.358576197864521E-4
+465,Kingsley,http://dbpedia.org/resource,http://dbpedia.org/resource/Kingsley_(mascot),5.058558908724849E-4
+466,Oliver Oken,http://dbpedia.org/resource,http://dbpedia.org/resource/List_of_Hannah_Montana_main_characters,5.058558908724849E-4
+467,Ned Nickerson,http://dbpedia.org/resource,http://dbpedia.org/resource/Ned_Nickerson,5.058558908724849E-4
+468,Rocky the Flying Squirrel,http://dbpedia.org/resource,http://dbpedia.org/resource/Rocky_the_Flying_Squirrel,5.058558908724849E-4
+469,Santana Lopez,http://dbpedia.org/resource,http://dbpedia.org/resource/Santana_Lopez,5.058558908724849E-4
+470,Serena Celia van der Woodsen,http://dbpedia.org/resource,http://dbpedia.org/resource/Serena_van_der_Woodsen,5.058558908724849E-4
+471,James Howlett,http://dbpedia.org/resource,http://dbpedia.org/resource/Wolverine_(character),5.058558908724849E-4
+472,He-Man,http://dbpedia.org/resource,http://dbpedia.org/resource/He-Man,5.058558908724849E-4
+473,Jesse Stone,http://dbpedia.org/resource,http://dbpedia.org/resource/Jesse_Stone_(character),5.058558908724849E-4
+474,Behemoth,http://dbpedia.org/resource,http://dbpedia.org/resource/Behemoth_(Master_and_Margarita),5.058558908724849E-4
+475,Unknown,http://dbpedia.org/resource,http://dbpedia.org/resource/Claw_(Lev_Gleason_Publications),5.058558908724849E-4
+476,Daniel Randolph Humphrey,http://dbpedia.org/resource,http://dbpedia.org/resource/Dan_Humphrey,5.058558908724849E-4
+477,Bart Hill,http://dbpedia.org/resource,http://dbpedia.org/resource/Daredevil_(Lev_Gleason_Publications),5.058558908724849E-4
+478,Drama (genre),http://dbpedia.org/resource,http://dbpedia.org/resource/Drama,6.649614384765332E-4
+479,Gendo Ikari,http://dbpedia.org/resource,http://dbpedia.org/resource/Gendo_Ikari,5.058558908724849E-4
+480,Haruhi Suzumiya,http://dbpedia.org/resource,http://dbpedia.org/resource/Haruhi_Suzumiya_(character),5.058558908724849E-4
+481,Jennifer Tallulah Humphrey,http://dbpedia.org/resource,http://dbpedia.org/resource/Jenny_Humphrey,5.058558908724849E-4
+482,John Stewart,http://dbpedia.org/resource,http://dbpedia.org/resource/John_Stewart_(comics),5.058558908724849E-4
+483,Motoko Kusanagi,http://dbpedia.org/resource,http://dbpedia.org/resource/Motoko_Kusanagi,5.058558908724849E-4
+484,"Hester, Phil",http://dbpedia.org/resource,http://dbpedia.org/resource/Phil_Hester_(comics),0.0013658593487004193
+485,Bette Sans Souci,http://dbpedia.org/resource,http://dbpedia.org/resource/Plastique_(comics),5.058558908724849E-4
+486,Wade Wilson?,http://dbpedia.org/resource,http://dbpedia.org/resource/T-Ray_(comics),5.058558908724849E-4
+487,CeCe Beck,http://dbpedia.org/resource,http://dbpedia.org/resource/Thunder_(CeCe_Beck),5.058558908724849E-4
+488,"Manley, Mike",http://dbpedia.org/resource,http://dbpedia.org/resource/Mike_Manley_(artist),9.358576197864521E-4
+489,"Stevens, Dave",http://dbpedia.org/resource,http://dbpedia.org/resource/Dave_Stevens,9.358576197864521E-4
+490,Pat Olliffe,http://dbpedia.org/resource,http://dbpedia.org/resource/Pat_Olliffe,0.0013658593487004193
+491,"Madison, Wisconsin",http://dbpedia.org/resource,"http://dbpedia.org/resource/Madison,_Wisconsin",8.319528050636114E-4
+492,Larry Bolatinsky,http://dbpedia.org/resource,http://dbpedia.org/resource/Bolt_(DC_Comics),5.058558908724849E-4
+493,Daniel Cormac,http://dbpedia.org/resource,http://dbpedia.org/resource/Jack_O'Lantern_(DC_Comics),5.058558908724849E-4
+494,"Lofficier, Jean-Marc",http://dbpedia.org/resource,http://dbpedia.org/resource/Jean-Marc_Lofficier,9.358576197864521E-4
+495,Ulla Paske,http://dbpedia.org/resource,http://dbpedia.org/resource/Little_Mermaid_(comics),5.058558908724849E-4
+496,"Detroit, Michigan",http://dbpedia.org/resource,http://dbpedia.org/resource/Detroit,9.036197598826059E-4
+497,Michael,http://dbpedia.org/resource,http://dbpedia.org/resource/Parademon,5.058558908724849E-4
+498,Ren Daggle,http://dbpedia.org/resource,http://dbpedia.org/resource/R._J._Brande,5.058558908724849E-4
+499,Mia Dearden,http://dbpedia.org/resource,http://dbpedia.org/resource/Mia_Dearden,5.058558908724849E-4
+500,Superhero fiction,http://dbpedia.org/resource,http://dbpedia.org/resource/Superhero_fiction,6.590470742392611E-4
+501,ノンフィクション,http://dbpedia.org/resource,http://dbpedia.org/resource/Non-fiction,6.590470742392611E-4
+502,Gidget,http://dbpedia.org/resource,http://dbpedia.org/resource/Gidget,5.058558908724849E-4
+503,Renfield,http://dbpedia.org/resource,http://dbpedia.org/resource/Renfield,5.058558908724849E-4
+504,Snarf,http://dbpedia.org/resource,http://dbpedia.org/resource/Snarf_(ThunderCats),5.058558908724849E-4
+505,Kreon,http://dbpedia.org/resource,http://dbpedia.org/resource/Kreon,5.058558908724849E-4
+506,Abraham Ford,http://dbpedia.org/resource,http://dbpedia.org/resource/Abraham_Ford,5.058558908724849E-4
+507,Buddy Standler (DCAU version),http://dbpedia.org/resource,http://dbpedia.org/resource/Condiment_King,5.058558908724849E-4
+508,"Rockford, Illinois",http://dbpedia.org/resource,"http://dbpedia.org/resource/Rockford,_Illinois",0.0029140128099671182
+509,Carl Burbank,http://dbpedia.org/resource,http://dbpedia.org/resource/Bushwacker_(comics),5.058558908724849E-4
+510,Arcanna Jones,http://dbpedia.org/resource,http://dbpedia.org/resource/Arcanna,5.058558908724849E-4
+511,City of Pasadena,http://dbpedia.org/resource,"http://dbpedia.org/resource/Pasadena,_California",0.0010863827644357433
+512,Brides of Dracula,http://dbpedia.org/resource,http://dbpedia.org/resource/Brides_of_Dracula,5.058558908724849E-4
+513,Batou,http://dbpedia.org/resource,http://dbpedia.org/resource/Batou,5.058558908724849E-4
+514,Alexandra DeWitt,http://dbpedia.org/resource,http://dbpedia.org/resource/Alexandra_DeWitt,5.058558908724849E-4
+515,Kitty Wilde,http://dbpedia.org/resource,http://dbpedia.org/resource/Kitty_Wilde,5.058558908724849E-4
+516,Michonne,http://dbpedia.org/resource,http://dbpedia.org/resource/Michonne,5.058558908724849E-4
+517,Glenn Rhee,http://dbpedia.org/resource,http://dbpedia.org/resource/Glenn_Rhee,5.058558908724849E-4
+518,Gothic fiction,http://dbpedia.org/resource,http://dbpedia.org/resource/Gothic_fiction,0.001186732860868604
+519,City of Chicago,http://dbpedia.org/resource,http://dbpedia.org/resource/Chicago,6.509876092632995E-4
+520,硬科幻,http://dbpedia.org/resource,http://dbpedia.org/resource/Hard_science_fiction,7.380666402977882E-4
+521,"Mexico, D. F.",http://dbpedia.org/resource,http://dbpedia.org/resource/Mexico_City,7.710318035458989E-4
+522,Satira,http://dbpedia.org/resource,http://dbpedia.org/resource/Satire,6.509876092632995E-4
+523,Spenser,http://dbpedia.org/resource,http://dbpedia.org/resource/Spenser_(character),5.058558908724849E-4
+524,"Angelica ""Angel"" Jones",http://dbpedia.org/resource,http://dbpedia.org/resource/Firestar,5.058558908724849E-4
+525,Utopische Literatur,http://dbpedia.org/resource,http://dbpedia.org/resource/Utopian_and_dystopian_fiction,6.649614384765332E-4
+526,Picture book,http://dbpedia.org/resource,http://dbpedia.org/resource/Picture_book,6.649614384765332E-4
+527,Детская литература,http://dbpedia.org/resource,http://dbpedia.org/resource/Children's_literature,0.0015733830349837438
+528,Carniola,http://dbpedia.org/resource,http://dbpedia.org/resource/Carniola,7.047378253775454E-4
+529,Dick Bruna,http://dbpedia.org/resource,http://dbpedia.org/resource/Dick_Bruna,9.358576197864521E-4
+530,Humor,http://dbpedia.org/resource,http://dbpedia.org/resource/Humour,6.509876092632995E-4
+531,Miffy,http://dbpedia.org/resource,http://dbpedia.org/resource/Miffy,5.058558908724849E-4
+532,Mickey Dugan,http://dbpedia.org/resource,http://dbpedia.org/resource/The_Yellow_Kid,5.058558908724849E-4
+533,(fi),http://dbpedia.org/resource,http://dbpedia.org/resource/Grand_Duchy_of_Finland,8.928738065813238E-4
+534,Lucy Westenra,http://dbpedia.org/resource,http://dbpedia.org/resource/Lucy_Westenra,5.058558908724849E-4
+535,Miss Brahms,http://dbpedia.org/resource,http://dbpedia.org/resource/Miss_Brahms,5.058558908724849E-4
+536,"Lloyd, Jeremy",http://dbpedia.org/resource,http://dbpedia.org/resource/Jeremy_Lloyd,9.358576197864521E-4
+537,Bernal Rojas,http://dbpedia.org/resource,http://dbpedia.org/resource/Bushmaster_(DC_Comics),5.058558908724849E-4
+538,Goemon Ishikawa XIII,http://dbpedia.org/resource,http://dbpedia.org/resource/Goemon_Ishikawa_XIII,5.058558908724849E-4
+539,Mexicans,http://dbpedia.org/resource,http://dbpedia.org/resource/Mexicans,0.001301383628892727
+540,Maggie Greene,http://dbpedia.org/resource,http://dbpedia.org/resource/Maggie_Greene,5.058558908724849E-4
+541,Reddy Kilowatt,http://dbpedia.org/resource,http://dbpedia.org/resource/Reddy_Kilowatt,5.058558908724849E-4
+542,"Ashton B. Collins, Sr.",http://dbpedia.org/resource,"http://dbpedia.org/resource/Ashton_B._Collins,_Sr.",9.358576197864521E-4
+543,Jonar Carter,http://dbpedia.org/resource,http://dbpedia.org/resource/Supernova_(comics),5.058558908724849E-4
+544,Terri Schuester,http://dbpedia.org/resource,http://dbpedia.org/resource/Terri_Schuester,5.058558908724849E-4
+545,Sally Avril,http://dbpedia.org/resource,http://dbpedia.org/resource/Bluebird_(Marvel_Comics),5.058558908724849E-4
+546,Carson Beckett,http://dbpedia.org/resource,http://dbpedia.org/resource/Carson_Beckett,5.058558908724849E-4
+547,Dio Brando,http://dbpedia.org/resource,http://dbpedia.org/resource/Dio_Brando,5.058558908724849E-4
+548,Genis-Vell,http://dbpedia.org/resource,http://dbpedia.org/resource/Genis-Vell,5.058558908724849E-4
+549,Kaworu Nagisa /Tabris,http://dbpedia.org/resource,http://dbpedia.org/resource/Kaworu_Nagisa,5.058558908724849E-4
+550,Ezekiel 'Zeke' Pedrad,http://dbpedia.org/resource,http://dbpedia.org/resource/List_of_Divergent_characters,5.058558908724849E-4
+551,"Roth, Veronica",http://dbpedia.org/resource,http://dbpedia.org/resource/Veronica_Roth,9.358576197864521E-4
+552,Quinn Fabray,http://dbpedia.org/resource,http://dbpedia.org/resource/Quinn_Fabray,5.058558908724849E-4
+553,Vincent Stevens,http://dbpedia.org/resource,http://dbpedia.org/resource/Strangers_(Marvel_Comics),5.058558908724849E-4
+554,"Noriko ""Nori"" Ashida",http://dbpedia.org/resource,http://dbpedia.org/resource/Surge_(comics),5.058558908724849E-4
+555,Tina Cohen-Chang,http://dbpedia.org/resource,http://dbpedia.org/resource/Tina_Cohen-Chang,5.058558908724849E-4
+556,Spencer Bridges,http://dbpedia.org/resource,http://dbpedia.org/resource/Wraith_(Image_Comics),5.058558908724849E-4
+557,Delphyne Gorgon,http://dbpedia.org/resource,http://dbpedia.org/resource/Delphyne_Gorgon,5.058558908724849E-4
+558,Carolyn Bachmann,http://dbpedia.org/resource,http://dbpedia.org/resource/Judge_Bachmann,5.058558908724849E-4
+559,(Wrath II) Elliot Caldwell,http://dbpedia.org/resource,http://dbpedia.org/resource/Wrath_(comics),5.058558908724849E-4
+560,Drake Stevens,http://dbpedia.org/resource,http://dbpedia.org/resource/Airman_(comics),5.058558908724849E-4
+561,Bob Stookey,http://dbpedia.org/resource,http://dbpedia.org/resource/Bob_Stookey,5.058558908724849E-4
+562,Peter Gould,http://dbpedia.org/resource,http://dbpedia.org/resource/Peter_Gould_(writer),9.358576197864521E-4
+563,Spanning (verhaal),http://dbpedia.org/resource,http://dbpedia.org/resource/Suspense,6.509876092632995E-4
+564,Mark Antaeus,http://dbpedia.org/resource,http://dbpedia.org/resource/Antaeus_(comics),5.058558908724849E-4
+565,Flex Mentallo,http://dbpedia.org/resource,http://dbpedia.org/resource/Flex_Mentallo,5.058558908724849E-4
+566,Ice King,http://dbpedia.org/resource,http://dbpedia.org/resource/Ice_King,5.058558908724849E-4
+567,Ivy the Terrible,http://dbpedia.org/resource,http://dbpedia.org/resource/Ivy_the_Terrible,5.058558908724849E-4
+568,"Nixon, Robert",http://dbpedia.org/resource,http://dbpedia.org/resource/Robert_Nixon_(comics),9.358576197864521E-4
+569,"Austen, Chuck",http://dbpedia.org/resource,http://dbpedia.org/resource/Chuck_Austen,9.358576197864521E-4
+570,Sancho Panza,http://dbpedia.org/resource,http://dbpedia.org/resource/Sancho_Panza,5.058558908724849E-4
+571,Hattifatteners,http://dbpedia.org/resource,http://dbpedia.org/resource/Hattifattener,5.058558908724849E-4
+572,Hedorah,http://dbpedia.org/resource,http://dbpedia.org/resource/Hedorah,5.058558908724849E-4
+573,Yoshimitsu Banno,http://dbpedia.org/resource,http://dbpedia.org/resource/Yoshimitsu_Banno,9.358576197864521E-4
+574,Tachikoma,http://dbpedia.org/resource,http://dbpedia.org/resource/Tachikoma,5.058558908724849E-4
+575,Rosita Espinosa,http://dbpedia.org/resource,http://dbpedia.org/resource/Rosita_Espinosa,5.058558908724849E-4
+576,"Wanda ""Baby"" McCullough",http://dbpedia.org/resource,"http://dbpedia.org/resource/Wanda_""Baby""_McCullough",5.058558908724849E-4
+577,"Mac, Bernie",http://dbpedia.org/resource,http://dbpedia.org/resource/Bernie_Mac,0.0013658593487004193
+578,(1940s),http://dbpedia.org/resource,http://dbpedia.org/resource/Jim_Corrigan,5.058558908724849E-4
+579,Tara Virango,http://dbpedia.org/resource,http://dbpedia.org/resource/Enigma_(Marvel_Comics),5.058558908724849E-4
+580,Lori Grimes,http://dbpedia.org/resource,http://dbpedia.org/resource/Lori_Grimes,5.058558908724849E-4
+581,Fahnbullah Eddy,http://dbpedia.org/resource,http://dbpedia.org/resource/Gorilla_Girl,5.058558908724849E-4
+582,Nate Archibald,http://dbpedia.org/resource,http://dbpedia.org/resource/Nate_Archibald_(Gossip_Girl),5.058558908724849E-4
+583,Carl King,http://dbpedia.org/resource,http://dbpedia.org/resource/Thousand_(comics),5.058558908724849E-4
+584,Mushu,http://dbpedia.org/resource,http://dbpedia.org/resource/List_of_Disney's_Mulan_characters,5.058558908724849E-4
+585,Stefan Salvatore,http://dbpedia.org/resource,http://dbpedia.org/resource/Stefan_Salvatore,5.058558908724849E-4
+586,Mike Chang,http://dbpedia.org/resource,http://dbpedia.org/resource/Mike_Chang,5.058558908724849E-4
+587,"Elizabeth, New Jersey",http://dbpedia.org/resource,"http://dbpedia.org/resource/Elizabeth,_New_Jersey",0.0010702638344838203
+588,Manhattan,http://dbpedia.org/resource,http://dbpedia.org/resource/Manhattan,0.0016346717780951557
+589,Mount Prospect,http://dbpedia.org/resource,"http://dbpedia.org/resource/Mount_Prospect,_Illinois",0.0049244058600516295
+590,Cliff Secord,http://dbpedia.org/resource,http://dbpedia.org/resource/Rocketeer,5.058558908724849E-4
+591,Pee-wee Herman,http://dbpedia.org/resource,http://dbpedia.org/resource/Pee-wee_Herman,5.058558908724849E-4
+592,Kirk Morrison,http://dbpedia.org/resource,http://dbpedia.org/resource/Gideon_Stargrave,5.058558908724849E-4
+593,Mumm-Ra,http://dbpedia.org/resource,http://dbpedia.org/resource/Mumm-Ra,5.058558908724849E-4
+594,Max Rockatansky,http://dbpedia.org/resource,http://dbpedia.org/resource/Max_Rockatansky,5.058558908724849E-4
+595,Matthew Tyler,http://dbpedia.org/resource,http://dbpedia.org/resource/Hourman_(android),5.058558908724849E-4
+596,Ricote,http://dbpedia.org/resource,http://dbpedia.org/resource/Ricote_(Don_Quixote),5.058558908724849E-4
+597,Bess Marvin,http://dbpedia.org/resource,http://dbpedia.org/resource/Bess_Marvin,5.058558908724849E-4
+598,George Fayne,http://dbpedia.org/resource,http://dbpedia.org/resource/George_Fayne,5.058558908724849E-4
+599,Amon Sur,http://dbpedia.org/resource,http://dbpedia.org/resource/Amon_Sur,5.058558908724849E-4
+600,Isabella Carmela Magdalena Gnucci,http://dbpedia.org/resource,http://dbpedia.org/resource/Ma_Gnucci,5.058558908724849E-4
+601,"Madeline ""Maddie"" Warner",http://dbpedia.org/resource,http://dbpedia.org/resource/Maddie_Warner,5.058558908724849E-4
+602,Unknown,http://dbpedia.org/resource,http://dbpedia.org/resource/Widowmaker_(Image_Comics),5.058558908724849E-4
+603,"Isaac ""Zak"" Silver",http://dbpedia.org/resource,http://dbpedia.org/resource/Zak_Silver,5.058558908724849E-4
+604,Danielle Sofer,http://dbpedia.org/resource,http://dbpedia.org/resource/Danielle_Sofer,5.058558908724849E-4
+605,Jack T. Chance,http://dbpedia.org/resource,http://dbpedia.org/resource/Jack_T._Chance,5.058558908724849E-4
+606,Detective Julien Lowe,http://dbpedia.org/resource,http://dbpedia.org/resource/Julien_Lowe,5.058558908724849E-4
+607,Monica Rawling,http://dbpedia.org/resource,http://dbpedia.org/resource/Monica_Rawling,5.058558908724849E-4
+608,Margarita Nikolayevna,http://dbpedia.org/resource,http://dbpedia.org/resource/Margarita_(Master_and_Margarita),5.058558908724849E-4
+609,Abraham van Helsing,http://dbpedia.org/resource,http://dbpedia.org/resource/Abraham_Van_Helsing,5.058558908724849E-4
+610,- [[#Molly Mayne,http://dbpedia.org/resource,http://dbpedia.org/resource/Harlequin_(comics),5.058558908724849E-4
+611,Nessus,http://dbpedia.org/resource,http://dbpedia.org/resource/Nessus_(Pierson's_Puppeteer),5.058558908724849E-4
+612,Aristedes Demetrios,http://dbpedia.org/resource,http://dbpedia.org/resource/Olympian_(comics),5.058558908724849E-4
+613,Damon Ryder,http://dbpedia.org/resource,http://dbpedia.org/resource/Raptor_(Marvel_Comics),5.058558908724849E-4
+614,Buzz Lightyear,http://dbpedia.org/resource,http://dbpedia.org/resource/Buzz_Lightyear,5.058558908724849E-4
+615,Dale Horvath,http://dbpedia.org/resource,http://dbpedia.org/resource/Dale_Horvath,5.058558908724849E-4
+616,Holland Wagenbach,http://dbpedia.org/resource,http://dbpedia.org/resource/Dutch_Wagenbach,5.058558908724849E-4
+617,Finn Hudson,http://dbpedia.org/resource,http://dbpedia.org/resource/Finn_Hudson,5.058558908724849E-4
+618,"Finn ""The Human"" Mertens",http://dbpedia.org/resource,http://dbpedia.org/resource/Finn_the_Human,5.058558908724849E-4
+619,Jamaica,http://dbpedia.org/resource,"http://dbpedia.org/resource/Jamaica,_Queens",9.036197598826059E-4
+620,Caesar,http://dbpedia.org/resource,http://dbpedia.org/resource/List_of_Planet_of_the_Apes_characters,5.058558908724849E-4
+621,The Phantom Blot,http://dbpedia.org/resource,http://dbpedia.org/resource/Phantom_Blot,5.058558908724849E-4
+622,Original:,http://dbpedia.org/resource,http://dbpedia.org/resource/Phobos_(Marvel_Comics),5.058558908724849E-4
+623,"Noah ""Puck"" Puckerman",http://dbpedia.org/resource,http://dbpedia.org/resource/Puck_(Glee),5.058558908724849E-4
+624,Programma televisivo,http://dbpedia.org/resource,http://dbpedia.org/resource/Television_program,7.047378253775454E-4
+625,Vala Mal Doran,http://dbpedia.org/resource,http://dbpedia.org/resource/Vala_Mal_Doran,5.058558908724849E-4
+626,Wolfgang Winks,http://dbpedia.org/resource,http://dbpedia.org/resource/Woozy_Winks,5.058558908724849E-4
+627,Подростковая литература,http://dbpedia.org/resource,http://dbpedia.org/resource/Young-adult_fiction,6.649614384765332E-4
+628,Jeremy Wakefield,http://dbpedia.org/resource,http://dbpedia.org/resource/Tuatara_(comics),5.058558908724849E-4
+629,"- Delilah ""Dee"" Tyler",http://dbpedia.org/resource,http://dbpedia.org/resource/Phantom_Lady,5.058558908724849E-4
+630,Larue,http://dbpedia.org/resource,http://dbpedia.org/resource/Larue_Wilson,5.058558908724849E-4
+631,Claudette Wyms,http://dbpedia.org/resource,http://dbpedia.org/resource/Claudette_Wyms,5.058558908724849E-4
+632,Kevin Hiatt,http://dbpedia.org/resource,http://dbpedia.org/resource/Kevin_Hiatt,5.058558908724849E-4
+633,Arthur King,http://dbpedia.org/resource,http://dbpedia.org/resource/Merlyn_(DC_Comics),5.058558908724849E-4
+634,Leatherface,http://dbpedia.org/resource,http://dbpedia.org/resource/Leatherface,5.058558908724849E-4
+635,Marceline the Vampire Queen,http://dbpedia.org/resource,http://dbpedia.org/resource/Marceline_the_Vampire_Queen,5.058558908724849E-4
+636,David Linus Lieberman,http://dbpedia.org/resource,http://dbpedia.org/resource/Microchip_(comics),5.058558908724849E-4
+637,Unnamed,http://dbpedia.org/resource,http://dbpedia.org/resource/Onomatopoeia_(comics),5.058558908724849E-4
+638,James Morgan McGill,http://dbpedia.org/resource,http://dbpedia.org/resource/Saul_Goodman,5.058558908724849E-4
+639,"Van Sciver, Ethan",http://dbpedia.org/resource,http://dbpedia.org/resource/Ethan_Van_Sciver,9.358576197864521E-4
+640,Wonder Dog,http://dbpedia.org/resource,http://dbpedia.org/resource/Wonder_Dog_(Super_Friends),5.058558908724849E-4
+641,Kogoro Akechi,http://dbpedia.org/resource,http://dbpedia.org/resource/Kogoro_Akechi,5.058558908724849E-4
+642,Unknown,http://dbpedia.org/resource,http://dbpedia.org/resource/Ms._Mystic,5.058558908724849E-4
+643,Noh-Varr,http://dbpedia.org/resource,http://dbpedia.org/resource/Noh-Varr,5.058558908724849E-4
+644,Eric Needham,http://dbpedia.org/resource,http://dbpedia.org/resource/Black_Spider,5.058558908724849E-4
+645,Jessan Hoan,http://dbpedia.org/resource,http://dbpedia.org/resource/Jessan_Hoan,5.058558908724849E-4
+646,Mr. Rossi,http://dbpedia.org/resource,http://dbpedia.org/resource/Mr._Rossi,5.058558908724849E-4
+647,Arthur Holmwood,http://dbpedia.org/resource,http://dbpedia.org/resource/Arthur_Holmwood,5.058558908724849E-4
+648,Jotaro Kujo,http://dbpedia.org/resource,http://dbpedia.org/resource/Jotaro_Kujo,5.058558908724849E-4
+649,None,http://dbpedia.org/resource,http://dbpedia.org/resource/Protoplasman,5.058558908724849E-4
+650,Sheldon Beiste,http://dbpedia.org/resource,http://dbpedia.org/resource/Shannon_Beiste,5.058558908724849E-4
+651,Alysia Yeoh,http://dbpedia.org/resource,http://dbpedia.org/resource/Alysia_Yeoh,5.058558908724849E-4
+652,Gintoki Sakata,http://dbpedia.org/resource,http://dbpedia.org/resource/Gintoki_Sakata,5.058558908724849E-4
+653,Kyoya Hibari,http://dbpedia.org/resource,http://dbpedia.org/resource/Kyoya_Hibari,5.058558908724849E-4
+654,Xao Jin,http://dbpedia.org/resource,http://dbpedia.org/resource/Dragonmage,5.058558908724849E-4
+655,Blaine Anderson,http://dbpedia.org/resource,http://dbpedia.org/resource/Blaine_Anderson,5.058558908724849E-4
+656,Negan,http://dbpedia.org/resource,http://dbpedia.org/resource/Negan,5.058558908724849E-4
+657,Everett Kenneth Ross,http://dbpedia.org/resource,http://dbpedia.org/resource/Everett_K._Ross,5.058558908724849E-4
+658,"'''Bernard ""Bernie Mac"" McCullough""",http://dbpedia.org/resource,http://dbpedia.org/resource/Bernie_McCullough,5.058558908724849E-4
+659,Rick Spleen,http://dbpedia.org/resource,http://dbpedia.org/resource/Rick_Spleen,5.058558908724849E-4
+660,Jessie Anderson,http://dbpedia.org/resource,http://dbpedia.org/resource/Jessie_Anderson_(The_Walking_Dead),5.058558908724849E-4
+661,Josip Vandot,http://dbpedia.org/resource,http://dbpedia.org/resource/Josip_Vandot,9.358576197864521E-4
+662,Azazello,http://dbpedia.org/resource,http://dbpedia.org/resource/Azazello,5.058558908724849E-4
+663,Sam Evans,http://dbpedia.org/resource,http://dbpedia.org/resource/Sam_Evans,5.058558908724849E-4
+664,Orson Karloff,http://dbpedia.org/resource,http://dbpedia.org/resource/Asbestos_Man,5.058558908724849E-4
+665,Douglas Monroe (comics),http://dbpedia.org/resource,http://dbpedia.org/resource/Deanna_Monroe,5.058558908724849E-4
+666,Ryan Choi,http://dbpedia.org/resource,http://dbpedia.org/resource/Atom_(Ryan_Choi),5.058558908724849E-4
+667,"Katherine ""Kathy"" Webb-Kane",http://dbpedia.org/resource,http://dbpedia.org/resource/Batwoman,5.058558908724849E-4
+668,Shaktimaan,http://dbpedia.org/resource,http://dbpedia.org/resource/Shaktimaan__Shaktimaan__1,5.058558908724849E-4
+669,Bro'Dee Walker,http://dbpedia.org/resource,http://dbpedia.org/resource/Saint_Walker,5.058558908724849E-4
+670,Sylbert Rundine,http://dbpedia.org/resource,http://dbpedia.org/resource/Dwarfstar,5.058558908724849E-4
+671,Ginés de Pasamonte,http://dbpedia.org/resource,http://dbpedia.org/resource/Ginés_de_Pasamonte,5.058558908724849E-4
+672,Kekec,http://dbpedia.org/resource,http://dbpedia.org/resource/Kekec,5.058558908724849E-4
+673,Rory Flanagan,http://dbpedia.org/resource,http://dbpedia.org/resource/Rory_Flanagan,5.058558908724849E-4
+674,Carl Grimes,http://dbpedia.org/resource,http://dbpedia.org/resource/Carl_Grimes,5.058558908724849E-4

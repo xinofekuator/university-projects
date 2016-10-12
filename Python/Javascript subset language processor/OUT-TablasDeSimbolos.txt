@@ -1,0 +1,46 @@
+El formato de las entradas de la tabla de simbolos es el siguiente: 
+| Nombre | Tipo | Args/long | Return | 
+
+Nombre : Nombre del identificador 
+Tipo : Tipo del identificador 
+Args/long: 
+	 Id de tipo funcion: Tipo del argumento de la funcion 
+	 Id de tipo Array: Longitud del array 
+	 Otro caso: None 
+Return: 
+	 Id de tipo funcion: Tipo de lo que devuelve la funcion 
+	 Otro caso: None 
+
+
+####################################################### 
+Tabla de simbolos secundaria (borrada): a
+####################################################### 
+--------------------------------------------------- 
+ | b | entero | None | None | 
+------------------------------------------------------- 
+
+
+####################################################### 
+Tabla de simbolos secundaria (borrada): c
+####################################################### 
+--------------------------------------------------- 
+ | s | entero | None | None | 
+------------------------------------------------------- 
+
+--------------------------------------------------- 
+Tablas de simbolos cuando se ha producido el error: 
+--------------------------------------------------- 
+
+####################################################### 
+Tabla de simbolos principal
+####################################################### 
+--------------------------------------------------- 
+ | T | array | 4 | None | 
+--------------------------------------------------- 
+ | b | entero | None | None | 
+--------------------------------------------------- 
+ | a | function | entero | None | 
+--------------------------------------------------- 
+ | c | function | entero | entero | 
+------------------------------------------------------- 
+

@@ -1,0 +1,142 @@
+PRÁCTICA 2: tarea 2.3			Autores: Ignacio Amaya y Eduardo Cortés
+=====================================================================================
+
+-FECHAS DE ENTREGA:
+	
+
+	*Primera entrega: 18 Diciembre 19:00 NOTA TESTS: 33
+	Entrega de primos sin la documentación.
+ 
+	*Segunda entrega: 18 Diciembre 23:00 NOTA TESTS: 38
+	Entrega de primos con errores de formato corregidos.
+
+	*Tercera entrega: 22 Diciembre 23:00 NOTA TESTS: 38
+	Entrega final con factores, primos y la documentación.
+
+	
+-SOBRE EL DESARROLLO:
+
+       
+	*RESUMEN DE LOS TRABAJOS REALIZADOS:
+	
+
+	-Lectura y comprensión de la práctica.
+
+	-Descarga del material de apoyo.
+
+	-Repaso de las tranparencias de C relativas
+	a la memoria dinámica. 
+
+	-Lectura del código auxiliar y comprensión del mismo.
+
+	-Implementación de primos.
+
+	-Implementación de factores.
+	
+	-Pruebas sobre el funcionamiento de ambos programas.
+	
+	-Corrección de errores previos al envío de la 
+	práctica al tester de la asignatura.
+
+	-Corrección de errores posteriores al envío de
+	la práctica al tester de la asignatura.
+	 
+	 
+	*PROBLEMAS ENCONTRADOS Y RESOLUCIÓN DE LOS MISMOS:
+
+
+	- En esta práctica nuestros conocimientos de C ya eran bastante sólidos,
+	pero a pesar de ello hemos tenido que afrontar bastantes problemas y 
+	quizás sea la que más nos ha costado de todas y con la que menos satisfechos
+	estamos del resultado. Por falta de tiempo no hemos podido pulir los programas
+	todo lo que nos hubiese gustado, por lo que presentan ciertas fallas que
+	sería recomendable corregir, pero a falta de tiempo explicaremos el porqué
+	de estos errores y su posible solución.
+
+	- El primer problema que tuvimos en el programa primos fue el uso de la
+	memoria dinámica, ya que queríamos reservar la memoria exacta que íbamos
+	a usar. Tras un período de búsqueda en internet llegamos a la conclusión 
+	de que esta idea no era factible debido a que no existe una fórmula que
+	nos de el número de primos hasta un cierto número dado. Encontramos fórmulas
+	que aproximaban este número muy bien, como por ejemplo X=n/log(n) siendo X
+	el número de primos hasta un cierto número n. Sin embargo esto era sólo 
+	una aproximación y no nos servía pues nos dimos cuenta de que hay primos 
+	gemelos muy grandes que esta fórmula no podía preever. Por tanto descartamos
+	la opción de reservar el espacio justo, puesto que era mucho más seguro
+	reservarla por exceso para así no tener problemas más adelante.
+	
+	- Tras realizar la primera preentrega del programa primos tuvimos que corregir
+	ciertos problemas en los formatos de las salidas, ya que no habíamos tenido
+	en cuenta los espacios y nos daba error el tester de la asignatura.
+
+	- Un problema que tuvimos fue que calculábamos todos los primos hasta el 
+	número dado, por lo que gastábamos recursos innecesarios, siendo lo 
+	correcto ir calculándolos a medida que los fuésemos necesitando. Cambiar
+	esto no era muy complicado pero no nos fue posible solucionarlo por falta
+	de tiempo. De haber realizado este ajuste nos pasaría las pruebas de la
+	memoria dinámica.
+
+	- En factores la principal complicación fue al leer los datos de la entrada
+	estándar y separarlos para calcular sus factores. Había números que tomaban
+	valores extraños y no sabíamos por qué. Tras muchas pruebas y quebraderos de 
+	cabeza pudimos dar con la solución. Nos faltaba indicar el final de la cadena
+	de caracteras con un '\0' antes de convertir el string a un número. Este 
+	fallo tan simple nos tuvo ocupados varias horas depurando el código.
+	
+	- Otro fallo fue que cuando leíamos una entrada incorrecta en factores no
+	habíamos tenido en cuenta que el programa tenía que seguir ejecutándose, por 
+	lo que lanzábamos el mensaje de error y terminábamos el programa.
+
+	*BIBLIOGRAFÍA Y REFERENCIAS UTILIZADAS:
+
+
+	- http://stackoverflow.com/
+
+	- transparencias de la asignatura
+
+	- http://www.opengroup.org/
+	
+	- http://linux.die.net/
+
+
+	*TIEMPO DEDICADO:
+
+
+	- Una hora en el estudio de las tranparencias de clase.
+	
+	- Media hora buscando y leyendo la documentación de las funciones recomendadas.
+
+	- Media hora para realizar una lectura en profundidad de la práctica
+	y comprender lo que nos pedían.
+
+	- Media hora para descargar y analizar el material de apoyo y así 
+	terminar de entender el funcionamiento de los programas a realizar.
+
+	- Seis horas escribiendo el código junto con sus pruebas en el shell
+
+	- Una hora en la realización de la documentación.
+
+	- Dos horas haciendo pruebas y cambios tras recibir el resultado de los tests.
+
+
+	*COMETARIOS PERSONALES:
+ 
+
+	 En este trabajo hemos realizado una función auxiliar para ambos programas que
+	 nos ha resultado muy últil y nos ha ahorrado bastante tiempo.
+	
+	 Nuestro manejo con punteros era bastante bueno, pero hemos tenido muchos problemas
+	 al hacer debug. En ciertos momentos nos hemos quedado atascados durante horas
+	 por culpa de un error en el acceso a la memoria, lo que nos ha causado muchas
+	 molestias.
+
+	 Para poder solventar estos problemas hemos empezado a usar el gdb para saber
+	 dónde fallaba el código y nos ha sido muy útil en varias ocasiones. 
+      	     
+       	 Por tanto esta práctica nos ha resultado muy fructífera y nos ha reportado
+	 bastante. Estamos satisfechos con la progresión en la asignatura, pues de 
+	 no saber nada de C ahora podemos realizar programas complejos y además ya
+	 no nos dan tanto miedo los punteros y nos sentimos cómodos usándolos. De
+	 hecho en ciertas ocasiones, usando Java, hemos llegado a echar de menos
+	 C. Cada tiene sus particularidades, que aún no siendo muchas hacen que
+	 programar en C sea una experiencia muy distinta a hacerlo en Java.    

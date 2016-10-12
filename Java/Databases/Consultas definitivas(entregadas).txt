@@ -1,0 +1,76 @@
+//Consulta 1
+
+SELECT CONCAT(sakila.customer.first_name,' ',sakila.customer.last_name) AS 'Cliente'
+FROM sakila.customer,sakila.address,sakila.city
+WHERE sakila.customer.address_id = sakila.address.address_id 
+	AND sakila.address.city_id = sakila.city.city_id
+	AND sakila.city.city = 'London'
+GROUP BY sakila.customer.last_name;
+
+//Consulta 2
+
+SELECT sakila.city.city as 'Ciudad', count(sakila.customer.customer_id) AS 'Clientes'
+FROM sakila.customer,sakila.address,sakila.city,sakila.store
+WHERE sakila.customer.store_id=sakila.store.store_id
+AND sakila.store.address_id=sakila.address.address_id
+AND sakila.address.city_id=sakila.city.city_id
+GROUP BY sakila.city.city
+HAVING count(sakila.customer.customer_id)>1;
+
+//Consulta 3
+
+SELECT sakila.film.title AS 'Titulo', count(sakila.rental.inventory_id) AS 'Alquileres'
+FROM sakila.rental,sakila.inventory,sakila.film
+WHERE sakila.rental.inventory_id=sakila.inventory.inventory_id
+AND sakila.inventory.film_id=sakila.film.film_id
+GROUP BY sakila.film.film_id
+HAVING count(sakila.rental.inventory_id)>30;
+
+//Consulta 4
+
+SELECT sakila.film.title AS 'Titulo', sakila.rental.rental_date AS 'Fecha', sakila.category.name AS 'Categoría'
+FROM sakila.rental, sakila.inventory,sakila.film,sakila.film_category,sakila.category
+WHERE sakila.rental.inventory_id=sakila.inventory.inventory_id
+AND sakila.inventory.film_id=sakila.film.film_id
+AND sakila.film.film_id=sakila.film_category.film_id
+AND sakila.film_category.category_id=sakila.category.category_id
+AND DATEDIFF('2005-08-31', sakila.rental.rental_date)<92
+AND DATEDIFF(sakila.rental.rental_date, '2005-06-01')<92
+AND sakila.category.name='comedy'
+GROUP BY  sakila.film.title,sakila.rental.rental_date;
+
+//Consulta 5
+
+SELECT CONCAT(sakila.customer.first_name,' ', sakila.customer.last_name) AS 'Cliente' , count(sakila.rental.inventory_id) AS 'Alquileres'
+FROM sakila.rental,sakila.inventory,sakila.film,sakila.film_category,sakila.category,sakila.customer
+WHERE sakila.customer.customer_id=sakila.rental.customer_id
+AND sakila.rental.inventory_id=sakila.inventory.inventory_id
+AND sakila.inventory.film_id=sakila.film.film_id
+AND sakila.film.film_id=sakila.film_category.film_id
+AND sakila.film_category.category_id=sakila.category.category_id
+AND sakila.category.name='action'
+GROUP BY sakila.customer.last_name
+HAVING count(sakila.rental.inventory_id)>5;
+
+//Consulta 6
+
+SELECT count(sakila.rental.inventory_id) AS 'Maximo'
+FROM sakila.rental,sakila.inventory,sakila.film,sakila.film_category,sakila.category,sakila.customer
+WHERE sakila.customer.customer_id=sakila.rental.customer_id
+AND sakila.rental.inventory_id=sakila.inventory.inventory_id
+AND sakila.inventory.film_id=sakila.film.film_id
+AND sakila.film.film_id=sakila.film_category.film_id
+AND sakila.film_category.category_id=sakila.category.category_id
+AND sakila.category.name='Action'
+GROUP BY sakila.film.film_id
+ORDER BY count(sakila.rental.inventory_id) DESC
+LIMIT 1;
+
+//Consulta 7
+
+INSERT INTO address(address,district,city_id,phone)
+values('4 Avenida Seneca','Vallehermoso',320,'925839402');
+INSERT INTO customer(store_id,first_name,last_name,email,address_id,create_date)
+values(1,'Gabriel','Castro','gabcas28@gmail.com',last_insert_id(),current_date());
+
+

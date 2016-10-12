@@ -1,0 +1,147 @@
+PRÁCTICA 2: tarea 2.2			Autores: Ignacio Amaya y Eduardo Cortés
+=====================================================================================
+
+-FECHAS DE ENTREGA:
+	
+
+	*Primera entrega: 21 Noviembre 15:00 NOTA TESTS: 33
+	Problemas al leer un fichero que no existe.
+ 
+	*Segunda entrega: 22 Noviembre 3:00 NOTA TESTS: 38
+	Documentación sin realizar.
+
+	*Tercera entrega:  22 Noviembre 7:00 NOTA TESTS: 38
+	Entrega final.
+
+	
+-SOBRE EL DESARROLLO:
+
+       
+	*RESUMEN DE LOS TRABAJOS REALIZADOS:
+	
+
+	-Lectura y comprensión de la práctica.
+
+	-Descarga del material de apoyo.
+
+	-Repaso de las tranparencias de C relativas
+	a la memoria dinámica. 
+
+	-Lectura del código auxiliar y comprensión del mismo.
+
+	-Implementación de bocabajo.
+	
+	-Pruebas sobre el funcionamiento de ambos programas.
+	
+	-Corrección de errores previos al envío de la 
+	práctica al tester de la asignatura.
+
+	-Corrección de errores posteriores al envío de
+	la práctica al tester de la asignatura.
+	 
+	 
+	*PROBLEMAS ENCONTRADOS Y RESOLUCIÓN DE LOS MISMOS:
+
+
+	- Al ser este la segunda entrega que realizábamos en C todas las
+	dudas que nos habían surgido y habíamos resuelto en los dos 
+	programas anteriores nos fueron muy útiles. Por ello no tuvimos
+	tantas dificultades a la hora de plasmar nuestras ideas en código.
+	Sin embargo el trabajo, aunque con menos problemas que los anteriores,
+	no estuvo exento de dificultades. A continuación explicaremos los
+	más relevantes.
+
+	- El primer problema que tuvimos fue que intentamos reutilizar el código
+	de la práctica de delreves, pero esto nos ralentizó bastante, ya que
+	muchas partes debían ser hechas desde cero y además el tener las cosas
+	ya escritas nos dificultaba pensar y estructurar nuestro código de manera
+	diferente. Al final conservamos algunas partes pero muchas otras decidimos
+	cambiarlas enteras.
+ 
+	- El uso de malloc también nos causó complicaciones. Al principio no 
+	consideramos la opción de hacer un array de punteros, sino simplemente
+	de meter todos los caracteres en una misma cadena. Pero nos dimos cuenta
+	de que no era lógico y además nos daba errores al ejecutar, por lo que
+	decidimos usar un array con tantos punteros a caracter como líneas 
+	tuviesen los ficheros que les pasábamos. Como hasta que no leyésemos
+	los ficheros enteros no podíamos saber con exactitud de qué tamaño
+	eran, le asignamos un tamaño de una línea por defecto y a medida
+	que se iban leyendo más se iba aumentando el espacio reservado
+	mediante un realloc.
+
+	- Debido a una mala comprensión de la práctica y quizás también por haber
+	reutilizado el código del revés, al principio intentábamos invertir 
+	no sólo las líneas sino todo el documento. Por suerte nos dimos cuenta
+	antes de haber perdido tiempo desarrollando la idea.
+
+	- También tuvimos complicaciones a la hora de leer ficheros que no
+	existían. Decidimos incorporar la comprobación junto con la impresión
+	de las líneas, por lo que aunque el primer fichero que le pasáramos
+	fuese erróneo nuestro programa imprimía las líneas de los últimos
+	ficheros. Para evitarlo decidimos incorporar un bucle que analizase 
+	si los ficheros se podían abrir correctamente y de esta forma 
+	detectar el error antes de realizar ninguna operación con las
+	líneas de los ficheros.
+	
+	- También nos ralentizó bastante el trabajo el uso de los punteros de
+	forma incorrecta, por lo que el programa no funcionaba bien. Además
+	nos costó también un buen rato entender bien el funcionamiento de 
+	la función realloc, que al principio éramos reacios a utilizar.
+
+
+	*BIBLIOGRAFÍA Y REFERENCIAS UTILIZADAS:
+
+
+	- http://stackoverflow.com/
+
+	- transparencias de la asignatura
+
+	- http://www.opengroup.org/
+	
+	- http://linux.die.net/
+
+
+	*TIEMPO DEDICADO:
+
+
+	- Hora y media en el estudio de las tranparencias de clase.
+	
+	- Media hora buscando y leyendo la documentación de las funciones recomendadas.
+
+	- Media hora para realizar una lectura en profundidad de la práctica
+	y comprender lo que nos pedían.
+
+	- Media hora para descargar y analizar el material de apoyo y así 
+	terminar de entender el funcionamiento de los programas a realizar.
+
+	- Tres horas escribiendo el código junto con sus pruebas en el shell
+
+	- Una hora en la realización de la documentación.
+
+	- Media hora haciendo pruebas y cambios tras recibir el resultado de los tests.
+
+
+	*COMETARIOS PERSONALES:
+ 
+
+	 En este trabajo creemos haber afianzado los conocimientos de C adquiridos
+	 en clase y que ya pusimos en práctica en la entrega anterior. Nuestro manejo
+	 de punteros ha mejorado considerablemente y ya no nos producen tanto respeto
+	 como antes, auque seguimos sin sentirnos del todo cómodos al usarlos. De todas
+	 formas esto se debe a la falta de práctica y seguramente con el tiempo deje
+	 de pasarnos.
+	
+	 Hemos visto que no es bueno reutilizar fragmentos enteros de código de programas
+	 anteriores cuando lo que te piden varía sustancialmente, ya que después las ideas
+	 son más difíciles de llevar a cabo, pues escribes sobre un código ya estructurado
+	 y tienes menos libertad para expresar tus ideas.	
+
+      	 Hemos ido realizando pruebas a medida que cambiábamos pequeñas partes del código,
+	 lo que nos ha permitido detectarlos de forma rápida y no nos han dado demasiados
+	 quebraderos de cabeza. Creemos que la clave es ir lentamente comprobando que
+	 lo que escribimos es correcto y no dejan que los errores se superpongan, ya que
+	 es entonces cuando encontrarlos se vuelve muy complicado.
+     
+         Por tanto, podemos concluir que hemos aprendido bastante en la realización de 
+	 esta práctica, hemos consolidado los conocimientos de C que hemos ido dando
+	 en clase durante el curso y los hemos aplicado de forma eficaz.

@@ -1,0 +1,174 @@
+PRÁCTICA 2: tarea 2.1			Autores: Ignacio Amaya y Eduardo Cortés
+=====================================================================================
+
+-FECHAS DE ENTREGA:
+	
+
+	*Primera entrega: 21 Noviembre 23:00 NOTA TESTS: 0
+	Problemas al compilar. 
+ 
+	*Segunda entrega: 22 Noviembre 3:00 NOTA TESTS: 15
+	Corregido el error al compilar.
+
+	*Tercera entrega:  22 Noviembre 7:00 NOTA TESTS: 16
+	Intento fallido de depurar delreves y secuencia.
+
+	*Cuarta entrega:  22 Noviembre 23:00 NOTA TESTS: 19
+	Corregidos errores en el formato de los errores y
+	en el tratamiento de errores de secuencia.
+	
+	*Quinta entrega: 23 Noviembre 23:00 NOTA TESTS: 18
+	Intento fallido de depurar delreves y secuencia.
+
+	*Sexta entrega: 23 Noviembre 23:00 NOTA TESTS: 22
+	Cambios significativos en delreves.
+
+	*Séptima entrega: 24 Noviembre 3:00 NOTA TESTS: 24
+	Corregidos saltos de línea dobles. 
+	
+	*Octava entrega: 24 Noviembre 23:00 NOTA TESTS: 24
+	Documentación terminada.
+
+
+-SOBRE EL DESARROLLO:
+
+       
+	*RESUMEN DE LOS TRABAJOS REALIZADOS:
+	
+
+	-Lectura y comprensión de la práctica.
+
+	-Descarga del material de apoyo.
+
+	-Repaso de las tranparencias de C. 
+
+	-Lectura del código auxiliar y comprensión del mismo.
+
+	-Implementación de secuencia y delreves.
+	
+	-Pruebas sobre el funcionamiento de ambos programas.
+	
+	-Corrección de errores que causaban
+	 un mal comportamiento de los programas.
+
+	-Pruebas sobre el tratamiento de errores.
+
+	-Correción de errores que afectaban al tratamiento de los errores.
+
+	-Envío de la práctica y depuración de los programas
+	 tras recibir el resultado de los tests.
+
+	 
+	*PROBLEMAS ENCONTRADOS Y RESOLUCIÓN DE LOS MISMOS:
+
+
+	-El primer problema que nos surgió fue a la hora de compilar.
+	Al realizar la primera entrega nos dimos cuenta de que el tester
+	no nos compilaba nuestros programas aunque nuestra máquina sí nos 
+	dejaba. Investigamos acerca de los parámetros del gcc pero, aunque
+	eso tenía algo que ver no era la fuente del problema. La causa del 
+	fallo era que teníamos en la cabecera de nuestro programa un include
+	erróneo. Importábamos auxiliar.h y auxiliar.c, mientras que lo correcto
+	era importar sólo auxiliar.h en las cabeceras de nuestros programas
+	y previamente haber compilado auxiliar con la opción -c y después
+	introducir el fichero objeto creado en la compilación de nuestros
+	programas mediante la opción -c del gcc.
+
+	-Otro problemilla que tuvimos que afrontar al inicio fueron los
+	errores que nos daba la función fputs. Nos imprimía símbolos extraños
+	seguramente porque le pasábamos a nuestros programas ficheros en 
+	formatos incompatibles. Como no nos veíamos capaces de solucionarlo 
+	decidimos no usar esta función y optamos por utilizar fprintf.
+ 
+	-En el programa secuencia nos costó encajar en el código la variable
+	de entorno MAX_OUTPUT ya que no habíamos entendido bien su funcionamiento
+	y no consideramos el caso en el que era igual a cero. Además nosotros
+	creíamos que si el número de caracteres a imprimir superaba a MAX_OUTPUT
+	entonces no se imprimía nada por lo que hicimos la comprobación previamente
+	mediante un cálculo matemático.
+
+	-Uno de los problemas que más quebraderos de cabeza nos costó fue el 
+	tratamiento de los saltos de línea en el programa delreves. Nos salían
+	espacios de más al principio o al final de leer y poner del revés cada 
+	fichero. No habíamos entendido bien el funcionamiento del programa y
+	creíamos que si un fichero terminaba con salto de línea debería dar 
+	una salida distinta a otro que terminaba sin él, mientras que al final
+	nos dimos cuenta de que esto no era así.
+
+	-Otra de las cuestiones que nos causaron problemas fue la posibilidad 
+	de que los datos nos lo pasaran por la entrada estándar. Cometimos el
+	error de situar este caso (en el que el número de argumentos es igual
+	a uno) después del caso general en que se le pasan ficheros al programa.
+	El código que habíamos realizado para recibir parámetros por la entrada
+	estándar era correcto pero al compilar nos saltaba el siguiente 
+	error: segmentation fault (core dumped). Invertimos una gran cantidad 
+	de tiempo en revisar nuestro código intentando encontrar dónde estaba
+	estba el error, pero no nos dábamos cuenta de que el fallo estaba en
+	el orden en que habíamos dispuesto nuestro código. Tras muchas pruebas
+	al final conseguimos darnos cuenta de lo que pasaba y solucionarlo.
+	
+
+	-Uno de los motivos que más nos ralentizaban a la hora de programar
+	era el tener que buscar continuamente el comportamiento de las distintas
+	funciones a realizar. Un ejemplo de esto fue al usar la función 
+	strtod para convertir cadenas de caracteres en números reales.
+	No sabíamos que era lo que la función nos devolvía en un puntero
+	a caracteres que se le pasaba como parámetro. Y este dato era clave
+	para realizar ciertas comprobaciones.
+
+
+	*BIBLIOGRAFÍA Y REFERENCIAS UTILIZADAS:
+
+
+	- http://stackoverflow.com/
+
+	- transparencias de la asignatura
+
+	- http://www.opengroup.org/
+	
+	- http://c.conclase.net/
+
+
+	*TIEMPO DEDICADO:
+
+
+	-Dos horas en el estudio de las tranparencias de clase.
+	
+	-Media buscando y leyendo la documentación de las funciones recomendadas.
+
+	- Una hora para realizar una lectura en profundidad de la práctica
+	y comprender lo que nos pedían.
+
+	- Media hora para descargar y analizar el material de apoyo y así 
+	terminar de entender el funcionamiento de los programas a realizar.
+
+	-Seis horas escribiendo el código junto con sus pruebas en el shell
+	(tres horas en delreves y otras tres en secuencia).
+
+	-Una hora en la realización de la documentación.
+
+	-Tres horas haciendo pruebas y cambios tras recibir el resultado de los tests.
+
+
+	*COMETARIOS PERSONALES:
+
+	
+       	 Podemos concluir que en este trabajo hemos aprendido a desenvolvernos en C
+	 y ahora podemos realizar una amplia gama de programas sencillos.
+	 Nos ha costado adaptarnos, debido en gran parte a los punteros que nos resultaron
+	 de difícil compresión.
+
+	 Nos hemos dado cuenta que es mejor hacer el código despacio para no tener errores, a 
+	 escribir rápido y dejando errores sin tratar para después,
+	 pues cuando te pones a depurar el programa a veces
+	 te sientes desorientado y no sabes qué empezar a cambiar.
+	 
+	 Otra de las cosas que hemos aprendido es de la importancia
+	 de las versiones en los programas, ya que en alguna ocasión que hicimos
+ 	 cambios en nuestro programa sin guardar la versión anterior bajamos
+	 nuestra nota del tester,pues habíamos realizado modificaciones erróneas.
+	 Esto nos dio mucha rabia y deseamos haber realizado una copia de la versión anterior.
+     
+         En definitiva creemos que ha sido una práctica bastante productiva en la que hemos aprendido
+	 bastante, aunque también nos ha supuesto bastante esfuerzo,
+         especialmente la depuración de nuestros programas.

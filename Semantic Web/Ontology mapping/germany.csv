@@ -1,0 +1,288 @@
+;;Subject;SubjectType;Germans Male;Germans Female;Germans Total;Foreigners Male;Foreigners Female;Foreigners Total;Total Male;Total Female;Total
+WT 2014/15;SF256;Administration of Justice;Law;468;1489;1957;-;-;-;468;1489;1957
+WT 2014/15;SF172;Administrative Science/Public Administration;Business & Administration;5214;6804;12018;262;365;627;5476;7169;12645
+WT 2014/15;SF321;Adult Education and Extracurricular Youth Educat.;Education;524;1735;2259;33;123;156;557;1858;2415
+WT 2014/15;SF057;Aeronautical and Aerospace Engineering;Engineering Sciences;5327;660;5987;762;134;896;6089;794;6883
+WT 2014/15;SF002;African Studies;Humanities & Social Sciences;388;764;1152;202;196;398;590;960;1550
+WT 2014/15;SF138;Agricultural Biology;Natural, Physical & Mathematical Sciences;149;212;361;108;81;189;257;293;550
+WT 2014/15;SF125;Agricultural Economics;Business & Administration;741;582;1323;218;189;407;959;771;1730
+WT 2014/15;SF003;Agricultural Science/Agriculture;Natural, Physical & Mathematical Sciences;7993;7427;15420;1023;894;1917;9016;8321;17337
+WT 2014/15;SF006;American Studies;Humanities & Social Sciences;936;2095;3031;185;487;672;1121;2582;3703
+WT 2014/15;SF272;Ancient History;Humanities & Social Sciences;157;119;276;27;21;48;184;140;324
+WT 2014/15;SF371;Animal Production;Natural, Physical & Mathematical Sciences;68;211;279;25;16;41;93;227;320
+WT 2014/15;SF009;Anthropology (Human Biology);Health Sciences;158;336;494;59;91;150;217;427;644
+WT 2014/15;SF007;Applied Art;Applied Arts;1432;2319;3751;216;288;504;1648;2607;4255
+WT 2014/15;SF284;Applied Linguistics;Humanities & Social Sciences;896;3895;4791;218;787;1005;1114;4682;5796
+WT 2014/15;SF253;Applied Social Science;Humanities & Social Sciences;5352;18417;23769;198;922;1120;5550;19339;24889
+WT 2014/15;SF140;Applied Systems Science;Information Technology;1612;317;1929;375;131;506;1987;448;2435
+WT 2014/15;SF010;Arabic/Arabic Studies;Humanities & Social Sciences;209;353;562;72;48;120;281;401;682
+WT 2014/15;SF012;Archaeology;Natural, Physical & Mathematical Sciences;2329;2798;5127;189;278;467;2518;3076;5594
+WT 2014/15;SF390;Archaeometry (Archaeological Engineering);Engineering Sciences;25;17;42;-;-;-;25;17;42
+WT 2014/15;SF013;Architecture;Architecture & Building;13529;16119;29648;2915;4103;7018;16444;20222;36666
+WT 2014/15;SF255;Archive Studies;Information Technology;92;125;217;4;8;12;96;133;229
+WT 2014/15;SF090;Area of study: Linguistics and Cultural Studies;Humanities & Social Sciences;456;2779;3235;2;67;69;458;2846;3304
+WT 2014/15;SF186;Area of study: Natural Sciences/General Studies;Natural, Physical & Mathematical Sciences;239;866;1105;6;34;40;245;900;1145
+WT 2014/15;SF154;Area of study: Social Studies;Humanities & Social Sciences;188;253;441;5;20;25;193;273;466
+WT 2014/15;SF199;Area of study: Technology;Engineering Sciences;632;296;928;14;6;20;646;302;948
+WT 2014/15;SF260;Armed Forces Administration;Business & Administration;136;154;290;-;-;-;136;154;290
+WT 2014/15;SF092;Art History, Art Theory;Applied Arts;2039;8659;10698;253;1150;1403;2292;9809;12101
+WT 2014/15;SF091;Arts Education;Education;940;4313;5253;101;343;444;1041;4656;5697
+WT 2014/15;SF187;Asian Languages and Cultures/Asian Studies;Humanities & Social Sciences;639;1154;1793;153;350;503;792;1504;2296
+WT 2014/15;SF014;Astronomy, Astrophysics;Natural, Physical & Mathematical Sciences;208;67;275;112;70;182;320;137;457
+WT 2014/15;SF235;Automotive Technology;Engineering Sciences;11154;669;11823;1986;267;2253;13140;936;14076
+WT 2014/15;SF016;Baltic Studies;Humanities & Social Sciences;5;4;9;-;2;2;5;6;11
+WT 2014/15;SF265;Banking;Business & Administration;368;255;623;2;4;6;370;259;629
+WT 2014/15;SF025;Biochemistry;Natural, Physical & Mathematical Sciences;3191;3883;7074;389;493;882;3580;4376;7956
+WT 2014/15;SF283;Biogeography (excluding SF385 since 2012);Natural, Physical & Mathematical Sciences;612;855;1467;17;35;52;629;890;1519
+WT 2014/15;SF221;Bioinformatics;Information Technology;1133;586;1719;208;161;369;1341;747;2088
+WT 2014/15;SF026;Biology;Natural, Physical & Mathematical Sciences;16941;29618;46559;2344;3402;5746;19285;33020;52305
+WT 2014/15;SF300;Biomedicine;Medicine;493;948;1441;183;250;433;676;1198;1874
+WT 2014/15;SF282;Biotechnology;Engineering Sciences;4922;5763;10685;553;634;1187;5475;6397;11872
+WT 2014/15;SF028;Brewing Science/Beverage Technology;Engineering Sciences;652;109;761;42;36;78;694;145;839
+WT 2014/15;SF021;Business Administration;Business & Administration;109394;98351;207745;10409;13633;24042;119803;111984;231787
+WT 2014/15;SF184;Business and Economics;Business & Administration;45597;34976;80573;4375;5800;10175;49972;40776;90748
+WT 2014/15;SF181;Business and Economics Education;Business & Administration;2686;4540;7226;96;253;349;2782;4793;7575
+WT 2014/15;SF370;Business Engineering spec. in Engineering Sciences;Engineering Sciences;44328;10582;54910;4473;2332;6805;48801;12914;61715
+WT 2014/15;SF179;Business Engineering specialising in Economics;Engineering Sciences;26627;8273;34900;2841;1416;4257;29468;9689;39157
+WT 2014/15;SF277;Business Informatics;Information Technology;37855;8125;45980;3974;2387;6361;41829;10512;52341
+WT 2014/15;SF042;Business Law;Law;8766;9963;18729;603;958;1561;9369;10921;20290
+WT 2014/15;SF276;Business Mathematics;Natural, Physical & Mathematical Sciences;4526;2908;7434;508;658;1166;5034;3566;8600
+WT 2014/15;SF031;Byzantine Studies;Humanities & Social Sciences;12;19;31;18;8;26;30;27;57
+WT 2014/15;SF162;Caritas Science;Health Sciences;40;70;110;15;16;31;55;86;141
+WT 2014/15;SF280;Cartography;Information Technology;313;167;480;72;68;140;385;235;620
+WT 2014/15;SF545;Catholic Religious Pedagogy, Church Educat. Work;Humanities & Social Sciences;137;239;376;2;11;13;139;250;389
+WT 2014/15;SF086;Catholic Theology, Catholic Religious Education;Humanities & Social Sciences;3343;4348;7691;478;187;665;3821;4535;8356
+WT 2014/15;SF180;Caucasian Studies;Humanities & Social Sciences;3;2;5;-;1;1;3;3;6
+WT 2014/15;SF033;Chemical Engineering/Chemical Technology;Engineering Sciences;5821;2902;8723;777;723;1500;6598;3625;10223
+WT 2014/15;SF032;Chemistry;Natural, Physical & Mathematical Sciences;24163;14740;38903;2829;2630;5459;26992;17370;44362
+WT 2014/15;SF193;Church Music;Applied Arts;260;124;384;38;71;109;298;195;493
+WT 2014/15;SF017;Civil Engineering/Structural Engineering;Engineering Sciences;32597;12492;45089;5994;2494;8488;38591;14986;53577
+WT 2014/15;SF005;Classical Philology;Humanities & Social Sciences;206;250;456;39;51;90;245;301;546
+WT 2014/15;SF303;Communication Science/Journalism;Mass Communication;5225;10713;15938;321;1273;1594;5546;11986;17532
+WT 2014/15;SF109;Communication Studies (cl. with SF303 since 2008);Mass Communication;-;-;-;-;-;-;-;-;-
+WT 2014/15;SF191;Composition;Applied Arts;148;32;180;109;89;198;257;121;378
+WT 2014/15;SF123;Computational Engineer./Technical Computer Science;Information Technology;7600;961;8561;1340;338;1678;8940;1299;10239
+WT 2014/15;SF200;Computer and Communication Technology;Information Technology;2448;1240;3688;579;201;780;3027;1441;4468
+WT 2014/15;SF160;Computer Linguistics;Information Technology;628;446;1074;165;279;444;793;725;1518
+WT 2014/15;SF079;Computer Science;Information Technology;68429;11970;80399;10862;3655;14517;79291;15625;94916
+WT 2014/15;SF192;Conducting;Services;99;53;152;86;76;162;185;129;314
+WT 2014/15;SF269;Customs and Tax Administration;Accountancy;1836;2389;4225;1;1;2;1837;2390;4227
+WT 2014/15;SF209;Czech;Humanities & Social Sciences;10;12;22;-;7;7;10;19;29
+WT 2014/15;SF220;Dairy Farming;Business & Administration;48;55;103;7;10;17;55;65;120
+WT 2014/15;SF106;Dance Education;Applied Arts;33;127;160;51;128;179;84;255;339
+WT 2014/15;SF034;Danish;Humanities & Social Sciences;17;53;70;-;-;-;17;53;70
+WT 2014/15;SF185;Dentistry;Medicine;4505;8428;12933;969;1118;2087;5474;9546;15020
+WT 2014/15;SF037;Documentation Science;Accountancy;116;197;313;13;25;38;129;222;351
+WT 2014/15;SF071;Domestic and Nutritional Sciences;Health Sciences;1351;6101;7452;118;380;498;1469;6481;7950
+WT 2014/15;SF333;Domestic Science;Services;50;170;220;-;6;6;50;176;226
+WT 2014/15;SF102;Drama Studies;Applied Arts;263;241;504;29;25;54;292;266;558
+WT 2014/15;SF119;Dutch;Humanities & Social Sciences;174;335;509;14;34;48;188;369;557
+WT 2014/15;SF365;Early Childhood Pedagogy;Education;197;1419;1616;6;69;75;203;1488;1691
+WT 2014/15;SF044;Eastern and South Eastern Europe;Humanities & Social Sciences;227;402;629;48;137;185;275;539;814
+WT 2014/15;SF178;Economic/Social Geography;Humanities & Social Sciences;226;209;435;8;15;23;234;224;458
+WT 2014/15;SF183;Economic/Social History;Humanities & Social Sciences;100;98;198;6;14;20;106;112;218
+WT 2014/15;SF175;Economics;Business & Administration;13504;6142;19646;1878;2172;4050;15382;8314;23696
+WT 2014/15;SF063;Ed. of the Ment. Disabl./P. able to do Pract. Work;Education;279;1074;1353;2;8;10;281;1082;1363
+WT 2014/15;SF051;Educa. of People with Emot. or Behav. Difficulties;Education;195;1001;1196;2;26;28;197;1027;1224
+WT 2014/15;SF170;Education of People with Behavioural Disorders;Education;149;606;755;1;17;18;150;623;773
+WT 2014/15;SF099;Education of People with Learning Difficulties;Education;854;3230;4084;5;68;73;859;3298;4157
+WT 2014/15;SF027;Education of the Blind and Visually Impaired;Education;11;29;40;-;-;-;11;29;40
+WT 2014/15;SF062;Education of the Deaf and Hearing Impaired;Education;40;353;393;1;14;15;41;367;408
+WT 2014/15;SF087;Education of the Physically Disabled;Education;103;310;413;1;1;2;104;311;415
+WT 2014/15;SF052;Educational Science (Pedagogy);Education;12862;46476;59338;691;3621;4312;13553;50097;63650
+WT 2014/15;SF001;Egyptology;Humanities & Social Sciences;145;332;477;23;36;59;168;368;536
+WT 2014/15;SF048;Electrical Engineering/Electronics;Engineering Sciences;49117;4585;53702;13075;2955;16030;62192;7540;69732
+WT 2014/15;SF316;Electrical Power Engineering;Engineering Sciences;2248;327;2575;389;101;490;2637;428;3065
+WT 2014/15;SF211;Energy Engineering (excl. Electrical Engineering);Engineering Sciences;6775;1379;8154;846;286;1132;7621;1665;9286
+WT 2014/15;SF224;Engineering Physics;Engineering Sciences;3162;695;3857;618;171;789;3780;866;4646
+WT 2014/15;SF008;English Studies;Humanities & Social Sciences;12003;30226;42229;1099;3433;4532;13102;33659;46761
+WT 2014/15;SF458;Environmental Protection;Natural, Physical & Mathematical Sciences;1269;1203;2472;323;243;566;1592;1446;3038
+WT 2014/15;SF457;Environmental Technology (including Recycling);Engineering Sciences;5965;2840;8805;583;500;1083;6548;3340;9888
+WT 2014/15;SF169;Ethics;Humanities & Social Sciences;328;664;992;20;46;66;348;710;1058
+WT 2014/15;SF173;Ethnology;Humanities & Social Sciences;1102;3112;4214;160;399;559;1262;3511;4773
+WT 2014/15;SF167;European Economic Studies;Humanities & Social Sciences;2077;2080;4157;120;229;349;2197;2309;4506
+WT 2014/15;SF024;European Ethnology and Cultural Studies;Humanities & Social Sciences;599;2111;2710;190;406;596;789;2517;3306
+WT 2014/15;SF464;Facility Management;Services;1762;1188;2950;84;59;143;1846;1247;3093
+WT 2014/15;SF054;Film and Television Studies;Applied Arts;1223;1005;2228;138;202;340;1361;1207;2568
+WT 2014/15;SF266;Financial Administration;Business & Administration;744;945;1689;-;4;4;744;949;1693
+WT 2014/15;SF023;Fine Arts/Graphics;Applied Arts;1235;1573;2808;344;584;928;1579;2157;3736
+WT 2014/15;SF056;Finno-Ugrian Studies;Humanities & Social Sciences;38;119;157;8;15;23;46;134;180
+WT 2014/15;SF174;Folklore;Applied Arts;472;1430;1902;29;144;173;501;1574;2075
+WT 2014/15;SF096;Food Chemistry;Natural, Physical & Mathematical Sciences;696;1683;2379;29;112;141;725;1795;2520
+WT 2014/15;SF097;Food Technology;Engineering Sciences;1872;2461;4333;108;203;311;1980;2664;4644
+WT 2014/15;SF259;Foreign Affairs Administration;Humanities & Social Sciences;46;110;156;-;-;-;46;110;156
+WT 2014/15;SF058;Forest Science, Forestry;Natural, Physical & Mathematical Sciences;3597;1741;5338;410;321;731;4007;2062;6069
+WT 2014/15;SF196;Foundation Course;;-;-;-;-;-;-;-;-;-
+WT 2014/15;SF059;French;Humanities & Social Sciences;1175;5835;7010;181;648;829;1356;6483;7839
+WT 2014/15;SF019;Frisian (deleted in 2007);;-;-;-;-;-;-;-;-;-
+WT 2014/15;SF159;Gemstone and Jewellery Design;Applied Arts;11;79;90;8;30;38;19;109;128
+WT 2014/15;SF152;General Linguistics/Indo-European Studies;Humanities & Social Sciences;1332;4169;5501;276;939;1215;1608;5108;6716
+WT 2014/15;SF188;General Literary Studies;Humanities & Social Sciences;836;2907;3743;157;528;685;993;3435;4428
+WT 2014/15;SF254;General Studies (including School Garden);Humanities & Social Sciences;33;182;215;1;-;1;34;182;216
+WT 2014/15;SF385;Geoecology;Natural, Physical & Mathematical Sciences;493;548;1041;25;26;51;518;574;1092
+WT 2014/15;SF050;Geography;Natural, Physical & Mathematical Sciences;11119;9985;21104;538;576;1114;11657;10561;22218
+WT 2014/15;SF065;Geology/Palaeontology;Natural, Physical & Mathematical Sciences;437;258;695;141;91;232;578;349;927
+WT 2014/15;SF066;Geophysics;Natural, Physical & Mathematical Sciences;1441;1507;2948;134;84;218;1575;1591;3166
+WT 2014/15;SF039;Geosciences;Natural, Physical & Mathematical Sciences;6610;4035;10645;699;510;1209;7309;4545;11854
+WT 2014/15;SF271;German as a Foreign Language;Humanities & Social Sciences;230;1521;1751;230;935;1165;460;2456;2916
+WT 2014/15;SF067;German Studies/German;Humanities & Social Sciences;16105;52716;68821;1912;7359;9271;18017;60075;78092
+WT 2014/15;SF216;Glass Technology/Ceramics;Engineering Sciences;190;75;265;14;12;26;204;87;291
+WT 2014/15;SF069;Graphic Design/Communication Design;Applied Arts;6563;9198;15761;726;1394;2120;7289;10592;17881
+WT 2014/15;SF070;Greek;Humanities & Social Sciences;254;227;481;39;79;118;293;306;599
+WT 2014/15;SF061;Ground Improvement;Humanities & Social Sciences;-;-;-;-;-;-;-;-;-
+WT 2014/15;SF201;Handicrafts (technical)/Technology;Engineering Sciences;147;243;390;4;17;21;151;260;411
+WT 2014/15;SF176;Handicrafts Education;Education;23;67;90;-;1;1;23;68;91
+WT 2014/15;SF198;Health a. Soc. Care Man. (cl. w. SF232 since 2004);Health Sciences;-;-;-;-;-;-;-;-;-
+WT 2014/15;SF195;Health Education;Education;445;2356;2801;6;52;58;451;2408;2859
+WT 2014/15;SF232;Health Science/Health Management;Health Sciences;8714;20222;28936;570;1201;1771;9284;21423;30707
+WT 2014/15;SF215;Health Technology;Health Sciences;5151;4119;9270;901;626;1527;6052;4745;10797
+WT 2014/15;SF073;Hebrew/Judaic Studies;Humanities & Social Sciences;231;422;653;33;74;107;264;496;760
+WT 2014/15;SF068;History;Humanities & Social Sciences;19024;14068;33092;1176;1419;2595;20200;15487;35687
+WT 2014/15;SF275;History of Mathematics and Natural Sciences;Natural, Physical & Mathematical Sciences;37;20;57;4;9;13;41;29;70
+WT 2014/15;SF060;Horticulture;Humanities & Social Sciences;995;746;1741;97;90;187;1092;836;1928
+WT 2014/15;SF094;Hydraulic Engineering;Engineering Sciences;757;438;1195;83;81;164;840;519;1359
+WT 2014/15;SF117;Immigrant Education;Education;20;145;165;22;47;69;42;192;234
+WT 2014/15;SF078;Indology;Humanities & Social Sciences;72;110;182;21;26;47;93;136;229
+WT 2014/15;SF203;Industrial Design/Product Design;Engineering Sciences;1722;1523;3245;236;309;545;1958;1832;3790
+WT 2014/15;SF080;Instrumental Music;Applied Arts;1354;1225;2579;1790;2443;4233;3144;3668;6812
+WT 2014/15;SF030;Interdisc. St. (spec. in Law, Econ. and Soc. Sci.);Law;5247;6208;11455;621;1086;1707;5868;7294;13162
+WT 2014/15;SF004;Interdisc. Stud. (spec. in Ling. and Cult. Stud.);Humanities & Social Sciences;5216;14376;19592;898;2456;3354;6114;16832;22946
+WT 2014/15;SF040;Interdisc. Studies (special. in Art, Art Theory);Applied Arts;243;663;906;42;108;150;285;771;1056
+WT 2014/15;SF049;Interdisc. Studies (special. in Natural Sciences);Natural, Physical & Mathematical Sciences;2090;2204;4294;520;425;945;2610;2629;5239
+WT 2014/15;SF072;Interdisc. Studies (specialising in Engineering);Engineering Sciences;10726;3356;14082;1601;767;2368;12327;4123;16450
+WT 2014/15;SF242;Interior Architecture;Architecture & Building;401;2614;3015;66;327;393;467;2941;3408
+WT 2014/15;SF261;Internal Administration;Business & Administration;1662;3126;4788;17;49;66;1679;3175;4854
+WT 2014/15;SF182;International Business Studies/Management;Business & Administration;15689;19681;35370;4544;5303;9847;20233;24984;45217
+WT 2014/15;SF081;Iranian Studies;Humanities & Social Sciences;52;92;144;34;48;82;86;140;226
+WT 2014/15;SF083;Islamic Studies;Humanities & Social Sciences;647;1240;1887;254;354;608;901;1594;2495
+WT 2014/15;SF084;Italian;Humanities & Social Sciences;238;1014;1252;93;378;471;331;1392;1723
+WT 2014/15;SF085;Japanese Studies;Humanities & Social Sciences;1350;1760;3110;120;282;402;1470;2042;3512
+WT 2014/15;SF164;Jazz and Popular Music;Applied Arts;889;263;1152;119;52;171;1008;315;1323
+WT 2014/15;SF252;Journalism (classified with SF303 since 2008);Mass Communication;-;-;-;-;-;-;-;-;-
+WT 2014/15;SF258;Labour Administration;Business & Administration;220;578;798;2;6;8;222;584;806
+WT 2014/15;SF093;Land Management Engineering/Landscape Design;Engineering Sciences;2127;2564;4691;117;236;353;2244;2800;5044
+WT 2014/15;SF095;Latin;Humanities & Social Sciences;1618;2306;3924;33;86;119;1651;2392;4043
+WT 2014/15;SF038;Latin America;Humanities & Social Sciences;177;440;617;33;79;112;210;519;729
+WT 2014/15;SF135;Law;Law;45762;53463;99225;3648;6732;10380;49410;60195;109605
+WT 2014/15;SF168;Law Enforcement;Law;60;58;118;-;-;-;60;58;118
+WT 2014/15;SF262;Librarianship;Humanities & Social Sciences;10;29;39;-;-;-;10;29;39
+WT 2014/15;SF022;Library Scien., Lib. (not at u. of app. adm. sci.);Humanities & Social Sciences;681;2233;2914;39;147;186;720;2380;3100
+WT 2014/15;SF189;Low German;Humanities & Social Sciences;5;24;29;-;1;1;5;25;30
+WT 2014/15;SF202;Manufacturing Technology/Production Engineering;Engineering Sciences;6126;835;6961;1356;229;1585;7482;1064;8546
+WT 2014/15;SF177;Materials Science;Natural, Physical & Mathematical Sciences;5051;1452;6503;1008;509;1517;6059;1961;8020
+WT 2014/15;SF237;Mathematical Statistics/Probability Calculation;Natural, Physical & Mathematical Sciences;1040;900;1940;161;188;349;1201;1088;2289
+WT 2014/15;SF105;Mathematics;Natural, Physical & Mathematical Sciences;28809;26568;55377;2595;2295;4890;31404;28863;60267
+WT 2014/15;SF104;Mechanical Engineering;Engineering Sciences;91651;9997;101648;14772;2682;17454;106423;12679;119102
+WT 2014/15;SF380;Mechatronics;Engineering Sciences;13307;997;14304;2471;308;2779;15778;1305;17083
+WT 2014/15;SF304;Media Economics/Media Management;Business & Administration;3144;5293;8437;189;389;578;3333;5682;9015
+WT 2014/15;SF121;Media Informatics;Information Technology;10644;4357;15001;892;583;1475;11536;4940;16476
+WT 2014/15;SF302;Media Science;Mass Communication;3657;7061;10718;320;920;1240;3977;7981;11958
+WT 2014/15;SF133;Media St./Com./Info. Sc. (cl. w. SF303 since 2008);Mass Communication;-;-;-;-;-;-;-;-;-
+WT 2014/15;SF305;Media Technology;Engineering Sciences;3909;2375;6284;214;174;388;4123;2549;6672
+WT 2014/15;SF247;Medical Informatics;Information Technology;1249;813;2062;221;305;526;1470;1118;2588
+WT 2014/15;SF107;Medicine (General Medicine);Medicine;29661;47770;77431;4850;5582;10432;34511;53352;87863
+WT 2014/15;SF273;Medieval and Modern History;Humanities & Social Sciences;658;512;1170;58;60;118;716;572;1288
+WT 2014/15;SF076;Metallurgy and Foundry;Engineering Sciences;690;205;895;233;124;357;923;329;1252
+WT 2014/15;SF108;Metals Technology;Engineering Sciences;603;120;723;9;6;15;612;126;738
+WT 2014/15;SF110;Meteorology;Natural, Physical & Mathematical Sciences;898;647;1545;62;83;145;960;730;1690
+WT 2014/15;SF157;Microelectronics;Engineering Sciences;153;4;157;130;34;164;283;38;321
+WT 2014/15;SF286;Microsystems Technology;Engineering Sciences;1525;266;1791;794;180;974;2319;446;2765
+WT 2014/15;SF103;Mine Surveying;Engineering Sciences;13;8;21;2;2;4;15;10;25
+WT 2014/15;SF111;Mineralogy;Natural, Physical & Mathematical Sciences;53;40;93;31;19;50;84;59;143
+WT 2014/15;SF020;Mining/Mine Engineering;Engineering Sciences;1279;197;1476;342;78;420;1621;275;1896
+WT 2014/15;SF043;Modern Greek;Humanities & Social Sciences;8;24;32;16;45;61;24;69;93
+WT 2014/15;SF113;Music Education;Applied Arts;3303;4227;7530;213;467;680;3516;4694;8210
+WT 2014/15;SF114;Musicology/History of Music;Humanities & Social Sciences;2447;2520;4967;276;534;810;2723;3054;5777
+WT 2014/15;SF064;Nature Conservation;Natural, Physical & Mathematical Sciences;350;507;857;119;150;269;469;657;1126
+WT 2014/15;SF223;Nautical Science/Maritime Studies;Natural, Physical & Mathematical Sciences;1075;226;1301;36;10;46;1111;236;1347
+WT 2014/15;SF142;Naval Architecture/Ship Technology;Architecture & Building;823;146;969;163;27;190;986;173;1159
+WT 2014/15;SF287;New Media;Mass Communication;775;632;1407;136;162;298;911;794;1705
+WT 2014/15;SF015;Non-Europ. Lang. and Cult. in Oceania and America;Humanities & Social Sciences;82;156;238;36;69;105;118;225;343
+WT 2014/15;SF233;Non-medical Healthcare Professions/Therapies;Health Sciences;1742;6668;8410;402;780;1182;2144;7448;9592
+WT 2014/15;SF120;Nordic/Scand. St. (Nord. Phil., ind. lang. n.e.c.);Humanities & Social Sciences;395;1194;1589;34;95;129;429;1289;1718
+WT 2014/15;SF241;Nuclear Technology/Nuclear Process Technology;Engineering Sciences;15;5;20;6;-;6;21;5;26
+WT 2014/15;SF047;Nursing Education (classif. with SF234 since 2004);Education;-;-;-;-;-;-;-;-;-
+WT 2014/15;SF234;Nursing Science/Nursing Management;Health Sciences;2654;8078;10732;69;324;393;2723;8402;11125
+WT 2014/15;SF320;Nutritional Science;Health Sciences;341;2211;2552;45;193;238;386;2404;2790
+WT 2014/15;SF018;Occupation-specific Foreign Language Training;Humanities & Social Sciences;454;1238;1692;80;270;350;534;1508;2042
+WT 2014/15;SF257;Occupational Guidance and Career Counselling;Humanities & Social Sciences;39;161;200;-;2;2;39;163;202
+WT 2014/15;SF124;Oceanography;Natural, Physical & Mathematical Sciences;13;7;20;8;7;15;21;14;35
+WT 2014/15;SF143;Ophthalmic Optics;Engineering Sciences;217;557;774;31;29;60;248;586;834
+WT 2014/15;SF088;Optoelectronics;Engineering Sciences;587;152;739;122;36;158;709;188;897
+WT 2014/15;SF165;Orchestral Music;Applied Arts;433;441;874;405;557;962;838;998;1836
+WT 2014/15;SF122;Oriental Studies, Ancient Oriental Studies;Humanities & Social Sciences;634;893;1527;137;211;348;771;1104;1875
+WT 2014/15;SF036;Other regional studies;Humanities & Social Sciences;173;276;449;45;95;140;218;371;589
+WT 2014/15;SF290;Other subjects;Humanities & Social Sciences;660;1129;1789;569;699;1268;1229;1828;3057
+WT 2014/15;SF204;Painting;Applied Arts;189;219;408;80;117;197;269;336;605
+WT 2014/15;SF161;Pastoral Care Studies;Humanities & Social Sciences;79;150;229;8;10;18;87;160;247
+WT 2014/15;SF035;Performing Arts/Stagecraft/Directing;Applied Arts;329;763;1092;140;274;414;469;1037;1506
+WT 2014/15;SF126;Pharmacy;Health Sciences;3973;9318;13291;698;1279;1977;4671;10597;15268
+WT 2014/15;SF127;Philosophy;Humanities & Social Sciences;8940;6359;15299;1214;923;2137;10154;7282;17436
+WT 2014/15;SF128;Physics;Natural, Physical & Mathematical Sciences;31519;10860;42379;3592;1601;5193;35111;12461;47572
+WT 2014/15;SF353;Plant Production;Business & Administration;376;309;685;19;10;29;395;319;714
+WT 2014/15;SF219;Plastics Technology;Engineering Sciences;1216;214;1430;146;32;178;1362;246;1608
+WT 2014/15;SF263;Police/Protection of the Constitution;Humanities & Social Sciences;9526;4526;14052;64;18;82;9590;4544;14134
+WT 2014/15;SF206;Polish;Humanities & Social Sciences;37;99;136;8;42;50;45;141;186
+WT 2014/15;SF129;Political Science;Humanities & Social Sciences;15361;10443;25804;1960;2481;4441;17321;12924;30245
+WT 2014/15;SF131;Portuguese;Humanities & Social Sciences;20;83;103;14;41;55;34;124;158
+WT 2014/15;SF212;Precision Engineering;Engineering Sciences;578;30;608;94;9;103;672;39;711
+WT 2014/15;SF548;Prehistory and Early History;Humanities & Social Sciences;430;503;933;31;46;77;461;549;1010
+WT 2014/15;SF115;Primary School Education/Primary Level Education;Education;601;3595;4196;13;94;107;614;3689;4303
+WT 2014/15;SF231;Printing and Reproduction Technology;Education;1100;876;1976;187;180;367;1287;1056;2343
+WT 2014/15;SF226;Process Engineering;Business & Administration;6769;3445;10214;905;700;1605;7674;4145;11819
+WT 2014/15;SF544;Protestant Religious Pedagogy, Church Educat. Work;Humanities & Social Sciences;240;529;769;9;12;21;249;541;790
+WT 2014/15;SF053;Protestant Theology, Protes. Religious Education;Humanities & Social Sciences;4782;7033;11815;404;261;665;5186;7294;12480
+WT 2014/15;SF132;Psychology;Humanities & Social Sciences;15254;44900;60154;1003;3517;4520;16257;48417;64674
+WT 2014/15;SF136;Religious Studies;Humanities & Social Sciences;677;1159;1836;97;142;239;774;1301;2075
+WT 2014/15;SF310;Renewable Energy;Engineering Sciences;571;132;703;132;49;181;703;181;884
+WT 2014/15;SF101;Restoration Studies;Humanities & Social Sciences;193;817;1010;15;56;71;208;873;1081
+WT 2014/15;SF163;Rhythmics;Applied Arts;7;33;40;2;10;12;9;43;52
+WT 2014/15;SF137;Romance Studies (Rom. Phil., indiv. lang. n.e.c.);Humanities & Social Sciences;731;3102;3833;272;1075;1347;1003;4177;5180
+WT 2014/15;SF139;Russian;Humanities & Social Sciences;289;730;1019;61;288;349;350;1018;1368
+WT 2014/15;SF361;School Pedagogy;Education;321;593;914;30;35;65;351;628;979
+WT 2014/15;SF205;Sculpting/Statuary Art;Applied Arts;161;200;361;52;130;182;213;330;543
+WT 2014/15;SF230;Singing;Applied Arts;266;562;828;244;348;592;510;910;1420
+WT 2014/15;SF145;Sinology/Korean Studies;Humanities & Social Sciences;1099;1628;2727;171;481;652;1270;2109;3379
+WT 2014/15;SF146;Slavic Studies (Slavic Philology);Humanities & Social Sciences;487;1158;1645;145;693;838;632;1851;2483
+WT 2014/15;SF046;Soc. Med./Pub. Health (cl. with SF232 since 2004);Health Sciences;-;-;-;-;-;-;-;-;-
+WT 2014/15;SF245;Social Pedagogy;Education;1263;5713;6976;36;174;210;1299;5887;7186
+WT 2014/15;SF148;Social Science;Health Sciences;7846;10321;18167;697;1381;2078;8543;11702;20245
+WT 2014/15;SF264;Social Security Administration;Business & Administration;502;1126;1628;3;2;5;505;1128;1633
+WT 2014/15;SF147;Social Studies;HUmanities & Social Sciences;1629;1529;3158;53;96;149;1682;1625;3307
+WT 2014/15;SF208;Social Work;Humanities & Social Sciences;8974;27826;36800;457;1697;2154;9431;29523;38954
+WT 2014/15;SF149;Sociology;Humanities & Social Sciences;6724;10574;17298;552;1344;1896;7276;11918;19194
+WT 2014/15;SF207;Sorbian;Humanities & Social Sciences;5;22;27;-;2;2;5;24;29
+WT 2014/15;SF194;Sound Engineering;Engineering Sciences;387;43;430;35;14;49;422;57;479
+WT 2014/15;SF153;South Slavic (Bulgar., Serbo-Croat., Slovene etc.);Humanities & Social Sciences;11;22;33;5;11;16;16;33;49
+WT 2014/15;SF150;Spanish;Humanities & Social Sciences;1294;4677;5971;264;745;1009;1558;5422;6980
+WT 2014/15;SF134;Spatial Planning;Engineering Sciences;2328;2350;4678;347;547;894;2675;2897;5572
+WT 2014/15;SF190;Special Needs Education;Education;1040;5600;6640;21;176;197;1061;5776;6837
+WT 2014/15;SF151;Speech Therapy/Logopedics;Education;80;1029;1109;1;25;26;81;1054;1135
+WT 2014/15;SF098;Sports Education/Sports Psychology;Education;6008;4244;10252;229;148;377;6237;4392;10629
+WT 2014/15;SF166;Sports Management/Sports Economics;Business & Administration;2512;1154;3666;137;75;212;2649;1229;3878
+WT 2014/15;SF029;Sports Science;Health Sciences;10551;6122;16673;556;240;796;11107;6362;17469
+WT 2014/15;SF429;Steel Construction;Engineering Sciences;36;1;37;-;1;1;36;2;38
+WT 2014/15;SF213;Supply Technology;Engineering Sciences;3335;403;3738;215;79;294;3550;482;4032
+WT 2014/15;SF171;Surveying (Geodesy);Humanities & Social Sciences;3402;1408;4810;556;306;862;3958;1714;5672
+WT 2014/15;SF144;Technical Cybernetics;Information Technology;472;104;576;32;12;44;504;116;620
+WT 2014/15;SF118;Technomathematics;Natural, Physical & Mathematical Sciences;1257;384;1641;83;51;134;1340;435;1775
+WT 2014/15;SF222;Telecommunications/Information Engineering;Information Technology;5479;736;6215;1994;473;2467;7473;1209;8682
+WT 2014/15;SF225;Textile and Clothing Technology/Industry;Business & Administration;352;2610;2962;210;309;519;562;2919;3481
+WT 2014/15;SF116;Textile Design;Business & Administration;265;2619;2884;58;423;481;323;3042;3365
+WT 2014/15;SF155;Theatre Studies;Applied Arts;735;2221;2956;57;276;333;792;2497;3289
+WT 2014/15;SF197;Timber Construction;Engineering Sciences;644;109;753;14;2;16;658;111;769
+WT 2014/15;SF274;Tourism Management;Business & Administration;1406;6409;7815;252;727;979;1658;7136;8794
+WT 2014/15;SF074;Transport and Conveying Technology;Engineering Sciences;389;23;412;43;1;44;432;24;456
+WT 2014/15;SF210;Transport Economics;Business & Administration;1282;660;1942;146;124;270;1428;784;2212
+WT 2014/15;SF089;Transport Engineering;Engineering Sciences;3728;1092;4820;517;187;704;4245;1279;5524
+WT 2014/15;SF268;Transportation Systems;Engineering Sciences;-;-;-;-;-;-;-;-;-
+WT 2014/15;SF158;Turkish Studies;Humanities & Social Sciences;91;272;363;76;135;211;167;407;574
+WT 2014/15;SF156;Veterinary Medicine;Medicine;1099;6457;7556;194;404;598;1293;6861;8154
+WT 2014/15;SF227;Viticulture and Oenology;Business & Administration;631;308;939;85;44;129;716;352;1068
+WT 2014/15;SF270;Vocational Education;Education;712;802;1514;60;97;157;772;899;1671
+WT 2014/15;SF141;Waste Management;Business & Administration;61;31;92;6;2;8;67;33;100
+WT 2014/15;SF077;Water Management;Business & Administration;863;451;1314;221;191;412;1084;642;1726
+WT 2014/15;SF130;Western Slavic (general and n.e.c.);Humanities & Social Sciences;29;42;71;7;29;36;36;71;107
+WT 2014/15;SF082;Wood and Fibre Technology;Engineering Sciences;920;152;1072;41;19;60;961;171;1132
+WT 2014/15;SF075;Wood Science;Natural, Physical & Mathematical Sciences;326;92;418;20;7;27;346;99;445
+WT 2014/15;SF011;Work Studies/Business Studies;Business & Administration;846;1326;2172;21;55;76;867;1381;2248

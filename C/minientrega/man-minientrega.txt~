@@ -1,0 +1,47 @@
+NOMBRE
+       minientrega.sh - entrega automática de prácticas
+
+RESUMEN
+       minientrega.sh [OPTION]... ID_PRACTICA...
+
+DESCRIPCIÓN
+       Obtiene a través de ID_PRACTICA información relacionada con dicha
+       práctica. Si este identificador es válido y la entrega no está fuera de
+       plazo comprobará si existen los archivos a entegar y, de existir, los
+       copia al directorio correspondiente.
+
+       EL ID_PRACTICA debe referirse a un archivo que se encuentre en el 
+       directorio que indique la variable MINIENTREGA_CONF. En caso de no 
+       existir esta variable antes de ejecutar el script no se podrá realizar
+       la entrega. Este fichero debe contener la definición de las siguientes
+       variables de entorno en un formato compatible con bash.
+
+       		 MINIENTREGA_FECHALIMITE: fecha límite de entrega en formato
+		 Año-Mes-Día.
+		 MINIETREGA_FICHEROS: lista de ficheros que deben ser
+		 entregados.
+		 MINIENTREGA_DESTINO: directorio de destino donde se copiarán
+		 los ficheros a entregar en un nuevo directorio cuyo nombre
+		 coincidirá con el usuario que esté realizando la entrega.
+
+       -h, --help
+              muestra la ayuda y termina
+
+   Exit status:
+
+       0      si funcionó correctamente
+
+       64     if minor problems (e.g., cannot access subdirectory),
+
+       65     if serious trouble (e.g., cannot access command-line argument).
+
+       66
+
+       73
+
+AUTOR
+       Escrito por Ignacio Amaya y Eduardo Cortés.
+
+REPORTAR PROBLEMAS
+       Reportar problemas de minientrega.sh a t11m021@alumnos.fi.upm.es.
+      

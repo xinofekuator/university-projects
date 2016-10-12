@@ -1,0 +1,272 @@
+---
+title: "Assignment 2"
+author: "Ignacio Amaya"
+date: "19 de diciembre de 2015"
+output: pdf_document
+---
+
+DATA DESCRIPTION:
+Monthly interest rate of unsubsidised (no subvencionadas) loans for home purchase (percentage).
+Monthly time series from january 2000 to december 2004.
+Source: Banco de España (www.bde.es)
+```{r}
+library(TSA)
+library(forecast)
+library(astsa)
+dataAsigment2 <- read.csv("~/MIS DOCUMENTOS/DATA SCIENCE MASTER (EIT DIGITAL)/Intelligent Data Analysis (statistics)/Assignment 2 (time series)/dataAsigment2.csv", sep=";")
+```
+
+```{r}
+g12data=ts(dataAsigment2$Tipo,start=c(1995,1), end=c(2013,9),frequency=12)
+str(g12data)
+plot(g12data)
+tsdisplay(g12data, plot.type="partial")
+tsdisplay(g12data, plot.type="scatter") #The one Arminda likes most
+```
+
+Let's apply BoxCox transformations to check if it is possible to apply a logaritmic transformation to our time series.
+```{r}
+BoxCox.lambda(g12data,lower=0, upper=2)
+tsdisplay(log(g12data), plot.type="scatter")
+```
+As it is not close to zero we can't apply this transformation. There is a slight improvement because we can see in the third plot that the values are more spread across the plot.
+
+We can observe that we have a linear trend (decreasing values over time) and a seasonal component as after some years decreasing the time series goes up again (and that happens several times).
+
+```{r}
+## Holt-Winters smoothing with series with linear trend and seasonal variation
+
+smoothing1=HoltWinters(g12data,gamma=FALSE,beta=FALSE)
+smoothing2=HoltWinters(g12data,gamma=FALSE)
+smoothing3=HoltWinters(g12data)
+smoothing4=HoltWinters(g12data,seasonal = "mult")
+  
+forecast1=predict(smoothing1, n.ahead=6, prediction.interval=TRUE, level=0.95)
+forecast2=predict(smoothing2, n.ahead=6, prediction.interval=TRUE, level=0.95)
+forecast3=predict(smoothing3, n.ahead=6, prediction.interval=TRUE, level=0.95)
+forecast4=predict(smoothing4, n.ahead=6, prediction.interval=TRUE,level=0.95)
+
+plot(smoothing1, forecast1)
+plot(smoothing2, forecast2)
+plot(smoothing3, forecast3)
+plot(smoothing4, forecast4)
+```
+
+Let's try to decompose this time series.
+```{r}
+decomp=decompose(g12data)
+plot(decomp)
+decompLog=decompose(log(g12data))
+plot(decompLog)
+### Decomposition of time series, multiplicative decomposition
+decompMult=decompose(g12data,type="multiplicative")
+plot(decompMult)
+```
+
+```{r}
+tsdisplay(decomp$random,plot.type="scatter")
+tsdisplay(decompLog$random,plot.type="scatter")
+tsdisplay(decompMult$random,plot.type="scatter")
+```
+
+```{r}
+stl=stl(g12data, s.window="periodic", robust=TRUE)
+plot(stl)
+par(mfrow=c(3,1))
+fcst1=forecast(stl, method="naive")
+plot(fcst1)
+fcst2=forecast(stl, method="arima")
+plot(fcst2)
+fcst3=forecast(stl, method="rwdrift")
+plot(fcst3)
+fcst3$mean
+```
+
+```{r}
+par(mfrow=c(2,1))
+## in the logarithmic scale (log(a.ts))
+lstl=stl(log(g12data), s.window="periodic", robust=TRUE)
+fcst4=forecast(lstl, method="arima")
+plot(fcst4)
+## in the original scale 
+fcst5=stlf(g12data,method="arima",lambda=BoxCox.lambda(g12data))
+plot(fcst5)
+```
+
+No parece que haya una mejora apreciable al realizar la transformación logarítmica.
+```{r}
+par(mfrow=c(2,1))
+stl_remainder=stl$time.series[,3]
+lstl_remainder=lstl$time.series[,3]
+plot(stl_remainder)
+plot(lstl_remainder)
+acf2(stl_remainder)
+acf2(lstl_remainder)
+```
+
+There's not a clear seasonality pattern in the season plot.
+But in each season trough the years (monthplot) some patterns can be found
+```{r}
+par(mfrow=c(1,1))
+monthplot(g12data)
+seasonplot(g12data)
+```
+
+
+It may help us in determining the period of the series, if any.
+No idea!!!
+
+```{r}
+mvspec(g12data)
+```
+
+Exploring the autocorrelation structure of time series
+
+```{r}
+par(mfrow=c(3,1))
+plot(g12data)
+acf(g12data)
+pacf(g12data)
+```
+
+```{r}
+plot(g12data)
+plot(diff(g12data,12))
+plot(diff(diff(g12data,12))) #it looks more random
+plot(diff(diff(diff(g12data,12)))) #it looks more random (seems the best one)
+
+# exploring ggb
+tsdisplay(g12data, plot.type="scatter")
+tsdisplay(diff(g12data), plot.type="scatter") 
+tsdisplay(diff(g12data,12), plot.type="scatter") 
+tsdisplay(diff(diff(g12data),12), plot.type="scatter") 
+tsdisplay(diff(diff(g12data)), plot.type="scatter") 
+tsdisplay(diff(diff(diff(g12data),12)), plot.type="scatter")
+tsdisplay(diff(diff(diff(g12data))), plot.type="scatter")
+tsdisplay(diff(diff(diff(diff(g12data),12))), plot.type="scatter") #not improved
+tsdisplay(diff(diff(diff(diff(g12data)))), plot.type="scatter") #not improved (bad)
+```
+
+Check if it's stationary to see when we can stop differentiating
+Can only be applied to seasonality adjusted data (in our case we didn't find a 
+seasonality pattern so it's ok)
+```{r}
+adf.test(diff(g12data,12))
+adf.test(diff(g12data))
+adf.test(diff(diff(g12data,12)))
+adf.test(diff(diff(g12data)))
+
+```
+
+```{r}
+#Check when to stop using standard deviation
+sd(g12data)
+sd(diff(g12data)) #BETTER
+sd(diff(g12data,12))
+sd(diff(diff(g12data,12))) 
+sd(diff(diff(g12data))) #Smallest!!! Not seasonality applied
+sd(diff(diff(diff(g12data,12))))
+sd(diff(diff(diff(g12data))))
+
+```
+
+```{r}
+tsdisplay(diff(g12data), plot.type="scatter") 
+tsdisplay(diff(g12data), plot.type="partial") 
+tsdisplay(diff(diff(g12data)), plot.type="scatter") 
+tsdisplay(diff(diff(g12data)), plot.type="partial") 
+tsdisplay(diff(diff(log(g12data))), plot.type="scatter")  #Improves slightly (but model is more complicated so we decide not to take logs)
+```
+
+ARIMA(p,d,q)(P,D,Q)
+p->past observations
+q->past errors
+d->diferentiation order
+
+D-> seasonal differentiation order (D=0)
+```{r}
+#We start from 2 normal diffs and none in the seasonal part because
+#any diff with period was done before to improve the sd
+g12arima.1=Arima(g12data,order=c(0,2,0),include.mean=1,seasonal=list(order=c(0,0,0)))
+
+#The best one is Arima3
+g12arima.2=Arima(g12data,order=c(1,2,0),include.mean=1,seasonal=list(order=c(0,0,0)))
+g12arima.3=Arima(g12data,order=c(1,2,1),include.mean=1,seasonal=list(order=c(0,0,0))) 
+g12arima.4=Arima(g12data,order=c(0,2,1),include.mean=1,seasonal=list(order=c(0,0,0)))
+
+g12arima.4=Arima(g12data,order=c(1,0,1),include.mean=1,seasonal=list(order=c(0,1,0)))
+
+#The best one now is Arima7
+g12arima.5=Arima(g12data,order=c(1,2,1),include.mean=1,seasonal=list(order=c(1,0,1))) 
+g12arima.6=Arima(g12data,order=c(2,1,1),include.mean=1,seasonal=list(order=c(1,0,1))) 
+g12arima.7=Arima(g12data,order=c(2,1,0),include.mean=1,seasonal=list(order=c(1,0,1))) 
+
+#my-automatic (d=1 D=0): 1 0 1 0 (sarima)
+sarima(g12data,1,1,0,1,0,0,12)
+#my-automatic (d=2 D=0): 1 1 1 1 (sarima) -> more complex and less aic
+sarima(g12data,1,2,1,1,0,1,12)
+
+#The one obtained with my-automatic is better (less aic and less complex)
+g12arima.8=Arima(g12data,order=c(1,1,0),include.mean=1,seasonal=list(order=c(1,0,0))) 
+auto.arima(g12data)
+
+AIC(g12arima.1)
+AIC(g12arima.2)
+AIC(g12arima.3) 
+AIC(g12arima.4)
+AIC(g12arima.5)
+AIC(g12arima.6)
+AIC(g12arima.7) #This is the best one (it is the lowest one)
+AIC(g12arima.8) #This is the best one (it is the lowest one being simpler)
+
+```
+
+We'll keep the last one
+
+Maybe compare them with bad ones?? WTF?
+```{r}
+tsdiag(g12arima.8)
+acf2(g12arima.8$residuals)
+
+```
+
+```{r}
+#correlations between model coefficients
+cov2cor(g12arima.8$var.coef) #Not greater than 0.8 so it is good
+#testing independence of the residuals (apparently they are not independent???)
+#CHECK THE P-VALUES (are them white noise or not???)
+LB.test(g12arima.8) #it seems ok because in the bubble example the values are the same
+#or 
+LB.test(g12arima.8, lag=20)
+#normality of the residuals
+jarque.bera.test(residuals(g12arima.8)) #less than 0.05, they are not normal (seems bad)
+#Checks the independence in a time series (greater than 0.05 seems alright)
+Box.test(residuals(g12arima.8),lag=12)
+
+#So the residuals seem normal but nott independent
+
+## Forecasting with the model lynx.3
+predict(g12arima.8,n.ahead=20)
+TSA::plot.Arima(g12arima.8) #TSA package
+plot(forecast(g12arima.8,h=12))
+forecast(g12arima.8,h=12) #same predictions plotted with the TSA package
+```
+We could try logs to see if the bad distribution of the residuals is fixed.
+
+```{r}
+g12arima.9=Arima(log(g12data),order=c(1,1,0),include.mean=1,seasonal=list(order=c(1,0,0))) 
+AIC(g12arima.9) #aic lower than before (by a lot)
+
+cov2cor(g12arima.9$var.coef) #Not greater than 0.8 so it is good
+#testing independence of the residuals (apparently they are not independent???)
+#CHECK THE P-VALUES (are them white noise or not???)
+LB.test(g12arima.9) #it seems ok because in the first example the values are the same (it is lower now than before but it doesn't seem important if harque.bera is good now)
+#or 
+LB.test(g12arima.9, lag=20)
+#normality of the residuals
+jarque.bera.test(residuals(g12arima.9)) #less than 0.05, they are not normal (seems bad)
+#Checks the independence in a time series (greater than 0.05 seems alright)
+Box.test(residuals(g12arima.9),lag=12) #She uses it instead of jarque.vera when the other doesn't work (as this works we are ok)
+```
+
+We don't take logs as it doesn't improve anything

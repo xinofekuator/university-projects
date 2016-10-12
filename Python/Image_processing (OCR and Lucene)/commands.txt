@@ -1,0 +1,8 @@
+cd C:\Users\Ignacio\Desktop\solr-5.5.0\bin 
+.\solr.cmd start
+
+http://localhost:8983/solr/
+
+.\solr.cmd delete -c coreExample
+
+.\solr.cmd create -c coreExample

@@ -1,0 +1,132 @@
+
+                 EL MUNDO DE LOS BLOQUES
+                 =======================
+
+    En esta practica se modelizaran las relaciones espaciales en un
+mundo de bloques. Los bloques pueden estar apoyados sobre el suelo o
+apoyados sobre otro bloque, formando pilas. Consideraremos un mundo
+con la siguiente disposicion:
+
+
+                                            +---+
+                                            | g |
+                            +---+           +---+
+                            | b |           | h |
+                            +---+   +---+   +---+
+                            | c |   | e |   | i |
+                    +---+   +---+   +---+   +---+
+                    | a |   | d |   | f |   | j |
+                    +---+   +---+   +---+   +---+
+                 ===================================
+
+
+    Identificaremos a los bloques mediante las constantes que aparecen
+en el dibujo. Las relaciones que definen el mundo son:
+
+      en_suelo(B): el bloque B esta apoyado sobre el suelo.
+      sobre(B1, B2): el bloque B1 esta apoyado sobre el bloque B2.
+      contiguo(B1, B2): los bloques B1 y B2 estan sobre el suelo y B1
+          esta inmediatamente a la izquierda de B2.
+
+    En el programa se deben usar los mismos nombres de predicado que se
+utilizan en este enunciado. 
+
+Primera parte
+-------------
+
+    1- Escribir los hechos que modelicen el mundo dado en el dibujo.
+
+      Ejemplo:        contiguo(a,d).
+
+    2- Definir los siguientes predicados:
+
+      base(B1, B2): B2 es la base de la pila en la cual esta B1
+      base_a_la_derecha(B1, B2): B1 y B2 estan sobre el suelo, B2 esta a
+          la derecha (pero quiza no inmediatamente) de B1.
+      objeto_a_la_derecha(B1, B2): B2 esta en una pila a la derecha
+          (pero quiza no inmediatamente) de la pila en la cual esta B1.
+
+      (estos predicados deben ser generales, para cualquier mundo, no
+      solo el del dibujo).
+
+      Ejemplos: dado el modelo de 1, los predicados de 2 deben poder
+      deducir (entre otros) los hechos
+
+       base(h,j)    base_a_la_derecha(a,d)   objeto_a_la_derecha(c,g)
+       base(d,d)    base_a_la_derecha(d,j)   objeto_a_la_derecha(b,f)
+
+      y no deben poder deducirse, por ejemplo,
+
+         base(b,c)                  objeto_a_la_derecha(b,d)
+         base_a_la_derecha(e,j)     objeto_a_la_derecha(i,f)
+
+    3- Realizar las siguientes consultas referidas al mundo del punto 1
+       y mostrar los resultados:
+
+       3a- Hallar todos los objetos que estan a la izquierda del 
+           objeto 'e'.
+
+       3b- Hallar los objetos que esten en la misma pila que el 'b'.
+
+
+Segunda parte
+-------------
+
+    Supongamos que hay distintos tipos de objetos, que pueden o no estar
+apilados unos encima de otros, segun sus caracteristicas fisicas. Tenemos
+las siguientes clases de objetos: cubos, esferas, piramides y toros. Las
+piramides se apoyan siempre sobre su base, los cubos siempre sobre una de 
+sus caras, y los toros se colocan con sus diametros mayores paralelos al
+suelo. Todos los objetos excepto las esferas pueden apoyar sobre el suelo.
+
+    Entenderemos como "soporte de un objeto" aquello sobre lo que apoya
+ese objeto: bien el suelo o bien el objeto directamente debajo de el. Queremos
+saber si una configuracion es estable mecanicamente usando ciertas reglas
+de apilacion: 
+
+- Un toro puede apilarse sobre cualquier configuracion, y en particular 
+  es el unico objeto que puede apilarse directamente sobre una piramide. 
+- Si un toro se apila sobre una piramide el vertice de la piramide 
+  sobresaldra, por lo que solo puede apilarse otro toro encima de este y 
+  ya el vertice quedara por debajo de la mitad de la altura del toro 
+  superior.
+- Cualquier objeto puede apilarse encima de un toro, excepto en el caso
+  de que el toro tenga como soporte una piramide.
+- Una esfera puede apilarse solo encima de un toro, ya que en caso de 
+  apoyar sobre el suelo o sobre un cubo podria rodar. 
+- Sobre una esfera puede apilarse unicamente un toro, y la parte superior
+  de la esfera no sobrepasa la mitad de la altura del toro. 
+
+    4- Programar el predicado forma(objeto,tipo) que asocie con cada objeto su
+       tipo, de la siguiente manera:
+
+                    OBJETO                   TIPO
+                    ------                  ------
+                      a                      piramide
+                      b                      toro
+                      c                      cubo
+                      d                      esfera
+                      e                      cubo
+                      f                      toro
+                      g                      toro
+                      h                      esfera
+                      i                      toro
+                      j                      piramide
+        
+    
+    5- Usando el tipo de cada objeto y conocimiento acerca de las
+       configuraciones estables, programar el siguiente predicado:
+
+    inestable(O): para la configuracion conocida por el programa, el
+                  objeto O esta colocado de forma inestable sobre su
+                  soporte.
+
+    Por ejemplo, si tenemos una esfera sobre una piramide, la esfera
+    esta colocada de forma inestable. Si sobre una esfera hay un toro,
+    el toro no esta colocado de forma inestable. 
+
+    6- Para la configuracion modelizada en 1, averiguar usando el
+       predicado anteriormente programado todos los objetos colocados
+       de forma inestable. Proponer una nueva configuracion que si sea
+       estable, respetando los objetos que hay en cada pila (es decir, reordenandolos), y 
+       comprobarlo usando el predicado inestable/1.

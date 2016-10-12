@@ -1,0 +1,29 @@
+prefix gephi:<http://gephi.org/>
+prefix foaf: <http://xmlns.com/foaf/0.1/>
+CONSTRUCT{
+  ?fictionalCharacter gephi:label ?fictionalCharacterName .
+  ?creator gephi:label ?creatorName .
+  ?nationality gephi:label ?nationalityName .
+  ?genre gephi:label ?genreName .
+  ?birthPlace gephi:label ?birthPlaceName .
+  ?fictionalCharacter <was_created_by> ?creator .
+  ?creator <is_from> ?nationality .
+  ?creator <has_genre> ?genre.
+  ?creator <was_born> ?birthPlace .
+  ?birthPlace <has_nationality> ?nationality
+}
+WHERE {
+  ?fictionalCharacter a <http://dbpedia.org/ontology/FictionalCharacter> .
+  ?fictionalCharacter <http://dbpedia.org/ontology/creator> ?creator .
+  ?creator foaf:name ?creatorName .
+  ?fictionalCharacter foaf:name ?fictionalCharacterName .
+  ?creator <http://dbpedia.org/property/nationality> ?nationality .
+  ?nationality foaf:name ?nationalityName .
+OPTIONAL{
+  ?creator <http://dbpedia.org/ontology/genre> ?genre.
+  ?genre rdfs:label ?genreName }
+OPTIONAL{
+  ?creator <http://dbpedia.org/ontology/birthPlace> ?birthPlace.
+  ?birthPlace foaf:name ?birthPlaceName
+}
+}

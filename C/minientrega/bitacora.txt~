@@ -1,0 +1,149 @@
+PRÁCTICA 1: UNIX SHELL			Autores: Ignacio Amaya y Eduardo Cortés
+=====================================================================================
+
+-FECHAS DE ENTREGA:
+	
+	*Primera entrega: Jueves 17 de octubre de 2013 a las 23.15
+	Código de minientrega.sh completo.Tests y documentación sin realizar.
+	Pasa todas las pruebas del corrector.
+
+	*Segunda entrega: Viernes 18 de octubre de 2013 a las 21.00
+	Código de minientrega muy parecido, con algunas correcciones mínimas
+	para tratas casos raros.
+	Documentación ya realizada.
+
+
+-SOBRE EL DESARROLLO:
+
+       
+	*RESUMEN DE LOS TRABAJOS REALIZADOS:
+	
+
+	-Lectura y comprensión de la práctica.
+
+	-Descarga del material de ayuda.
+
+	-Pruebas en el shell. 
+
+	-Implementación del código.
+
+	-Creación de un fichero tester.sh que hiciera los tests.
+	
+	-Realización de los tests.
+	
+	-Realización de la documentación.
+
+	 
+	*PROBLEMAS ENCONTRADOS Y RESOLUCIÓN DE LOS MISMOS:
+
+
+	-El primer problema que nos surgió se produjo debido al uso de source. 
+	Pensábamos que las variables que ejecutaba debían permanecer tras
+	la ejecución de nuestro script, por lo que al comprobar que no era así,
+	pensamos que no hacía lo que que queríamos. Sin embargo las siguientes
+	pruebas que hicimos nos hicieron comprender que las variables son locales
+	en nuestro script y sólo duran durante la vida de éste, por lo que al
+	morir desaparecen y no las podemos ver.	
+
+	-El segundo problema que tuvimos que afrontar fue el funcionamiento de
+	los formatos de las fechas. No entendíamos bien el manual, por lo que
+	tuvimos que recurrir a internet para completar conocimientos. Una vez
+	que supimos cambiar de formato y tras investigar un poco encontramos 
+	la opción de pasarlas a segundos desde una fecha fijada por UNIX, el 
+	1 de Enero de 1970. Pero seguíamos sin tener claro como limitar las
+	fechas al formato que nos pedían. Empezamos a hacerlo separándolo en
+	parte y comparando cadenas de caracteres, pero nos parecio tan tedioso
+	que abandonamos este método y probamos otra cosa. Al final decidimos 
+	usar egrep que nos encuentra cadenas de caracteres que siguen una 
+	expresión regular. Nosotros le pasamos una expresión muy sencilla 
+	del tipo XXXX-XX-XX, donde X es un número del 0 al 9. Esto contiene
+	numerosas fechas incorrectas, pero esto se solventa con el comando
+	date -d que nos dice si una fecha es válida o no. Al hacer egrep 
+	somos conscientes de que pueden pasar como válidas muchas cadenas
+	que contengan la fecha, pero serán posteriormente filtradas por date.
+ 
+	-Un problema derivado del anterior que también nos costó resolver fue
+	como usar la información que nos proporcionaba date. Como no queríamos
+	ninguna salida redirigimos la salida estándar y la de error a null.
+	Y fijándonos en el estado de terminación de date pudimos comprobar
+	si la fecha era correcta o había habido algún error y no era válida.	
+
+	-Otro problema surgió al darnos cuenta de que mkdir realizaba salidas
+	de error por la salida estándar, por lo que desviamos todos sus mensajes
+	de error por la salida null.
+
+	-Al principio, en la primera entrega tampoco tuvimos en cuenta la 
+	distinción entre salida estándar y salida de error y pusimos las dos
+	únicas salidas que nos permitía el enunciado por la estándar. Como
+	por defecto ambas están asociadas a la pantalla no nos dimos cuenta 
+	del error hasta la realización de los tests e hicimos los cambios
+	oportunos.
+
+	-También al final nos dimos cuenta de que en el único mensaje que
+	devuelve nuestra función por la salida de error no se imprimían las 
+	comillas que aparecían en la guía indicando el formato. Para ello
+	tuvimos que investigar acerca de las comillas y descubrimos que 
+	había otros dos tipos: ' y ` ambos con funcionalidades distintas
+	a las de ¨. Rodeando las comillas dobles por las simples conseguimos
+	solucionar el problema.
+
+	-Un último problema que tuvimos que superar fue al realizar los tests.
+	Como nos pareció muy larga hacerlos a mano decidimos implementar otro
+	script que los automatizase, pero tardamos demasiado y nos dio bastantes
+	problemas, ya que tuvimos que hacer pruebas del propio tester. De todas
+	formas en retrospectiva no nos arrepentimos de haber tomado esta decisión,
+	ya que el tiempo gastado fue productivo y nos ayudó a afianzar nuestros
+	conocimientos de bash.
+
+
+	*BIBLIOGRAFÍA Y REFERENCIAS UTILIZADAS:
+
+
+	- stackoverflow.com/
+
+	- cuaderno_unix de la asignatura
+
+	- páginas del manual de bash
+
+
+	*TIEMPO DEDICADO:
+
+
+	- Tres horas para leer del cuaderno de unix de la asignatura 
+	(con sus correspondientes pruebas en el shell)
+
+	- Media hora para realizar una lectura en profundidad de la práctica
+	y comprender lo que nos pedían.
+
+	- Media hora para descargar y analizar el material de apoyo y así 
+	terminar de entender el funcionamiento del script a realizar.
+
+	-Cuatro horas realizando el script con sus correspondientes 
+	pruebas en el shell para verificar el uso correcto de los mandatos.
+
+	-Una hora en la realización de la documentación.
+
+	-Tres horas realizando un script que automatizase la pruebas.
+
+	-Media hora haciendo las pruebas. 
+
+
+COMETARIOS PERSONALES:
+
+	
+	La práctica nos ha parecido muy interesante ya que consistía en la realización 
+	de algo con utilidad y que estaremos usando a lo largo del curso. Ahora somos
+	un poco más conscientes del trabajo que hay detrás de esas sencillas acciones.
+
+	Además hemos mejorado considerablemente nuestro conocimiento de bash, ya que
+	los problemas que nos encontrábamos nos hacían investigar y ahondar en las 
+	posiblidades que bash nos proporcionaba. En varias ocasiones se nos han 
+	presentado varias maneras de resolver el mismo problema y hemos intentado 
+	solventarlo de la manera más sencilla y elegante posible. Para ello hemos
+	descubierto funcionalidades que antes no conocíamos.
+
+	Por tanto podemos concluir que nuestro manejo de bash es ahora mucho más
+	fluido y que nos vemos capacitados para realizar otros programillas que
+	pueden resultar útiles y facilitarnos tareas que de otra manera (mediante
+	el uso de la interfaz gráfica por ejemplo) nos serían bastante más 
+	complicadas y tediosas. 

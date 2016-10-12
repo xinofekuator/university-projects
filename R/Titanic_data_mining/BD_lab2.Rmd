@@ -1,0 +1,372 @@
+---
+title: 'Big data: Classification (Titanic dataset)'
+author: "Ignacio Amaya and Justin Vailhere"
+date: "November 4, 2015"
+output: html_document
+---
+
+##**Getting and cleaning the data**
+
+We read the Titanic file from the subject folder.
+
+```{r}
+titanic <- read.csv("C:\\Users\\Ignacio\\Documents\\MIS DOCUMENTOS\\DATA SCIENCE MASTER (EIT DIGITAL)\\Big Data\\lab2-classification\\titanic\\titanic.csv", na.strings = "")
+```
+
+The variables in this data set are:
+
+Key          |    Description
+------------ | ----------------------------------------------------
+pclass       |    Passenger Class  (1 = 1st; 2 = 2nd; 3 = 3rd)
+survival     |    Survival (0 = No; 1 = Yes)
+name         |    Name
+sex          |    Sex
+age          |    Age
+sibsp        |    Number of Siblings/Spouses Aboard
+parch        |    Number of Parents/Children Aboard
+ticket       |    Ticket Number
+fare         |    Passenger Fare
+cabin        |    Cabin
+embarked     |    Port of Embarkation (C,Q or S)
+boat         |    Lifeboat
+body         |    Body Identification Number
+home.dest    |    Home/Destination 
+
+We can have an overview of all the values we have.
+
+```{r}
+summary(titanic)
+```
+
+Some variables stored in the dataframe are treated as numerical, but they are categorical. So we are going to transform them into categorical variables.
+
+```{r}
+titanic$Survived=as.factor(titanic$Survived)
+titanic$Pclass=as.factor(titanic$Pclass)
+titanic$SibSp=as.factor(titanic$SibSp)
+titanic$Parch=as.factor(titanic$Parch)
+```
+
+#####**Question	1:	Which	are	the	variables	that are	discarded	and	why?**
+
+We want to discard those variables that don't give us any information in order to predict if a passenger lives or dies.
+There are some variables that don't give us any extra information, because they have a lot of missing values (for example, the cabin variable). Others are also discarded because their values are all different (for example, the names), so we can't extract information from them.
+```{r}
+titanic_s1=subset.data.frame(titanic,select=c(Survived,Pclass,Sex,Age,SibSp,Parch,Fare,Embarked))
+```
+
+We can get a summary with the information of the subset we've selected.
+
+```{r}
+summary(titanic_s1)
+```
+
+We observe that we have 177 NA in age and 2 NA in Embarked. We don't want to have missing values, so we remove the entries where those NA appear. Our final cleaned dataset has 712 observations of 8 variables.
+
+```{r}
+titanic_cleaned=na.omit(titanic_s1,titanic_s1$Age,titanic_s1$Embarked)
+summary(titanic_cleaned)
+```
+
+##**Training a single decison tree**
+
+#####**Question	2:	Plot	the	tree	with	the	prp()	function	(package	rpart.plot	that	we must	install	if	it	is	not	already	installed).	Which	are	the	most	important	variables	according	to	the	tree?	Does	the	tree	change	if	we	rerun	the	rpart()	function? Why?**
+
+First of all, we load the packages we need.
+
+```{r,message=FALSE,warning=FALSE,results="hide"}
+library(caret)
+library(rpart)
+library(rpart.plot)
+```
+
+We set the seed, so that way all the values we are going to get each time we execute the code are going to be the same. We divide our data into a training set and a testing set (80% of the entries are going to the training set and 20% to the testing set).
+
+```{r}
+set.seed(100)
+partition=createDataPartition(titanic_cleaned$Survived,p = 0.8,list=FALSE)
+train_set=titanic_cleaned[partition,]
+test_set=titanic_cleaned[-partition,]
+
+random_tree=rpart(train_set)
+
+prp(random_tree,extra=2)
+```
+
+The most important variables are the sex and the Pclass. If the passenger is a woman and is not in third class, then the probability of her surviving is very high (only 5 out of 130 in this case died). 
+If we rerun only the rpart function the tree obtained doesn't change. This is because the partition used is the same.  But if we rerun the partition without setting the seed we would obtain different results, as we have a different partition. An exmple of this would be:
+
+```{r}
+partition2=createDataPartition(titanic_cleaned$Survived,p = 0.8,list=FALSE)
+train_set2=titanic_cleaned[partition2,]
+test_set2=titanic_cleaned[-partition2,]
+random_tree2=rpart(train_set2)
+prp(random_tree2,extra=2)
+```
+
+#####**Question	3:	Which	are	the	performance	values	(accuracy, sensitivity,	specificity, etc.) of the	learned	model	on	the	testing	subset?**
+
+```{r}
+testPred <- predict(random_tree, test_set,type="class")
+confusionMatrix(testPred,test_set$Survived)
+```
+
+As we can see the performance is good. We have an accuracy above 75% and the sensitivity (true positive rate) and specificity (true negative rate) are also good. As they have similar values we know that the predictions of people dying and surviving have the same rate of success. In the confusion we can see that the decision tree failed in 35 cases out of 141 (number of entries in our testing set).
+
+#####**Question 4:	We	have	learned	a	decision	tree	model	with	the	CART	algorithm. Which	are	the	values	for	the	parameters	of	this	algorithm	(minbucket,	minsplit, complexity	parameter, cost,	etc.)? (CLUE:	check	the	rpart()	function documentation.)**
+
+The default parameters for the rpart function are:
+*rpart.control(minsplit = 20, minbucket = round(minsplit/3), cp = 0.01, 
+              maxcompete = 4, maxsurrogate = 5, usesurrogate = 2, xval = 10,
+              surrogatestyle = 0, maxdepth = 30, ...)*
+
+**cost**	
+*A vector of non-negative costs, one for each variable in the model. Defaults to one for all variables. These are scalings to be applied when considering splits, so the improvement on splitting on a variable is divided by its cost in deciding which split to choose.*
+
+#####**Question 5: Try	different	combinations	of	values	for	some	of	the	parameters	(decreasing	minsplit,	minbucket,	cp	and	cost	values,	for	example)	and	check	the	performance	of	each	combination	on	the	testing	subset.	How	does	this	performance	change?	How	do	the	obtained	trees	change?	Is	there	any	relationship	between	the	parameters	values	and	the	shape	of	the	trees?**
+```{r}            
+random_tree_modified=rpart(train_set,cost = c(3,1,1,2,1,1,1),control = rpart.control(minsplit = 10, minbucket = round(10/3), cp = 0.0001, 
+              maxcompete = 4, maxsurrogate = 5, usesurrogate = 2, xval = 10,
+              surrogatestyle = 0, maxdepth = 10))
+prp(random_tree_modified,extra=2)
+testPredMod <- predict(random_tree_modified, test_set,type="class")
+confusionMatrix(testPredMod,test_set$Survived)
+
+```
+
+The accuracy obtained is similar than the obtained with the default values. We picked a small value for cp, so the tree has a lot of branches and it is very deep.
+
+```{r}            
+random_tree_modified=rpart(train_set,cost = c(1,1,1,1,1,1,1),control = rpart.control(minsplit = 10, minbucket = round(10/3), cp = 0.01, 
+              maxcompete = 4, maxsurrogate = 5, usesurrogate = 2, xval = 10,
+              surrogatestyle = 0, maxdepth = 10))
+prp(random_tree_modified,extra=2)
+testPredMod <- predict(random_tree_modified, test_set,type="class")
+confusionMatrix(testPredMod,test_set$Survived)
+```
+
+In this other case the cp value is not so low, so the overfitting is reduced. That's why we have a better accuracy (around 77%), which is higher than the one obtained with the default parameters.
+
+```{r}            
+random_tree_modified=rpart(train_set,cost = c(1,3,1,1,1,1,1),control = rpart.control(minsplit = 10, minbucket = round(10/3), cp = 0.01, 
+              maxcompete = 4, maxsurrogate = 5, usesurrogate = 2, xval = 10,
+              surrogatestyle = 0, maxdepth = 10))
+prp(random_tree_modified,extra=2)
+testPredMod <- predict(random_tree_modified, test_set,type="class")
+confusionMatrix(testPredMod,test_set$Survived)
+```
+
+Here the accuracy is a little bit worse. This might be because we've forced the Pclass to be more important than the sex assigning to it a higher cost. We also can see a big difference between the sensitivity and the specificity. That's because deaths are predicted worse than the survivals.
+
+```{r}            
+random_tree_modified=rpart(train_set,cost = c(1,3,1,1,1,1,1),control = rpart.control(minsplit = 40, minbucket = round(10/3), cp = 0.1, 
+              maxcompete = 4, maxsurrogate = 5, usesurrogate = 2, xval = 10,
+              surrogatestyle = 0, maxdepth = 10))
+prp(random_tree_modified,extra=2)
+testPredMod <- predict(random_tree_modified, test_set,type="class")
+confusionMatrix(testPredMod,test_set$Survived)
+```
+
+In this last example we have a high value of cp, so our tree is underfitted. That's why the accuracy value is worse.
+
+Summarizing, when we have a small cp the trees are deeper.
+The trees also change depending on the costs assigned, so if we assign a high cost value to a variable, the probability of splitting the tree according to that variable would be higher.
+
+#####**Question 6: Which	are	the	combinations of parameters	values tested	by the train()	function?	Are	there	any	changes in the	performance	of the	algorithm when	different	combinations of	values are used (according to	the	results	of the cross	validation)?**
+
+We change the tuneLength to have more parameters tested by default.
+
+```{r}
+fitControl <- trainControl(## 10-fold CV
+                           method = "repeatedcv",
+                           number = 10,
+                           ## repeated ten times
+                           repeats = 1)
+treeFit <- train(train_set[,2:7],train_set[,1],
+                 method = "rpartCost",
+                 trControl = fitControl,tuneLength = 8)
+treeFit
+```
+
+When different combinations are used the performance changes, as we can see above. The combination with better performance is the one picked for the final model.
+
+#####**Question	7:	Which	is	the	final	combination	of	parameters	values	used?	Which	is the	shape	of	the	tree	trained	with	this	automatic	tuning	function?	(CLUE:	if	the	result	of	calling	to	the	train()	function	is	stored	in	an	object	called	rpartFit,	check	the	rpartFit$finalModel	object).**
+
+```{r}
+treeFit$bestTune
+prp(treeFit$finalModel,extra=2)
+testPredTreeFit <- predict(treeFit$finalModel, test_set,type="class")
+confusionMatrix(testPredTreeFit,test_set$Survived)
+```
+
+The final values used for the model were cp = 0 and Cost = 5 because the accuracy there is the highest.
+
+We checked the accuracy in our testing data set and it is around 70%.
+The main variables used are sex, age and Pclass. We can see the shape of the tree obtained in the image above.
+
+#####**Question	8:	Plot	the	result	of	calling	the	train()	function	with	the	plot()	function. What	does	this	plot	represent?**
+
+```{r}
+plot(treeFit)
+```
+
+We can see here the variation of the accuracy for the different combinations used in the train function. The one picked is the one with better accuracy and less complexity (in case several combinations have the same accuracy values).
+
+#####**Question	9:	Answer	Question	6	again	but	now	with	the	results	of	this	new	run. (tuning the paramenters)**
+#####**Question	10:	Analogously	to	Question	9,	respond	to	Question	7	with	the	results	of	this	new	run.**
+#####**Question	11:	Answer	Question	8	again	but	now	with	the	results	of	this	new	run.**
+
+```{r}
+treeGrid <- expand.grid(Cost=c(1,	2,	3,	5,	10),
+cp	=	c(0,	0.01,	0.02,	0.04,	0.07,	0.10))
+T1<-Sys.time()
+treeFit2 <- train(train_set[,2:7],train_set[,1],
+                 method = "rpartCost",
+                 trControl = fitControl,
+                 tuneGrid = treeGrid)
+T2<-Sys.time()
+timeDecisionTree=difftime(T2,T1)
+treeFit2
+testPredTreeFit2 <- predict(treeFit2$finalModel, test_set,type="class")
+confusionMatrix(testPredTreeFit2,test_set$Survived)
+```
+
+The accuracy of the best combination is around 81%.
+We can also check the accuracy value in our testing set, which is better than the one from the previous question.
+```{r}
+plot(treeFit2)
+```
+
+We can see the combination picked above and the plot of the different combination, where we can see which one was the best.
+
+```{r}
+prp(treeFit2$finalModel,extra=2)
+```
+
+The shape of the tree is plotted above. The tree obtained is simple and we can see that the rule of being a woman and not being in third class is still present. We can also see that male children with 3,4 or 5 siblings died, but the ones with less siblings survived.
+
+##**Training a random forest**
+
+#####**Question	12:	Answer	Question	6	again	but	now	with	the	results	of	this	new	run.**
+#####**Question	13:	Which is the final combination of the parameters used?**
+#####**Question	14:	Answer	Question	8	again	but	now	with	the	results	of	this	new	run.**
+
+We load the random forest library.
+
+```{r,message=FALSE,warning=FALSE,results="hide"}
+library(randomForest)
+```
+
+```{r}
+fitControl <- trainControl(## 10-fold CV
+                           method = "repeatedcv",
+                           number = 10,
+                           ## repeated ten times
+                           repeats = 1)
+T1<-Sys.time()
+treeFitRandom <- train(train_set[,2:7],train_set[,1],
+                 method = "rf",
+                 trControl = fitControl,
+                 ntree=2000,
+                 tuneLength = 5)
+T2<-Sys.time()
+timeRandomForest=difftime(T2,T1)
+
+treeFitRandom
+
+```
+
+Above we can see the value for mtry picked in the best combination (the one with highest accuracy).
+
+```{r}
+testPredTreeFitRandom <- predict(treeFitRandom$finalModel, test_set,type="class")
+confusionMatrix(testPredTreeFitRandom,test_set$Survived)
+```
+
+The accuracy is around 75%.
+
+```{r}
+plot(treeFitRandom)
+```
+
+Here we can see the combinations plotted and the best one is clear in the plot.
+
+```{r}
+treeRandomForest=getTree(treeFitRandom$finalModel,1,labelVar = TRUE)
+treeRandomForest
+```
+
+Random forests are a black box, so we can't visualize the output. If we want to have an idea of how the final tree would look like we can use the getTree function and get a representation of a sample tree from the random forest (as dine above).
+
+#####**Question	15:	Plot	the	importance	of	each	variable	for	the	model	with	function	VarImPlot()	from	package	caret.	Which	are	the	most	relevant	variables	according	to	their	mean	decrease	of	the	Gini	index?	Are	these	variables	the	ones	selected	when	we	built	our	decision	trees?**
+```{r}
+varImpPlot(treeFitRandom$finalModel)
+```
+
+Sex is the most important parameter, while Parch and SibSp are the lest important ones.
+The most important ones were the ones selected in the trees before. 
+There's a big gap between the most important variables and the less important ones and that is linked with the depth where they appear in the trees.
+
+#####**Question	16:	Answer	Question	6	again	but	now	with	the	results	of	this	new	run. (tuning the paramenters)**
+#####**Question	17:	Answer	Question	13	again	but	now	with	the	results	of	this	new	run.**
+#####**Question	18:	Answer	Question	8	again	but	now	with	the	results	of	this	new	run.**
+
+The mtry is the number of variables per level, so we are trying to tune it to see when we have the best results.
+
+```{r}
+treeGridRF <- expand.grid(mtry=c(2,3,4,5,6))
+fitControl <- trainControl(## 10-fold CV
+                           method = "repeatedcv",
+                           number = 10,
+                           ## repeated ten times
+                           repeats = 1)
+set.seed(100)
+treeFitRandom2 <- train(train_set[,2:7],train_set[,1],
+                 method = "rf",
+                 trControl = fitControl,
+                 ntree=2000,
+                 tuneGrid = treeGridRF)
+treeFitRandom2
+plot(treeFitRandom2)
+
+treeRandomForest2=getTree(treeFitRandom2$finalModel,1,labelVar = TRUE)
+```
+
+We've observed that if we train it in a different way we have different results.
+This is weird, as we think if we set the seed the results should be the same. 
+```{r}
+set.seed(100)
+treeFitRandomTEST <- train(as.factor(Survived)~.,data=train_set[,1:7],
+                 method = "rf",
+                 trControl = fitControl,
+                 ntree=2000,
+                 tuneGrid = treeGridRF)
+plot(treeFitRandomTEST)
+```
+
+
+```{r}
+testPredTreeFitRandom2 <- predict(treeFitRandom2$finalModel, test_set,type="class")
+confusionMatrix(testPredTreeFitRandom2,test_set$Survived)
+```
+
+The accuracy have increased slightly compared with the run we did before.
+
+#####**Question	19:	Answer	Question	15	again	but	now	with	the	results	of	this	new	run.**
+```{r}
+varImpPlot(treeFitRandom2$finalModel)
+```
+
+The importance of the variables is almost the same. Age and fare are closer and sex a little bit further, but in general the importances are the same.
+
+#####**Question	20:	Which	is	the	difference	in	performance	with	regards	to	the	testing subset	between	the	best	decision	tree	model	and	the	best	random	forest	model?**
+
+With decision trees we got the best accuracy in the second tree we did in question 4 (with an accuracy of 0.773 ).
+With random forest we achived less accuracy (0.7589). We think this is because the dataset is too simple for using random forest. Even if there was a slight improvement, still decision trees would be better in this case because of the time it takes to run.
+
+The time it tooks in the cases we got the best results with each method are:
+```{r}
+timeDecisionTree
+timeRandomForest
+```
+

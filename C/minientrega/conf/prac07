@@ -1,0 +1,3 @@
+MINIENTREGA_FECHALIMITE="2019-02-22"
+MINIENTREGA_FICHEROS="informe.txt programa.c"
+MINIENTREGA_DESTINO="./destino/directorio_inexistente"

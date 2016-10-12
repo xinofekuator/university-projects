@@ -1,0 +1,61 @@
+--------------------------------------------------
+PRUEBA 1 Prueba sobre un fichero inexistente
+--------------------------------------------------
+./bocabajo fichero_no_existe
+bocabajo: Error(EX_NOINPUT), no se puede abrir la entrada. "No such file or dire
+bocabajo+ El fichero "fichero_noexiste" no puede ser leído
+
+VALOR DE TERMINACIÓN: 127
+--------------------------------------------------
+PRUEBA 2 Prueba sobre un fichero pasado por stdin
+--------------------------------------------------
+./bocabajo <PRUEBAS
+Seis
+Cinco
+Cuatro
+Tres
+Dos
+Uno
+
+VALOR DE TERMINACIÓN: 0
+--------------------------------------------------
+PRUEBA 3 Prueba varios ficheros
+--------------------------------------------------
+./bocabajo PRUEBA1 PRUEBA2
+Dos
+Uno
+Be
+A
+
+VALOR DE TERMINACIÓN: 0
+--------------------------------------------------
+PRUEBA 4 Prueba sobre un fichero de gran tamaño
+--------------------------------------------------
+./bocabajo GRANDE
+Da el resultado con las líneas invertidas de un
+fichero de 2000 líneas.
+Se intentaba agotar la memoria dinámica pero
+no lo conseguimos.
+
+VALOR DE TERMINACIÓN: 0
+--------------------------------------------------
+PRUEBA 5 Prueba sobre /dev/null
+--------------------------------------------------
+./bocabajo /dev/null
+No devuelve nada.
+
+VALOR DE TERMINACIÓN: 0
+--------------------------------------------------
+PRUEBA 6 Prueba sobre /dev/null pasada por stdin
+--------------------------------------------------
+./bocabajo </dev/null
+No devuelve nada.
+
+VALOR DE TERMINACIÓN: 0
+--------------------------------------------------
+PRUEBA 7 Prueba sobre varios ficheros y uno erróneo
+--------------------------------------------------
+./bocabajo fichero_noexiste PRUEBA1 PRUEBA2 PRUEBA3
+No imprime nada, ya que hay un fichero erróneo.
+
+VALOR DE TERMINACIÓN: 127

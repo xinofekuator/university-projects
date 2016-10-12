@@ -1,0 +1,165 @@
+---------------------------------------------------------
+PRUEBA prac01
+---------------------------------------------------------
+Contenido de ./conf/prac01:
+Ficheros a entregar: informe.txt programa.c
+Fecha limite: 2011-03-31
+Fichero destino: ./destino/prac01
+
+Exit status: 65
+
+Contenido de ./destino/prac01/t11m021:
+informe.txt no se ha creado
+programa.c no se ha creado
+
+ENTREGA NO REALIZADA
+---------------------------------------------------------
+PRUEBA prac02
+---------------------------------------------------------
+Contenido de ./conf/prac02:
+Ficheros a entregar: informe.txt programa.c
+Fecha limite: 2014-03-31
+Fichero destino: ./destino/prac02
+
+Exit status: 73
+
+Contenido de ./destino/prac02/t11m021:
+informe.txt no se ha creado
+programa.c no se ha creado
+
+ENTREGA NO REALIZADA
+---------------------------------------------------------
+PRUEBA prac03
+---------------------------------------------------------
+Contenido de ./conf/prac03:
+Ficheros a entregar: informe.txt programa.c
+Fecha limite: Hoy es 2018-03-31
+Fichero destino: ./destino/prac03
+
+Exit status: 65
+
+Contenido de ./destino/prac03/t11m021:
+informe.txt no se ha creado
+programa.c no se ha creado
+
+ENTREGA NO REALIZADA
+---------------------------------------------------------
+PRUEBA prac04
+---------------------------------------------------------
+Contenido de ./conf/prac04:
+Ficheros a entregar: informe.txt programa.c
+Fecha limite: 2015-03-31
+Fichero destino: ./destino/prac04
+
+Exit status: 73
+
+Contenido de ./destino/prac04/t11m021:
+informe.txt no se ha creado
+programa.c no se ha creado
+
+ENTREGA NO REALIZADA
+---------------------------------------------------------
+PRUEBA prac05
+---------------------------------------------------------
+Contenido de ./conf/prac05:
+Ficheros a entregar: informe.txt programa.c autores.txt bitacora.txt
+Fecha limite: 2015-03-31
+Fichero destino: ./destino/prac05
+
+Exit status: 73
+
+Contenido de ./destino/prac05/t11m021:
+informe.txt no se ha creado
+programa.c no se ha creado
+autores.txt no se ha creado
+bitacora.txt no se ha creado
+
+ENTREGA NO REALIZADA
+---------------------------------------------------------
+PRUEBA prac06
+---------------------------------------------------------
+Contenido de ./conf/prac06:
+Ficheros a entregar: programa.c
+Fecha limite: 24/12/2014
+Fichero destino: ./destino/prac06
+
+Exit status: 65
+
+Contenido de ./destino/prac06/t11m021:
+programa.c no se ha creado
+
+ENTREGA NO REALIZADA
+---------------------------------------------------------
+PRUEBA prac07
+---------------------------------------------------------
+Contenido de ./conf/prac07:
+Ficheros a entregar: informe.txt programa.c
+Fecha limite: 2019-02-22
+Fichero destino: ./destino/directorio_inexistente
+
+Exit status: 73
+
+Contenido de ./destino/directorio_inexistente/t11m021:
+informe.txt no se ha creado
+programa.c no se ha creado
+
+ENTREGA NO REALIZADA
+---------------------------------------------------------
+PRUEBA prac08
+---------------------------------------------------------
+Contenido de ./conf/prac08:
+Ficheros a entregar: informe.txt programa.c
+Fecha limite: 2015-04-01
+Fichero destino: ./destino/prac08_ilegible
+
+Exit status: 73
+
+Contenido de ./destino/prac08_ilegible/t11m021:
+informe.txt no se ha creado
+programa.c no se ha creado
+
+ENTREGA NO REALIZADA
+---------------------------------------------------------
+PRUEBA prac09
+---------------------------------------------------------
+Contenido de ./conf/prac09:
+Ficheros a entregar: bitacora.txt fichero_inexistente.txt programa.c
+Fecha limite: 2020-03-01
+Fichero destino: ./destino/prac09
+
+Exit status: 66
+
+Contenido de ./destino/prac09/t11m021:
+bitacora.txt no se ha creado
+fichero_inexistente.txt no se ha creado
+programa.c no se ha creado
+
+ENTREGA NO REALIZADA
+---------------------------------------------------------
+PRUEBA prac10
+---------------------------------------------------------
+Contenido de ./conf/prac10:
+Ficheros a entregar: informe.txt programa.c
+Fecha limite: 2024-04-21
+Fichero destino: 
+
+Exit status: 73
+
+Contenido de /t11m021:
+informe.txt no se ha creado
+programa.c no se ha creado
+
+ENTREGA NO REALIZADA
+---------------------------------------------------------
+PRUEBA prac11
+---------------------------------------------------------
+Contenido de ./conf/prac11:
+Ficheros a entregar: 
+Fecha limite: 2033-03-31
+Fichero destino: ./destino/prac11
+
+Exit status: 73
+
+Contenido de ./destino/prac11/t11m021:
+
+ENTREGA NO REALIZADA

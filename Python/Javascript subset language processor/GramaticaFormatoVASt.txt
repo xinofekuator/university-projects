@@ -1,0 +1,69 @@
+//// Gramatica formato VASt
+//// Gramática no LR(1) ascendente
+
+Axioma = S
+
+NoTerminales = { S  H  A  D  W  F  P  M  H1  D1  I  E  N  N1  R  E1 }
+
+Terminales = { function id ( ) { } [ ] = == + ++ return prompt var document.write new Array && if while do cadena entero }
+
+//// El lenguaje que se genera el id*(id+id)
+Producciones = {
+	S -> H 
+	H -> H A 
+	H -> H D 
+	H -> H W 
+	H -> H F 
+	H -> H P 
+	H -> H M
+	H -> lambda
+	H1 -> H1 A 
+	H1 -> H1 D1 
+	H1 -> H1 W 
+	H1 -> H1 F 
+	H1 -> H1 P 
+	H1 -> H1 M 
+	H1 -> lambda
+	A -> I = E 
+	A -> I = ++ I 
+	I -> id 
+	I -> id [ N ] 
+	D -> var id 
+	D -> var id = new Array ( entero ) 
+	D -> id ( N1 )
+	D -> ++ I
+	N1 -> N
+	N1 -> lambda 
+	D -> function id ( ) { H1 return }
+	D -> function id ( id ) { H1 return }
+	D -> function id ( ) { H1 return E } 
+	D -> function id ( id ) { H1 return E } 
+	D1 -> var id 
+	D1 -> var id = new Array ( entero ) 
+	D1 -> id ( N1 ) 
+	D1 -> ++ I
+	W -> do { H1 } while ( E ) 
+	F -> if ( E ) R 
+	R -> A 
+	R -> D 
+	R -> W  
+	R -> F 
+	R -> P 
+	R -> M 
+	P -> prompt ( id ) 
+	M -> document.write ( N ) 
+	M -> document.write ( cadena ) 
+	E -> E && E1 
+	E -> E1
+	E1 -> N == N 
+	E1 -> N 
+	N -> N + entero
+	N -> N + id 
+	N -> N + id [ N ] 
+	N -> N + id ( N1 ) 
+	N -> entero 
+	N -> id 
+	N -> id [ N ] 
+	N -> id ( N1 ) 
+		
+}
